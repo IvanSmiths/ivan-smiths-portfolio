@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Model from '../components/Model';
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Perspiciatis, non.
           </div>
-          <div>MODEL</div>
+          <div>
+            <Model />
+          </div>
           <div>
             <h1>
               IVAN <br /> SMITHS.

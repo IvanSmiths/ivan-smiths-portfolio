@@ -10,4 +10,5 @@ body {
 
 @import './nav.css';
 @import './footer.css';
+@import './model.css';
 @import './main.css';

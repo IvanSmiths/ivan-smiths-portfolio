@@ -1,6 +1,7 @@
 .cnt-hero {
   display: flex;
   flex-direction: row;
+  min-height: min-content;
 }
 
 .cnt-hero div:nth-child(1) {
@@ -16,4 +17,8 @@
 .cnt-hero div:nth-child(3) {
   background-color: chocolate;
   flex: 1 1 25%;
+}
+
+.cnt-hero div:nth-child(3) h1 {
+  padding: 3rem;
 }
