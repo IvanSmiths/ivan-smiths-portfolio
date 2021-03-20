@@ -22,35 +22,30 @@ export class Nav extends Component {
         <div className="cnt-link">
           <ul className={toggle ? 'toggle' : ''}>
             <li>
-              <Link href="/textures">
+              <Link href="/skills">
                 <a onClick={this.menuToggle} className="small-font">
-                  Textures
+                  Skills
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/categories">
+              <Link href="/projects">
                 <a onClick={this.menuToggle} className="small-font">
-                  Categories
+                  Projects
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/methods">
+              <Link href="/works">
                 <a onClick={this.menuToggle} className="small-font">
-                  Methods
+                  Works
                 </a>
               </Link>
             </li>
             <li className="small-font">
-              <a
-                onClick={this.menuToggle}
-                href="https://www.patreon.com/"
-                target="_blank"
-                rel="noopener"
-              >
-                Cahoot
-              </a>
+              <Link href="/about">
+                <a onClick={this.menuToggle}>About</a>
+              </Link>
             </li>
             <li>
               <Link href="/contact">

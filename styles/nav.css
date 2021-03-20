@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgb(177, 177, 177);
   backdrop-filter: blur(4px);
   margin-bottom: 3rem;
 }
