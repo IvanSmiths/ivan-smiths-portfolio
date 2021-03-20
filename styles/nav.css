@@ -1,31 +1,33 @@
 .nav {
   z-index: 3;
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  left: 15%;
+  top: 1rem;
+  width: 70%;
   height: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--mainBackgroundNav);
+  background-color: black;
   backdrop-filter: blur(4px);
+  margin-bottom: 3rem;
 }
 
 .cnt-link ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .logo-cnt a {
   color: rgb(253, 253, 253);
-  margin: 0rem 6rem;
 }
 
 .cnt-link li {
   cursor: pointer;
-  margin: 0rem 2rem;
+  margin: 0rem 1vw;
 }
 
 nav .menu,
@@ -49,7 +51,7 @@ nav .close {
   nav ul {
     position: fixed;
     top: 0;
-    left: -100%;
+    left: -200%;
     background-color: rgba(0, 0, 0, 0.52);
     width: 100%;
     height: 100vh;
@@ -58,8 +60,22 @@ nav .close {
     z-index: 999;
     transition: 0.5s ease-in-out;
   }
-  nav ul.toggle {
+  .nav ul.toggle {
     left: 0;
+  }
+
+  .nav {
+    position: sticky;
+    left: 15%;
+    top: 1rem;
+    width: 70%;
+  }
+
+  .test {
+    position: sticky;
+    left: 15%;
+    top: 1rem;
+    width: 100%;
   }
 
   .cnt-link ul {

@@ -8,9 +8,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="first">
-          <div>dddd</div>
-          <div>dddd</div>
+        <section className="cnt-hero">
+          <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, non.
+          </div>
+          <div>MODEL</div>
+          <div>
+            <h1>
+              IVAN <br /> SMITHS.
+            </h1>
+          </div>
         </section>
       </main>
     </>
