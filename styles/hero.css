@@ -47,3 +47,7 @@
 .aurora-1 {
   background: linear-gradient(rgb(228, 243, 19), rgb(247, 0, 255));
 }
+
+h1 {
+  font-size: 6rem;
+}
