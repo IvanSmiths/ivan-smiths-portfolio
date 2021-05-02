@@ -1,6 +1,7 @@
 .nav {
   z-index: 3;
   position: sticky;
+  padding: 0rem 1rem;
   left: 15%;
   top: 1rem;
   width: 70%;
@@ -9,9 +10,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(177, 177, 177);
+  background-color: var(--mainBackgroundNav);
   backdrop-filter: blur(4px);
   margin-bottom: 3rem;
+  border-radius: var(--radius);
 }
 
 .cnt-link ul {
@@ -19,10 +21,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.logo-cnt a {
-  color: rgb(253, 253, 253);
 }
 
 .cnt-link li {

@@ -1,7 +1,9 @@
 import React from 'react';
+import useTranslation from 'next-translate/useTranslation';
 
 const Skills = () => {
-  return <main>SKILLS</main>;
+  let { t } = useTranslation();
+  return <main>{t('skills:skills-desc')}</main>;
 };
 
 export default Skills;

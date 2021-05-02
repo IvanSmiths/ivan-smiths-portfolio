@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 function Nav() {
   let { t } = useTranslation();
   const [isToggled, setIsToggled] = useState(false);
+
   return (
     <nav className="nav">
       <div className="logo-cnt">
@@ -30,7 +31,7 @@ function Nav() {
                 onClick={() => setIsToggled(!isToggled)}
                 className="small-font"
               >
-                Works
+                {t('common:works')}
               </a>
             </Link>
           </li>
@@ -40,7 +41,7 @@ function Nav() {
                 onClick={() => setIsToggled(!isToggled)}
                 className="small-font"
               >
-                Projects
+                {t('common:projects')}
               </a>
             </Link>
           </li>
@@ -50,7 +51,7 @@ function Nav() {
                 onClick={() => setIsToggled(!isToggled)}
                 className="small-font"
               >
-                Contact
+                {t('common:contact')}
               </a>
             </Link>
           </li>
