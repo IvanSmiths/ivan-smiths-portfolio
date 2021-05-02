@@ -12,25 +12,14 @@ const Model = dynamic(
 
 const Hero = () => {
   let { t } = useTranslation();
-  const names = ['tony', 'elias', 'fadi'];
-  const [newName, setnewName] = useState('');
 
-  const shuffle = useCallback(() => {
-    const index = Math.floor(Math.random() * names.length);
-    setnewName(names[index]);
-  }, []);
-
-  useEffect(() => {
-    const intervalID = setInterval(shuffle, 3000);
-    return () => clearInterval(intervalID);
-  }, [shuffle]);
   return (
     <header>
       <section className="cnt-hero">
         <div className="hero-1">
           <h1 className="big-font highlight-main">
             {t('home:title')}
-            <strong className="fade">{newName}</strong>
+            <strong className="fade"></strong>
           </h1>
           <p>{t('home:hero')}</p>
           <div className="hero-btn">
