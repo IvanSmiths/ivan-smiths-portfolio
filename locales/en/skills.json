@@ -1,3 +1,10 @@
 {
-  "skills-desc": "skills"
+  "skills-desc": "My 6 (+1) pack",
+  "html": "<p> SEO friendly Html/Jsx code is a MUST! Search engine's web crawler are always pushing up well coded websites, don't let your project drown! </p>",
+  "css": ".new-technologies { Sass, Flexbox and Css grid, are technologies that i've mastered, granting complete control on the layout and styling of a website.};",
+  "js": "myKnowledge () => {console.log(' Es6 syntax , like Classes, arrow function, new array methods are my second name!'};",
+  "node": "app.get('/skills', (req, res) => {res.send('I know how to build API, how to use middleware, all with security best practices. ');});",
+  "react": "<> React, with Next.Js & Gatsby is my most valuable skill. I have great knowledge about making optimized websites (like this one you're visiting), both server side rendering, and static ones. </>",
+  "wp": "Yeah that's WordPress. Knowing how to choose the best plugins and themes, is the key to have a fast and optimized WordPress website. Furthermore, inserting some JavaScript/jQuery code, to a WordPress site, is not a bad idea.",
+  "blender": "What's this?! This is Blender! A free and open source software that i use, for making 3D and augmented reality stuff."
 }

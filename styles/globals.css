@@ -105,7 +105,7 @@ li {
   padding: 1.1rem 1.4rem;
   background-color: transparent;
   color: var(--mainFontColor);
-  border: 1px solid var(--mainColor);
+  border: 2px solid var(--mainColor);
   border-radius: var(--radius);
   font-size: var(--smallFont);
   transition: 0.3s ease-in-out;

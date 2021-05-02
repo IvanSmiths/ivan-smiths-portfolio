@@ -1,3 +1,10 @@
 {
-  "skills-desc": "abilità"
+  "skills-desc": "Il mio pacco da 6 (+1)",
+  "html": "<p> Ottimizzare il codice Html/Jsx per il SEO è la mia SPECIALITÀ! I bot dei motori di ricerca danno precedenza ai siti scritti come si deve, non lasciare affogare il tuo progetto! </p>",
+  "css": ".nuove-tecnologie { Sass, Flexbox e Css grid, sono tecnologie che conosco alla perfezione, garantendomi pieno controllo sul layout e nella stilizzazione di un sito web.};",
+  "js": "esperienza () => {console.log(' Es6 syntax , come Classes, arrow function e nuovi metodi array sono il mio secondo nome!'};",
+  "react": "<> React, con Next.Js e Gatsby è il mio pezzo da 90. Ho un'ottima conosceza sul come fare siti estremamente veloci ed ottimizzati (come questo che stai visitando), sia in server side rendering, o in static generation. </>",
+  "node": "app.get('/abilità', (req, res) => {res.send('So come creare API, come creare middleware, tutto seguendo i migliori standard di sicurezza. ');});",
+  "wp": "Già, è WordPress. Conoscere i migliori plugin, è la chiave per avere un sito veloce e senza problemi. Inoltre, inserire un po' sano codice JavaScript/jQuery, ad un sito WordPress, non fa mai male.",
+  "blender": "Cos'è questo?! É Blender! Un progamma gratuito ed open source che uso, per creare roba 3D ed in realtà aumentata."
 }
