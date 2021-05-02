@@ -1,6 +1,5 @@
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
-import { useState, useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 
 const Model = dynamic(

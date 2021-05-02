@@ -1,0 +1,91 @@
+.main {
+  padding: 3rem 0rem;
+}
+
+.main h2 {
+  text-align: center;
+  margin: 2rem 0.1rem;
+}
+
+.card-section {
+  height: fit-content;
+}
+
+.card-cnt {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.card {
+  width: 20rem;
+  margin: 2rem;
+}
+
+.card-content {
+  text-align: center;
+  position: relative;
+  padding: 11em 5em;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-content {
+  transform: rotateY(0.5turn);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5em 3em;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+
+.card-front {
+  background-color: var(--subBackground);
+}
+
+.card-body {
+  transform: var(--level-two);
+}
+
+.card-back {
+  text-align: left;
+  transform: rotateY(0.5turn);
+  background: var(--subBackground);
+}
+
+.card-ico {
+  width: 10rem;
+  height: auto;
+  transform: var(--level-two);
+}
+
+.cube-3d {
+  height: 100%;
+}
+
+.card-react {
+  width: 15rem;
+}
+
+.card-node {
+  width: 13rem;
+}
+
+.card-blender {
+  padding: 1.5rem;
+}
