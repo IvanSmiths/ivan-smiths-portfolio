@@ -1,13 +1,15 @@
 import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 import React, { useState } from 'react';
 
 function Nav() {
+  let { t } = useTranslation();
   const [isToggled, setIsToggled] = useState(false);
   return (
     <nav className="nav">
       <div className="logo-cnt">
         <Link href="/">
-          <a className="small-font">Home</a>
+          <a className="small-font">{t('common:home')}</a>
         </Link>
       </div>
       <div className="cnt-link">
@@ -18,7 +20,7 @@ function Nav() {
                 onClick={() => setIsToggled(!isToggled)}
                 className="small-font"
               >
-                Skills
+                {t('common:skills')}
               </a>
             </Link>
           </li>
