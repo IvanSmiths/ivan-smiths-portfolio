@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import useTranslation from 'next-translate/useTranslation';
 import dynamic from 'next/dynamic';
 
 const Model = dynamic(
@@ -9,15 +9,12 @@ const Model = dynamic(
 );
 
 const Hero = () => {
+  let { t } = useTranslation();
   return (
     <header>
       <section className="cnt-hero">
         <div className="hero-1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-            molestias optio blanditiis hic odit velit veritatis nihil, officia a
-            dolorum?
-          </p>
+          <p>{t('home:hero')}</p>
           <div className="hero-btn">
             <h2>Contact</h2>
             <h2>My works</h2>
