@@ -37,7 +37,7 @@ const Hero = () => {
             <a href="https://github.com/IvanSmiths">
               <img
                 height="24"
-                width="auto"
+                width="24"
                 loading="lazy"
                 src="/github-ico.svg"
                 alt="An icon of GitHub"
@@ -46,7 +46,7 @@ const Hero = () => {
             <a href="https://www.artstation.com/ivansmiths">
               <img
                 height="24"
-                width="auto"
+                width="24"
                 loading="lazy"
                 src="/artstation-ico.svg"
                 alt="An icon of ArtStation"
@@ -55,7 +55,7 @@ const Hero = () => {
             <a href="https://www.instagram.com/ivan_smiths/">
               <img
                 height="24"
-                width="auto"
+                width="24"
                 loading="lazy"
                 src="/instagram-ico.svg"
                 alt="An icon of Instagram"
@@ -63,7 +63,7 @@ const Hero = () => {
             </a>
             <img
               height="24"
-              width="auto"
+              width="24"
               loading="lazy"
               src="/linkedin-ico.svg"
               alt="An icon of Linkedin"
