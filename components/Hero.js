@@ -27,29 +27,6 @@ const Hero = () => {
           <span className="aurora aurora-1"></span>
           <Model />
         </div>
-        <div className="hero-3">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                scale: 0.8,
-                opacity: 0,
-              },
-              visible: {
-                scale: 1,
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                },
-              },
-            }}
-          >
-            <h1>
-              IVAN <br /> SMITHS.
-            </h1>
-          </motion.div>
-        </div>
       </section>
     </header>
   );
