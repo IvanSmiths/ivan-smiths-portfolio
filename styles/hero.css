@@ -6,7 +6,7 @@
 .hero-1 {
   grid-column: 1 / 2;
   margin-left: 6rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

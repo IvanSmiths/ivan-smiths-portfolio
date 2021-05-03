@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 2rem;
+  border-radius: var(--radius);
   top: 0;
   bottom: 0;
   left: 0;

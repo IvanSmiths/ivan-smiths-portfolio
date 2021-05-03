@@ -7,6 +7,8 @@ function Nav() {
   let router = useRouter();
 
   let { t } = useTranslation();
+
+  const [isOpened, setIsOpened] = useState(false);
   const [isToggled, setIsToggled] = useState(false);
 
   return (
@@ -17,15 +19,24 @@ function Nav() {
         </Link>
       </div>
       <div>
-        <ul>
-          {router.locales.map((locale) => (
-            <li key={locale}>
-              <Link locale={locale} href={router.asPath}>
-                <a>{locale}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <button className="btn-lang" onClick={() => setIsOpened(!isOpened)}>
+          {t('common:language')}
+        </button>
+        {isOpened && (
+          <div onMouseLeave={() => setIsOpened(false)}>
+            <ul>
+              {router.locales.map((locale) => (
+                <Link locale={locale} href={router.asPath}>
+                  <a>
+                    <li className="language" key={locale}>
+                      {locale}
+                    </li>
+                  </a>
+                </Link>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
       <div className="cnt-link">
         <ul className={isToggled ? 'toggle' : ''}>

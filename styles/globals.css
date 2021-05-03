@@ -91,6 +91,18 @@ li {
   cursor: pointer;
   padding: 1.1rem 1.4rem;
   background-color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+  border-radius: var(--radius);
+  font-size: var(--smallFont);
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-lang {
+  cursor: pointer;
+  padding: 0.5rem 0.9rem;
+  background-color: var(--mainColor);
   border: none;
   border-radius: var(--radius);
   font-size: var(--smallFont);

@@ -15,7 +15,7 @@
   --smallFont: clamp(0.9rem, 1.1vw, 2rem);
   --tinyFont: clamp(0.7rem, 1.2vw, 2rem);
 
-  --radius: 1rem;
+  --radius: 7px;
   --level-two: translateZ(9rem);
   --level-three: translateZ(9rem);
 }
