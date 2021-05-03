@@ -72,6 +72,7 @@ const Hero = () => {
         </div>
         <div className="hero-2">
           <Model />
+          <Model />
         </div>
       </section>
     </header>
