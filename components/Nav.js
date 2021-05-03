@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 function Nav() {
+  let router = useRouter();
+
   let { t } = useTranslation();
   const [isToggled, setIsToggled] = useState(false);
 
@@ -12,6 +15,17 @@ function Nav() {
         <Link href="/">
           <a className="small-font">{t('common:home')}</a>
         </Link>
+      </div>
+      <div>
+        <ul>
+          {router.locales.map((locale) => (
+            <li key={locale}>
+              <Link locale={locale} href={router.asPath}>
+                <a>{locale}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="cnt-link">
         <ul className={isToggled ? 'toggle' : ''}>
