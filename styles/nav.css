@@ -11,10 +11,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--mainBackgroundNav);
-  backdrop-filter: blur(4px);
   margin-bottom: 3rem;
   border-radius: var(--radius);
-  transition: 2s ease-in-out;
 }
 
 .cnt-link ul {

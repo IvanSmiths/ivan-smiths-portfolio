@@ -31,6 +31,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico card-html"
                   src="/html-ico.svg"
                   alt="An icon of Html"
@@ -45,6 +47,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico"
                   src="/css-ico.svg"
                   alt="An icon of Css"
@@ -59,6 +63,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico"
                   src="/javascript-ico.svg"
                   alt="An icon of Javascript"
@@ -73,6 +79,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico card-react"
                   src="/react-ico.svg"
                   alt="An icon of React.js"
@@ -87,6 +95,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico card-node"
                   src="/nodejs-ico.svg"
                   alt="An icon of Node.js"
@@ -101,6 +111,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico card-mongodb"
                   src="/wordpress-ico.svg"
                   alt="An icon of Wordpress"
@@ -115,6 +127,8 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  height="58"
+                  width="58"
                   className="card-ico"
                   src="/blender-ico.svg"
                   alt="An icon of Blender"
