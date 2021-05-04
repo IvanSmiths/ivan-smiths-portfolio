@@ -2,9 +2,16 @@ import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const Model = dynamic(
+const ModelMe = dynamic(
   () => {
-    return import('./Model');
+    return import('./ModelMe');
+  },
+  { ssr: false }
+);
+
+const ModelRobot = dynamic(
+  () => {
+    return import('./ModelRobot');
   },
   { ssr: false }
 );
@@ -71,8 +78,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-2">
-          <Model />
-          <Model />
+          <ModelMe />
+          <ModelRobot />
         </div>
       </section>
     </header>
