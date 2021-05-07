@@ -26,7 +26,7 @@ function Nav() {
           <div onMouseLeave={() => setIsOpened(false)}>
             <ul className="lang-cnt">
               {router.locales.map((locale) => (
-                <Link locale={locale} href={router.asPath}>
+                <Link key={locale} locale={locale} href={router.asPath}>
                   <a>
                     <li className="language small-font" key={locale}>
                       {locale}
