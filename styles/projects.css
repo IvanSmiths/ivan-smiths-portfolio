@@ -39,6 +39,11 @@
   flex-direction: column;
 }
 
+.modal h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .qr-code {
   align-self: center;
   margin: 1rem 0rem;

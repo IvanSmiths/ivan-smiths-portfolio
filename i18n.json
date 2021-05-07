@@ -5,6 +5,7 @@
     "*": ["common"],
     "/": ["home"],
     "/skills": ["skills"],
-    "/works": ["works"]
+    "/works": ["works"],
+    "/projects": ["projects"]
   }
 }

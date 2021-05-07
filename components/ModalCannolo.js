@@ -1,16 +1,13 @@
-import React from 'react';
+import useTranslation from 'next-translate/useTranslation';
 
 const ModalCannolo = ({ showModal, setShowModal }) => {
+  let { t } = useTranslation();
   return (
     <>
       <div className="modal-cnt">
         <div className="modal">
-          <p className="small-font">
-            Just a 3D cannolo, visible in your space if your phone support
-            augmented reality. Done with Next.Js and Blender as a 3D modeling
-            tool. Is hosted on Vercel. Maybe someone have found this Qr-Code
-            around some cities...
-          </p>
+          <h2 className="medium-font highlight-main">Holy Cannoli!</h2>
+          <p className="small-font">{t('projects:cannolo')}</p>
           <img
             className="qr-code"
             height="200"
