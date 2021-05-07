@@ -18,17 +18,17 @@ function Nav() {
           <a className="small-font">{t('common:home')}</a>
         </Link>
       </div>
-      <div>
+      <div className="lang-cnt-2">
         <button className="btn-lang" onClick={() => setIsOpened(!isOpened)}>
           {t('common:language')}
         </button>
         {isOpened && (
           <div onMouseLeave={() => setIsOpened(false)}>
-            <ul>
+            <ul className="lang-cnt">
               {router.locales.map((locale) => (
                 <Link locale={locale} href={router.asPath}>
                   <a>
-                    <li className="language" key={locale}>
+                    <li className="language small-font" key={locale}>
                       {locale}
                     </li>
                   </a>
