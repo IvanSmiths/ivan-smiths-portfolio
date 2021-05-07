@@ -1,45 +1,27 @@
 import React from 'react';
 
-const ModalCannolo = ({ showModal, setShowModal }) => {
+const ModalOld = ({ showModal2, setShowModal2 }) => {
   return (
     <>
       <div className="modal-cnt">
         <div className="modal">
           <p className="small-font">
-            Just a 3D cannolo, visible in your space if your phone support
-            augmented reality. Done with Next.Js and Blender as a 3D modeling
-            tool. Is hosted on Vercel. Maybe someone have found this Qr-Code
-            around some cities...
+            My first website, also my old portfolio. Done in plain html
           </p>
-          <img
-            className="qr-code"
-            height="200"
-            width="200"
-            src="qr-code.svg"
-            alt="An image of a Qr-Code"
-            loading="lazy"
-          />
           <ul className="list-project">
             <li className="small-font list-flex ">
               Stack used:
               <img
                 height="38"
                 width="38"
-                src="/nextjs-ico.svg"
+                src="/html-ico.svg"
                 alt="An icon of GitHub"
                 loading="lazy"
               />
               <img
                 height="38"
                 width="38"
-                src="/blender-ico.svg"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
-              <img
-                height="38"
-                width="38"
-                src="/zbrush-ico.png"
+                src="/css-ico.svg"
                 alt="An icon of GitHub"
                 loading="lazy"
               />
@@ -49,7 +31,7 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
               <a
                 target="_blank"
                 rel="noopener"
-                href="https://github.com/IvanSmiths/holy-cannoli"
+                href="https://github.com/IvanSmiths/ivansmiths"
               >
                 <img
                   height="38"
@@ -62,11 +44,15 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
             </li>
             <li className="small-font">
               Link: {''}
-              <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.ivansmiths.com/"
+              >
                 <img
                   height="38"
                   width="38"
-                  src="/favicon-32.png"
+                  src="/favicon-old.png"
                   alt="A favicon of a project"
                   loading="lazy"
                 />
@@ -75,7 +61,7 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
           </ul>
           <span
             className="close-modal"
-            onClick={() => setShowModal(!showModal)}
+            onClick={() => setShowModal2(!showModal2)}
           >
             X
           </span>
@@ -85,4 +71,4 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
   );
 };
 
-export default ModalCannolo;
+export default ModalOld;

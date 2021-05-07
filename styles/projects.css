@@ -3,10 +3,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+}
+
+.project-img {
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
+  border-radius: var(--radius);
+  width: 60vw;
+  object-fit: cover;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
 }
 
 .modal-cnt {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -20,7 +33,7 @@
 .modal {
   padding: 2rem;
   position: relative;
-  width: 60vw;
+  width: 80vw;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
