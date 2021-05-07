@@ -48,7 +48,7 @@ nav .close {
   display: flex;
   flex-direction: row;
   background-color: var(--mainBackground);
-  padding: 0.1rem 0.6rem;
+  padding: 0.41rem 0.6rem;
   border: none;
   border-radius: var(--radius);
 }
@@ -62,7 +62,7 @@ nav .close {
   background-color: var(--mainBackgroundNav);
   color: var(--mainColor);
   font-weight: 600;
-  padding: 0.5rem;
+  padding: 0.2rem;
   border-radius: var(--radius);
   margin-left: 1rem;
 }

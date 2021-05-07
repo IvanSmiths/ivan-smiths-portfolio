@@ -23,11 +23,13 @@ const Hero = () => {
     <header>
       <section className="cnt-hero">
         <div className="hero-1">
-          <h1 className="big-font highlight-main">
-            {t('home:title')}
-            <strong className="fade"></strong>
-          </h1>
-          <p>{t('home:hero')}</p>
+          <h1 className="big-font highlight-main">{t('home:title')}</h1>
+          <p>
+            <strong className="highlight-main underline">
+              {t('home:strong')}
+            </strong>
+            {t('home:hero')}
+          </p>
           <div className="hero-btn">
             <Link href="/contact">
               <a>

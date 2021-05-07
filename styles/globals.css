@@ -71,15 +71,15 @@ li {
 }
 
 .underline {
-  border-bottom: 3px solid;
-}
-
-.highlight-2 {
-  font-weight: 600;
+  border-bottom: 2px solid;
 }
 
 .highlight {
   font-weight: 700;
+}
+
+.highlight-2 {
+  font-weight: 600;
 }
 
 .highlight-main {
