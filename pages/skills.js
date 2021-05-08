@@ -16,16 +16,13 @@ const Skills = () => {
     <>
       <Head>
         <title>Portfolio</title>
-
         <meta
           name="description"
           content="Web developer portfolio with knowledge of React, Blender, 3D Modeling, AR and other fancy stuff. Come check it out! "
         />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">
-        <h1 className="big-font">{t('skills:skills-desc')}</h1>
+        <h2 className="big-font">{t('skills:skills-web')}</h2>
         <section className="card-cnt">
           <div className="card">
             <div className="card-content">
@@ -36,6 +33,13 @@ const Skills = () => {
                   className="card-ico card-html"
                   src="/html-ico.svg"
                   alt="An icon of Html"
+                />
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/css-ico.svg"
+                  alt="An icon of Css"
                 />
               </div>
               <div className="card-back">
@@ -49,61 +53,20 @@ const Skills = () => {
                 <img
                   height="58"
                   width="58"
-                  className="card-ico"
-                  src="/css-ico.svg"
-                  alt="An icon of Css"
+                  className="card-ico card-react"
+                  src="/react-ico.svg"
+                  alt="An icon of React.js"
                 />
-              </div>
-              <div className="card-back">
-                <p className="card-body small-font">{t('skills:css')}</p>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <div className="card-front">
-                <img
-                  height="58"
-                  width="58"
-                  className="card-ico"
-                  src="/javascript-ico.svg"
-                  alt="An icon of Javascript"
-                />
-              </div>
-              <div className="card-back">
-                <p className="card-body small-font">{t('skills:js')}</p>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <div className="card-front">
                 <img
                   height="58"
                   width="58"
                   className="card-ico card-react"
-                  src="/react-ico.svg"
+                  src="/nextjs-ico.svg"
                   alt="An icon of React.js"
                 />
               </div>
               <div className="card-back">
                 <p className="card-body small-font">{t('skills:react')}</p>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <div className="card-front">
-                <img
-                  height="58"
-                  width="58"
-                  className="card-ico card-node"
-                  src="/nodejs-ico.svg"
-                  alt="An icon of Node.js"
-                />
-              </div>
-              <div className="card-back">
-                <p className="card-body small-font">{t('skills:node')}</p>
               </div>
             </div>
           </div>
@@ -129,6 +92,25 @@ const Skills = () => {
                 <img
                   height="58"
                   width="58"
+                  className="card-ico card-mongodb"
+                  src="/shopify-ico.svg"
+                  alt="An icon of Shopify"
+                />
+              </div>
+              <div className="card-back">
+                <p className="card-body small-font">{t('skills:wp')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 className="big-font">{t('skills:skills-3d')}</h2>
+        <section className="card-cnt">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-front">
+                <img
+                  height="58"
+                  width="58"
                   className="card-ico"
                   src="/blender-ico.svg"
                   alt="An icon of Blender"
@@ -137,6 +119,84 @@ const Skills = () => {
               <div className="card-back card-blender">
                 <ModelCube />
 
+                <p className="card-body small-font">{t('skills:blender')}</p>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <div className="card-front">
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/zbrush-ico.png"
+                  alt="An icon of Zbrush"
+                />
+              </div>
+              <div className="card-back card-blender">
+                <ModelCube />
+
+                <p className="card-body small-font">{t('skills:blender')}</p>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <div className="card-front">
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/designer-ico.png"
+                  alt="An icon of Substance Designer"
+                />
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/alchemist-ico.png"
+                  alt="An icon of Substance Alchemist"
+                />
+              </div>
+              <div className="card-back card-blender">
+                <ModelCube />
+
+                <p className="card-body small-font">{t('skills:blender')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 className="big-font">{t('skills:skills-ad')}</h2>
+        <section className="card-cnt">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-front">
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/google-ads-ico.png"
+                  alt="An icon of Substance Designer"
+                />
+              </div>
+              <div className="card-back card-blender">
+                <p className="card-body small-font">{t('skills:blender')}</p>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <div className="card-front">
+                <img
+                  height="58"
+                  width="58"
+                  className="card-ico"
+                  src="/mailchimp-ico.png"
+                  alt="An icon of Substance Designer"
+                />
+              </div>
+              <div className="card-back card-blender">
                 <p className="card-body small-font">{t('skills:blender')}</p>
               </div>
             </div>

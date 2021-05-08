@@ -2,9 +2,20 @@
   padding: 3rem 0rem;
 }
 
+.main img {
+  margin-top: 0.6rem;
+}
+
 .main h1 {
   text-align: center;
-  margin: 2rem 0rem 4rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.main h2 {
+  text-align: center;
+  margin: 5rem;
+  color: var(--mainColor);
+  font-weight: 900;
 }
 
 .card-section {
@@ -16,11 +27,10 @@
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10rem;
 }
 
 .card {
-  width: 20rem;
+  width: 21rem;
   margin: 2rem;
 }
 

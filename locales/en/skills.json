@@ -1,5 +1,8 @@
 {
   "skills-desc": "My 6 (+1) pack",
+  "skills-web": "WEB STACK",
+  "skills-3d": "3D SOFTWARES",
+  "skills-ad": "ADVERTISING",
   "html": "<p> SEO friendly Html/Jsx code is a MUST! Search engine's web crawler are always pushing up well coded websites, don't let your project drown! </p>",
   "css": ".new-technologies { Sass, Flexbox and Css grid, are technologies that i've mastered, granting complete control on the layout and styling of a website.};",
   "js": "myKnowledge () => {console.log(' Es6 syntax , like Classes, arrow function, new array methods are my second name!'};",

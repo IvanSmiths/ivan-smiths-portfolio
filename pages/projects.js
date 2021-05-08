@@ -17,6 +17,9 @@ const Projects = () => {
         <meta name="description" content={t('projects:desc')} />
       </Head>
       <main className="projects-cnt">
+        <h1 className="big-font highlight-main">
+          Projects that i did for myself
+        </h1>
         <img
           className="project-img"
           height="400"
