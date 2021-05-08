@@ -8,13 +8,17 @@
 
 .project-img {
   cursor: pointer;
-  transition: 0.7s ease-in-out;
   border-radius: var(--radius);
   width: 60vw;
   object-fit: cover;
+  -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+  transition: 0.7s ease-in-out;
 }
 
 .project-img:hover {
+  -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.58);
   transform: scale(1.05);
 }
 

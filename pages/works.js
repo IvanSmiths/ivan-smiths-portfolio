@@ -17,7 +17,10 @@ const Works = () => {
       </Head>
 
       <main className="projects-cnt">
-        <h1 className="big-font highlight-main">{t('works:title')}</h1>
+        <h1 className="big-font">
+          <strong className="highlight-main">{t('works:title')}</strong>{' '}
+          {t('works:title2')}{' '}
+        </h1>
         <div onClick={() => setShowModalW(!showModalW)} className="works-cnt">
           <img height="400" src="/id-ico.svg" alt="An image of a project" />
         </div>

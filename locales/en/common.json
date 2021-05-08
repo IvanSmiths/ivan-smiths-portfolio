@@ -1,8 +1,9 @@
 {
   "home": "Home",
   "language": "Languages",
-  "skills": "Skills",
+  "skills": "Expertises",
   "works": "Works",
   "projects": "Projects",
-  "contact": "Contact"
+  "myself": "Who am i?",
+  "contact": "Let's chat!"
 }

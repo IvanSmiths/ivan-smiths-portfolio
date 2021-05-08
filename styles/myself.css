@@ -1,0 +1,25 @@
+.myself-main h1 {
+  text-align: center;
+}
+
+.myself-cnt {
+  display: flex;
+  flex-direction: row;
+}
+
+.myself-cnt > *:nth-child(1) {
+  flex: 1 1 50%;
+  margin-left: 4rem;
+}
+
+.myself-cnt > *:nth-child(2) {
+  flex: 1 1 50%;
+}
+
+.list-cnt {
+  display: flex;
+}
+
+.list-cnt li {
+  margin-bottom: 0.5rem;
+}

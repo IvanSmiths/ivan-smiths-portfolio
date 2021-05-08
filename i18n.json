@@ -6,6 +6,8 @@
     "/": ["home"],
     "/skills": ["skills"],
     "/works": ["works"],
-    "/projects": ["projects"]
+    "/projects": ["projects"],
+    "/myself": ["myself"],
+    "/contact": ["contact"]
   }
 }

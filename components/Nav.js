@@ -71,6 +71,16 @@ function Nav() {
             </Link>
           </li>
           <li>
+            <Link href="/myself">
+              <a
+                onClick={() => setIsToggled(!isToggled)}
+                className="small-font"
+              >
+                {t('common:myself')}
+              </a>
+            </Link>
+          </li>
+          <li>
             <Link href="/contact">
               <a
                 onClick={() => setIsToggled(!isToggled)}

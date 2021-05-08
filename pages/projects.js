@@ -13,12 +13,13 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>{t('projects:title')}</title>
-        <meta name="description" content={t('projects:desc')} />
+        <title>{t('projects:head-title')}</title>
+        <meta name="description" content={t('projects:head-desc')} />
       </Head>
       <main className="projects-cnt">
-        <h1 className="big-font highlight-main">
-          Projects that i did for myself
+        <h1 className="big-font">
+          <strong className="highlight-main">{t('projects:title')}</strong>
+          {t('projects:title2')}
         </h1>
         <img
           className="project-img"
