@@ -65,7 +65,7 @@
 }
 
 .card-front {
-  background-color: var(--subBackground);
+  background-color: var(--mainBackgroundNav);
 }
 
 .card-body {
@@ -75,7 +75,7 @@
 .card-back {
   text-align: left;
   transform: rotateY(0.5turn);
-  background: var(--subBackground);
+  background: var(--mainBackgroundNav);
 }
 
 .card-ico {

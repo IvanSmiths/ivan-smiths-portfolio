@@ -1,6 +1,7 @@
-import React from 'react';
+import useTranslation from 'next-translate/useTranslation';
 
 const ModalOld = ({ showModal2, setShowModal2 }) => {
+  let { t } = useTranslation();
   return (
     <>
       <div className="modal-cnt">
@@ -10,52 +11,29 @@ const ModalOld = ({ showModal2, setShowModal2 }) => {
           </p>
           <ul className="list-project">
             <li className="small-font list-flex ">
-              Stack used:
-              <img
-                height="38"
-                width="38"
-                src="/html-ico.svg"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
-              <img
-                height="38"
-                width="38"
-                src="/css-ico.svg"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
+              {t('projects:stack')}{' '}
+              <span className="highlight-2 left-m">Html, Css, JavaScript.</span>
             </li>
             <li className="small-font">
               GitHub repo: {''}
               <a
+                className="left-m highlight-main underline"
                 target="_blank"
                 rel="noopener"
                 href="https://github.com/IvanSmiths/ivansmiths"
               >
-                <img
-                  height="38"
-                  width="38"
-                  src="/github-ico.svg"
-                  alt="An icon of GitHub"
-                  loading="lazy"
-                />
+                Ivan Smiths repo.
               </a>
             </li>
             <li className="small-font">
               Link: {''}
               <a
+                className="left-m highlight-main underline"
                 target="_blank"
                 rel="noopener"
-                href="https://www.ivansmiths.com/"
+                href="https://ivansmiths.com/"
               >
-                <img
-                  height="38"
-                  width="38"
-                  src="/favicon-old.png"
-                  alt="A favicon of a project"
-                  loading="lazy"
-                />
+                Ivan Smiths.
               </a>
             </li>
           </ul>

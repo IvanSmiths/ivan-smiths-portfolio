@@ -1,3 +1,26 @@
 main h1 {
   margin: 5rem;
 }
+
+.works-cnt {
+  cursor: pointer;
+  background-color: var(--mainBackgroundNav);
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  transition: 0.5s ease-in-out;
+}
+
+.left-m {
+  margin-left: 0.4rem;
+}
+
+.works-cnt:hover {
+  transform: scale(1.05);
+}
+
+.list-project li {
+  margin-top: 0.6rem;
+}

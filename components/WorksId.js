@@ -1,45 +1,85 @@
 import useTranslation from 'next-translate/useTranslation';
 
 const WorksId = ({ showModalW, setShowModalW }) => {
+  let { t } = useTranslation();
   return (
     <>
       <div className="modal-cnt">
         <div className="modal">
-          <h2 className="medium-font highlight-main">Holy Cannoli!</h2>
+          <h2 className="medium-font highlight-main">{t('works:id')}</h2>
           <p className="small-font">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             ratione perspiciatis fugit voluptate. Velit repellendus molestiae
             cupiditate beatae, enim aliquam veniam, illum corporis ullam quos
-            corrupti minima quod. Ducimus, nihil.
+            corrupti minima quod. Ducimus, nihil. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ducimus ratione perspiciatis fugit
+            voluptate. Velit repellendus molestiae cupiditate beatae, enim
+            aliquam veniam, illum corporis ullam quos corrupti minima quod.
+            Ducimus, nihil.
           </p>
           <ul className="list-project">
-            <li className="small-font list-flex ">Date:</li>
+            <li className="small-font list-flex ">
+              {t('works:type')}{' '}
+              <strong className="highlight-2 left-m">
+                {' '}
+                {t('works:employee')}{' '}
+              </strong>
+            </li>
+            <li className="small-font list-flex ">
+              {t('works:date')}{' '}
+              <strong className="highlight-2 left-m">
+                {t('works:date2')}{' '}
+              </strong>
+            </li>
+            <li className="small-font list-flex ">
+              {t('works:stack')}{' '}
+              <strong className="highlight-2 left-m">
+                Html, Css, JavaScript (jQuery), WordPress, ActiveCampaign,
+                Shopify, Google ads.{' '}
+              </strong>
+            </li>
             <li className="small-font">
-              GitHub repo: {''}
+              {t('works:company')}{' '}
               <a
+                className="underline left-m highlight-main"
                 target="_blank"
                 rel="noopener"
-                href="https://github.com/IvanSmiths/holy-cannoli"
+                href="https://ideology.it"
               >
-                <img
-                  height="38"
-                  width="38"
-                  src="/github-ico.svg"
-                  alt="An icon of GitHub"
-                  loading="lazy"
-                />
+                {' '}
+                Ideology.{' '}
               </a>
             </li>
             <li className="small-font">
-              Link: {''}
-              <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
-                <img
-                  height="38"
-                  width="38"
-                  src="/favicon-32.png"
-                  alt="A favicon of a project"
-                  loading="lazy"
-                />
+              {t('works:websites')}
+              <a
+                className="underline left-m highlight-main"
+                target="_blank"
+                rel="noopener"
+                href="https://www.mabuprofumerie.it/"
+              >
+                {' '}
+                MABÙ
+              </a>
+              ,
+              <a
+                className="underline left-m highlight-main"
+                target="_blank"
+                rel="noopener"
+                href="https://www.ristorantebon.it/"
+              >
+                {' '}
+                Bon{' '}
+              </a>
+              ,
+              <a
+                className="underline left-m highlight-main"
+                target="_blank"
+                rel="noopener"
+                href="http://chiccaconfetti.com/"
+              >
+                {' '}
+                Chicca Confetti.
               </a>
             </li>
           </ul>

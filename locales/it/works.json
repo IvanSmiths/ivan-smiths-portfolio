@@ -1,3 +1,11 @@
 {
-  "works-desc": "Lavori"
+  "title": "Lavori ufficiali",
+  "id": "Sviluppatore web per Ideology",
+  "type": "Tipo di lavoro:",
+  "employee": "Impiegato.",
+  "date": "Data:",
+  "date2": "15/02/2021 - Attualmente impiegato.",
+  "stack": "Tecnologe usate",
+  "company": "Sito web della compagnia:",
+  "websites": "Siti a cui ho lavorato direttamente:"
 }

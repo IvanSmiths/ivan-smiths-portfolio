@@ -1,3 +1,11 @@
 {
-  "works-desc": "Works"
+  "title": "Official works",
+  "id": "Web developer at Ideology",
+  "type": "Type of job:",
+  "employee": "Employee.",
+  "date": "Date:",
+  "date2": "15/02/2021 - Currently working in.",
+  "stack": "Stack used",
+  "company": "Company website:",
+  "websites": "Websites that i've directly worked on:"
 }

@@ -18,28 +18,10 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
           />
           <ul className="list-project">
             <li className="small-font list-flex ">
-              Stack used:
-              <img
-                height="38"
-                width="38"
-                src="/nextjs-ico.svg"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
-              <img
-                height="38"
-                width="38"
-                src="/blender-ico.svg"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
-              <img
-                height="38"
-                width="38"
-                src="/zbrush-ico.png"
-                alt="An icon of GitHub"
-                loading="lazy"
-              />
+              {t('projects:stack')}{' '}
+              <strong className="highlight-2 left-m">
+                Next.Js, Blender, Zbrush.
+              </strong>
             </li>
             <li className="small-font">
               GitHub repo: {''}
@@ -48,25 +30,17 @@ const ModalCannolo = ({ showModal, setShowModal }) => {
                 rel="noopener"
                 href="https://github.com/IvanSmiths/holy-cannoli"
               >
-                <img
-                  height="38"
-                  width="38"
-                  src="/github-ico.svg"
-                  alt="An icon of GitHub"
-                  loading="lazy"
-                />
+                <strong className="highlight-main underline left-m">
+                  Holy Cannoli Repo.
+                </strong>
               </a>
             </li>
             <li className="small-font">
               Link: {''}
               <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
-                <img
-                  height="38"
-                  width="38"
-                  src="/favicon-32.png"
-                  alt="A favicon of a project"
-                  loading="lazy"
-                />
+                <strong className="highlight-main underline left-m">
+                  Holy Cannoli!
+                </strong>
               </a>
             </li>
           </ul>

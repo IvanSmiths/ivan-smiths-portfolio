@@ -4,6 +4,7 @@ import useTranslation from 'next-translate/useTranslation';
 import WorksId from '../components/WorksId';
 
 const Works = () => {
+  let { t } = useTranslation();
   const [showModalW, setShowModalW] = useState(false);
   return (
     <>
@@ -16,13 +17,10 @@ const Works = () => {
       </Head>
 
       <main className="projects-cnt">
-        <h1 className="big-font highlight-main">Official works</h1>
-        <img
-          height="400"
-          onClick={() => setShowModalW(!showModalW)}
-          src="/id-ico.svg"
-          alt="An image of a project"
-        />
+        <h1 className="big-font highlight-main">{t('works:title')}</h1>
+        <div onClick={() => setShowModalW(!showModalW)} className="works-cnt">
+          <img height="400" src="/id-ico.svg" alt="An image of a project" />
+        </div>
         {showModalW && (
           <WorksId showModalW={showModalW} setShowModalW={setShowModalW} />
         )}

@@ -1,5 +1,6 @@
 {
   "title": "Ivan Smiths, Sviluppatore React | Pagina progetti",
   "desc": "Sviluppatore react con abilità di modellazione 3d, pagina con i miei progetti.",
-  "cannolo": "Un cannolo in 3D, visibile nel tuo spazio se il tuo telefono supporta la realtà aumentata. Sito craeto con Next.Js, modello scolpito e texturizzato con Zbrush, e Blender per l'esportazione in un formato adatto per il web. Probabilmente qualcuno ha trovato questo Qr-Code in giro per qualche città..."
+  "cannolo": "Un cannolo in 3D, visibile nel tuo spazio se il tuo telefono supporta la realtà aumentata. Sito creato con Next.Js, modello scolpito e texturizzato con Zbrush, esportato con Blender in un formato adatto per il web. Probabilmente qualcuno ha trovato questo Qr-Code in giro per qualche città...",
+  "stack": "Tecnologie usate:"
 }
