@@ -18,10 +18,9 @@ const Works = () => {
       <main className="projects-cnt">
         <h1 className="big-font highlight-main">Official works</h1>
         <img
-          className="project-img"
           height="400"
           onClick={() => setShowModalW(!showModalW)}
-          src="/project-2.jpg"
+          src="/id-ico.svg"
           alt="An image of a project"
         />
         {showModalW && (
