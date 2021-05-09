@@ -209,9 +209,10 @@ const Skills = () => {
               </div>
               <div className="card-back card-blender">
                 <ModelCube />
-
-                {t('skills:blender')}
-                <span className="highlight-main">{t('skills:blender2')}</span>
+                <p className="small-font">
+                  {t('skills:blender')}
+                  <span className="highlight-main">{t('skills:blender2')}</span>
+                </p>
               </div>
             </div>
           </div>
@@ -229,10 +230,11 @@ const Skills = () => {
               </div>
               <div className="card-back card-blender">
                 <ModelCube />
-
-                {t('skills:zbrush')}
-                <span className="highlight-main">{t('skills:zbrush2')}</span>
-                {t('skills:zbrush3')}
+                <p className="small-font">
+                  {t('skills:zbrush')}
+                  <span className="highlight-main">{t('skills:zbrush2')}</span>
+                  {t('skills:zbrush3')}
+                </p>
               </div>
             </div>
           </div>
@@ -250,10 +252,13 @@ const Skills = () => {
               </div>
               <div className="card-back card-blender">
                 <ModelCube />
-
-                {t('skills:substance')}
-                <span className="highlight-main">{t('skills:substance2')}</span>
-                {t('skills:substance3')}
+                <p className="small-font">
+                  {t('skills:substance')}
+                  <span className="highlight-main">
+                    {t('skills:substance2')}
+                  </span>
+                  {t('skills:substance3')}
+                </p>
               </div>
             </div>
           </div>
@@ -272,10 +277,12 @@ const Skills = () => {
                   alt="An icon of Google Ads"
                 />
               </div>
-              <div className="card-back card-blender">
-                {t('skills:ads')}
-                <span className="highlight-main">{t('skills:ads2')}</span>
-                {t('skills:ads3')}
+              <div className="card-back">
+                <p className="card-body small-font">
+                  {t('skills:ads')}
+                  <span className="highlight-main">{t('skills:ads2')}</span>
+                  {t('skills:ads3')}
+                </p>
               </div>
             </div>
           </div>
@@ -291,29 +298,12 @@ const Skills = () => {
                   alt="An icon of ActiveCampaign"
                 />
               </div>
-              <div className="card-back card-blender">
-                {t('skills:ac')}
-                <span className="highlight-main">{t('skills:ac2')}</span>
-                {t('skills:ac3')}
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <div className="card-front">
-                <img
-                  loading="lazy"
-                  height="58"
-                  width="58"
-                  className="card-ico"
-                  src="/mailchimp-ico.png"
-                  alt="An icon of MailChimp"
-                />
-              </div>
-              <div className="card-back card-blender">
-                {t('skills:mailchimp')}
-                <span className="highlight-main">{t('skills:mailchimp2')}</span>
-                {t('skills:mailchimp3')}
+              <div className="card-back">
+                <p className="card-body small-font">
+                  {t('skills:ac')}
+                  <span className="highlight-main">{t('skills:ac2')}</span>
+                  {t('skills:ac3')}
+                </p>
               </div>
             </div>
           </div>
