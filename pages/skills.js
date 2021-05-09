@@ -28,6 +28,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-html"
@@ -50,6 +51,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -70,6 +72,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -90,6 +93,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-mongodb"
@@ -108,6 +112,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-react"
@@ -130,6 +135,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-mongodb"
@@ -150,6 +156,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-mongodb"
@@ -170,6 +177,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico card-mongodb"
@@ -191,6 +199,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -210,6 +219,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -230,6 +240,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -253,6 +264,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -271,6 +283,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"
@@ -289,6 +302,7 @@ const Skills = () => {
             <div className="card-content">
               <div className="card-front">
                 <img
+                  loading="lazy"
                   height="58"
                   width="58"
                   className="card-ico"

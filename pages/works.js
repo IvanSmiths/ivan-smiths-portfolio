@@ -22,7 +22,12 @@ const Works = () => {
           {t('works:title2')}{' '}
         </h1>
         <div onClick={() => setShowModalW(!showModalW)} className="works-cnt">
-          <img height="400" src="/id-ico.svg" alt="An image of a project" />
+          <img
+            height="400"
+            width="500"
+            src="/id-ico.svg"
+            alt="An image of a project"
+          />
         </div>
         {showModalW && (
           <WorksId showModalW={showModalW} setShowModalW={setShowModalW} />
