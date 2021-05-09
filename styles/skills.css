@@ -62,6 +62,8 @@
   backface-visibility: hidden;
   transform-style: preserve-3d;
   text-align: center;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(87, 87, 87, 0.24);
+  box-shadow: 0px 0px 25px 1px rgba(87, 87, 87, 0.24);
 }
 
 .card-front {

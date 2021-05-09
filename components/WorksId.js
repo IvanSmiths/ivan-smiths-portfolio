@@ -8,14 +8,19 @@ const WorksId = ({ showModalW, setShowModalW }) => {
         <div className="modal">
           <h2 className="medium-font highlight-main">{t('works:id')}</h2>
           <p className="small-font">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            ratione perspiciatis fugit voluptate. Velit repellendus molestiae
-            cupiditate beatae, enim aliquam veniam, illum corporis ullam quos
-            corrupti minima quod. Ducimus, nihil. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Ducimus ratione perspiciatis fugit
-            voluptate. Velit repellendus molestiae cupiditate beatae, enim
-            aliquam veniam, illum corporis ullam quos corrupti minima quod.
-            Ducimus, nihil.
+            {t('works:id-text')}
+            <strong className="highlight-main">{t('works:id-text2')}</strong>
+            {t('works:id-text3')}
+            {t('works:id-text4')}
+            <strong className="highlight-main">
+              {t('works:id-text5')}
+            </strong>{' '}
+            <br />
+            {t('works:id-text6')}
+            <strong className="highlight-main">{t('works:id-text7')}</strong>
+            {t('works:id-text8')}
+            <strong className="highlight-main">{t('works:id-text9')}</strong>
+            {t('works:id-text10')}
           </p>
           <ul className="list-project">
             <li className="small-font list-flex ">
@@ -34,8 +39,8 @@ const WorksId = ({ showModalW, setShowModalW }) => {
             <li className="small-font list-flex ">
               {t('works:stack')}{' '}
               <strong className="highlight-2 left-m">
-                Html, Css, JavaScript (jQuery), WordPress, ActiveCampaign,
-                Shopify, Google ads.{' '}
+                Html, Css, JavaScript, WordPress, ActiveCampaign, Shopify,
+                Google Ads.{' '}
               </strong>
             </li>
             <li className="small-font">

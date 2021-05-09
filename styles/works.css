@@ -21,6 +21,10 @@ main h1 {
   transform: scale(1.05);
 }
 
+.modal-cnt p {
+  margin-bottom: 1.5rem;
+}
+
 .left-m {
   margin-left: 0.4rem;
 }
