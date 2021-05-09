@@ -8,6 +8,7 @@
     "/works": ["works"],
     "/projects": ["projects"],
     "/myself": ["myself"],
-    "/contact": ["contact"]
+    "/contact": ["contact"],
+    "/message": ["message"]
   }
 }

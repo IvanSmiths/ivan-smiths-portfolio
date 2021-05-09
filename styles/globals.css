@@ -37,6 +37,7 @@ p {
 .small-font {
   font-size: var(--smallFont);
   font-weight: 400;
+  color: var(--mainFontColor);
 }
 
 .tiny-font {

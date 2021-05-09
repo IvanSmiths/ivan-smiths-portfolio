@@ -5,11 +5,15 @@
 .myself-cnt {
   display: flex;
   flex-direction: row;
+  margin-left: 4rem;
+}
+
+.myself-cnt p {
+  margin-bottom: 3rem;
 }
 
 .myself-cnt > *:nth-child(1) {
   flex: 1 1 50%;
-  margin-left: 4rem;
 }
 
 .myself-cnt > *:nth-child(2) {

@@ -1,3 +1,76 @@
 .contact-cnt h1 {
   text-align: center;
 }
+.contact-cnt h2 {
+  margin-top: 4rem;
+}
+
+.zelda-cnt {
+  display: flex;
+  flex-direction: row;
+  gap: 17rem;
+  justify-content: space-evenly;
+}
+
+.email-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.email-cnt span {
+  margin-top: 4rem;
+}
+
+.contact-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-cnt input {
+  padding: 0rem 0.5rem;
+  width: 60vw;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-cnt label {
+  margin-bottom: 0.3rem;
+}
+
+.form-cnt textarea {
+  padding: 0.3rem 0.5rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  resize: vertical;
+}
+
+.form-cnt button {
+  margin-top: 1rem;
+}
+
+.messageaaaa-cnt h2 {
+  margin-top: 13rem;
+}
+
+.message-cnt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
