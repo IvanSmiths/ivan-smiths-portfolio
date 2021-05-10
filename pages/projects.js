@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
 

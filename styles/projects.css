@@ -78,7 +78,7 @@
 }
 
 .project-title-cnt {
-  padding: 4rem 8rem;
+  padding: 4rem 10rem;
   background-color: rgb(26, 26, 26);
   display: flex;
   flex-direction: row;
@@ -114,7 +114,7 @@
 .pro-desc-cnt {
   display: flex;
   flex-direction: row;
-  padding: 4rem 8rem;
+  padding: 8rem 10rem;
 }
 
 .pro-desc-cnt h2 {
@@ -123,10 +123,10 @@
 
 .pro-desc-cnt > *:nth-child(1) {
   flex: 1 1 50%;
-  padding-right: 4rem;
+  padding-right: 8rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
 }
 
 .pro-desc-cnt > *:nth-child(2) {
@@ -134,5 +134,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }

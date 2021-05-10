@@ -1,11 +1,16 @@
+import useTranslation from 'next-translate/useTranslation';
+import Head from 'next/head';
+import Link from 'next/link';
+
 const ProjectHolycannoli = () => {
+  let { t } = useTranslation();
   return (
     <>
       <main className="holycannoli-cnt">
         <section className="project-title-cnt">
           <div>
             <h1 className="big-font2">
-              PROJECT <br />{' '}
+              {t('pro-holycannoli:title')} <br />{' '}
               <strong className="highlight-main2">HOLY CANNOLI!</strong>{' '}
             </h1>
             <h2 className="small-font2">Greedy.</h2>
@@ -23,7 +28,9 @@ const ProjectHolycannoli = () => {
         <section className="pro-card-cnt">
           <div className="pro-card">
             <h2 className="small-font highlight">Type of project</h2>
-            <h3 className="medium-font highlight-main">Real</h3>
+            <h3 className="medium-font highlight-main">
+              Real - <span className="del">Dummy</span>{' '}
+            </h3>
           </div>
           <div className="pro-card">
             <h2 className="small-font highlight">Stack</h2>

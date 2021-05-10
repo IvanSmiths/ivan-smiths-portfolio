@@ -88,7 +88,7 @@ li {
 }
 
 .underline {
-  border-bottom: 2px solid;
+  text-decoration: underline;
 }
 
 .highlight {
@@ -165,4 +165,8 @@ li {
   font-size: var(--smallFont) !important;
   font-weight: 600 !important;
   color: white !important;
+}
+
+.del {
+  text-decoration: line-through;
 }
