@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
-import WorksId from '../components/WorksId';
 
 const Works = () => {
   let { t } = useTranslation();
-  const [showModalW, setShowModalW] = useState(false);
+
   return (
     <>
       <Head>
@@ -21,17 +19,14 @@ const Works = () => {
           <strong className="highlight-main">{t('works:title')}</strong>{' '}
           {t('works:title2')}{' '}
         </h1>
-        <div onClick={() => setShowModalW(!showModalW)} className="works-cnt">
+        <section className="works-cnt">
           <img
             height="400"
             width="500"
             src="/id-ico.svg"
             alt="An image of a project"
           />
-        </div>
-        {showModalW && (
-          <WorksId showModalW={showModalW} setShowModalW={setShowModalW} />
-        )}
+        </section>
       </main>
     </>
   );

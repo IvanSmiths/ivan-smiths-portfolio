@@ -30,6 +30,11 @@ p {
   font-size: var(--bigFont);
 }
 
+.big-font2 {
+  color: var(--mainInverseFontColor);
+  font-size: var(--bigFont);
+}
+
 .medium-font {
   font-size: var(--mediumFont);
 }
@@ -38,6 +43,12 @@ p {
   font-size: var(--smallFont);
   font-weight: 400;
   color: var(--mainFontColor);
+}
+
+.small-font2 {
+  font-size: var(--smallFont);
+  font-weight: 400;
+  color: var(--mainInverseFontColor);
 }
 
 .tiny-font {
@@ -54,6 +65,11 @@ li {
   color: var(--mainFontColor);
   text-decoration: none;
   list-style: none;
+}
+
+.btn-font {
+  font-size: var(--btnFont);
+  font-weight: 400;
 }
 
 .btn-font {
@@ -85,6 +101,11 @@ li {
 
 .highlight-main {
   color: var(--mainColor);
+  font-weight: 700;
+}
+
+.highlight-main2 {
+  color: var(--secColor);
   font-weight: 700;
 }
 

@@ -76,3 +76,25 @@
   flex-direction: row;
   align-items: center;
 }
+
+.project-title-cnt {
+  padding: 4rem 6rem;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: row;
+}
+
+.project-title-cnt > *:nth-child(1) {
+  flex: 1 1 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title-cnt > *:nth-child(2) {
+  flex: 1 1 30%;
+}
+
+.cannolo {
+  border-radius: var(--radius);
+}
