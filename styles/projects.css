@@ -136,3 +136,10 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+.other-pro {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

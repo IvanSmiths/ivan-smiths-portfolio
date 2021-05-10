@@ -1,3 +1,16 @@
 {
-  "title": "PROJECT"
+  "title": "PROJECT",
+  "subtitle": "Greedy.",
+  "card-type": "Type of project:",
+  "card-type2": "Real - ",
+  "card-type3": "Dummy",
+  "card-stack": "Stack used",
+  "card-web": "Website",
+  "quest": "The Quest",
+  "desc": "Just a 3D cannolo, ",
+  "desc2": "visible in your space ",
+  "desc3": "if your phone support augmented reality. Website done with Next.Js, 3D model sculpted and textured in Zbrush, and exported with Blender as an optimized format for the web.",
+  "desc4": "Maybe someone have found this ",
+  "desc5": "Qr-Code ",
+  "desc6": "pointing to this website…"
 }

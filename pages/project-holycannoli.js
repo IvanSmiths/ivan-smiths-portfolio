@@ -13,7 +13,7 @@ const ProjectHolycannoli = () => {
               {t('pro-holycannoli:title')} <br />{' '}
               <strong className="highlight-main2">HOLY CANNOLI!</strong>{' '}
             </h1>
-            <h2 className="small-font2">Greedy.</h2>
+            <h2 className="small-font2">{t('pro-holycannoli:subtitle')}</h2>
           </div>
           <div>
             <img
@@ -27,13 +27,20 @@ const ProjectHolycannoli = () => {
         </section>
         <section className="pro-card-cnt">
           <div className="pro-card">
-            <h2 className="small-font highlight">Type of project</h2>
+            <h2 className="small-font highlight">
+              {t('pro-holycannoli:card-type')}
+            </h2>
             <h3 className="medium-font highlight-main">
-              Real - <span className="del">Dummy</span>{' '}
+              {t('pro-holycannoli:card-type2')}
+              <span className="del">
+                {t('pro-holycannoli:card-type3')}
+              </span>{' '}
             </h3>
           </div>
           <div className="pro-card">
-            <h2 className="small-font highlight">Stack</h2>
+            <h2 className="small-font highlight">
+              {t('pro-holycannoli:card-stack')}
+            </h2>
             <h3 className="medium-font highlight-main">
               Next.js, Blender, Zbrush
             </h3>
@@ -51,7 +58,9 @@ const ProjectHolycannoli = () => {
             </a>
           </div>
           <div className="pro-card">
-            <h2 className="small-font highlight">Project</h2>
+            <h2 className="small-font highlight">
+              {t('pro-holycannoli:card-web')}
+            </h2>
             <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
               <h3 className="medium-font highlight-main underline">
                 Holy Cannoli!
@@ -61,13 +70,18 @@ const ProjectHolycannoli = () => {
         </section>
         <section className="pro-desc-cnt">
           <div>
-            <h2 className="medium-font">The Quest</h2>
+            <h2 className="medium-font">{t('pro-holycannoli:quest')}</h2>
             <p className="small-font">
-              Just a 3D cannolo, visible in your space if your phone support
-              augmented reality. Website done with Next.Js, 3D model sculpted
-              and textured in Zbrush, and exported with Blender as an optimized
-              format for the web. <br /> <br /> Maybe someone have found this
-              Qr-Code around some cities…
+              {t('pro-holycannoli:desc')}{' '}
+              <strong className="highlight-main">
+                {t('pro-holycannoli:desc2')}
+              </strong>
+              {t('pro-holycannoli:desc3')} <br /> <br />{' '}
+              {t('pro-holycannoli:desc4')}
+              <strong className="highlight-main">
+                {t('pro-holycannoli:desc5')}
+              </strong>
+              {t('pro-holycannoli:desc6')}
             </p>
           </div>
           <div>
@@ -79,6 +93,17 @@ const ProjectHolycannoli = () => {
             />
           </div>
         </section>
+        <div className="other-pro">
+          <div>
+            <Link href="/project-old-portflio">
+              <a>
+                <h2 className="medium-font underline highlight-main">
+                  BBB -{'>'}
+                </h2>
+              </a>
+            </Link>
+          </div>
+        </div>
       </main>
     </>
   );

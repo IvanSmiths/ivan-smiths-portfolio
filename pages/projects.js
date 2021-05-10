@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
+import Link from 'next/link';
 
 const Projects = () => {
   let { t } = useTranslation();
@@ -15,17 +16,21 @@ const Projects = () => {
           <strong className="highlight-main">{t('projects:title')}</strong>
           {t('projects:title2')}
         </h1>
-        <img
-          className="project-img"
-          height="400"
-          src="/project-2.jpg"
-          alt="An image of a project"
-        />
+        <Link href="/project-holycannoli">
+          <a>
+            <img
+              className="project-img"
+              height="400"
+              src="/project-2.jpg"
+              alt="The project Holy Cannoli"
+            />
+          </a>
+        </Link>
         <img
           className="project-img"
           height="400"
           src="/project-old.jpg"
-          alt="An image of a project"
+          alt="The old portfolio"
         />
       </main>
     </>

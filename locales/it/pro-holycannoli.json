@@ -1,3 +1,16 @@
 {
-  "title": "PROGETTO"
+  "title": "PROGETTO",
+  "subtitle": "Goloso.",
+  "card-type": "Tipo del progetto:",
+  "card-type2": "Reale - ",
+  "card-type3": "Test",
+  "card-stack": "Tecnologie usate",
+  "card-web": "Sito",
+  "quest": "La missione",
+  "desc": "Un cannolo in 3D, ",
+  "desc2": "visibile nel tuo spazio ",
+  "desc3": "se il tuo telefono supporta la raltà aumentata. Sito sviluppato con with Next.Js, modello 3d scolpito e texturizzato con Zbrush ed esportato con Blender in un formato ottimizzato per il web.",
+  "desc4": "Forse qualcuno ha trovato questo ",
+  "desc5": "Qr-Code ",
+  "desc6": "che punta a questo sito..."
 }
