@@ -4,8 +4,18 @@ import Link from 'next/link';
 
 const ProjectHolycannoli = () => {
   let { t } = useTranslation();
+
+  const Headtitle = 'Holy Cannoli!';
+
   return (
     <>
+      <Head>
+        <title>{`${Headtitle} is one of the projects that i did`}</title>
+        <meta
+          name="description"
+          content={`${Headtitle} is one of the projects that i did`}
+        />
+      </Head>
       <main className="holycannoli-cnt">
         <section className="project-title-cnt">
           <div>
