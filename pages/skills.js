@@ -22,7 +22,7 @@ const Skills = () => {
         />
       </Head>
       <main className="main">
-        <h2 className="big-font">{t('skills:skills-web')}</h2>
+        <h1 className="big-font highlight-main">{t('skills:skills-web')}</h1>
         <section className="card-cnt">
           <div className="card">
             <div className="card-content">

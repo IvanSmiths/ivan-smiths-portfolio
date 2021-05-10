@@ -24,7 +24,7 @@ function Nav() {
         </button>
         {isOpened && (
           <div onMouseLeave={() => setIsOpened(false)}>
-            <ul className="lang-cnt">
+            <ol className="lang-cnt">
               {router.locales.map((locale) => (
                 <Link key={locale} locale={locale} href={router.asPath}>
                   <a>
@@ -34,7 +34,7 @@ function Nav() {
                   </a>
                 </Link>
               ))}
-            </ul>
+            </ol>
           </div>
         )}
       </div>

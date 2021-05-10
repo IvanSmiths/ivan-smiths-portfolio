@@ -52,7 +52,25 @@
     align-items: center;
     justify-content: center;
   }
+  .project-img {
+    cursor: pointer;
+    border-radius: var(--radius);
+    width: 80vw;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+    transition: 0.7s ease-in-out;
+  }
   /*************************************************** PROJCT END */
+  /*************************************************** CONTACT START */
+  .form-cnt input {
+    width: 80vw;
+  }
+
+  .form-cnt textarea {
+    width: 80vw;
+  }
+  /*************************************************** CONTACT END */
 }
 
 @media only screen and (max-width: 350px) {
