@@ -26,12 +26,16 @@ const Projects = () => {
             />
           </a>
         </Link>
-        <img
-          className="project-img"
-          height="400"
-          src="/project-old.jpg"
-          alt="The old portfolio"
-        />
+        <Link href="/project-old-portfolio">
+          <a>
+            <img
+              className="project-img"
+              height="400"
+              src="/project-old.jpg"
+              alt="The old portfolio"
+            />
+          </a>
+        </Link>
       </main>
     </>
   );

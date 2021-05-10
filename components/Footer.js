@@ -1,143 +1,104 @@
 import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 
 const Footer = () => {
+  let { t } = useTranslation();
   return (
     <footer className="footer">
-      <div className="footer-links">
-        <ul>
-          <li className="small-font highlight-2 footer-label">Assets</li>
-          <li className="tiny-font">
-            <Link href="/textures">
-              <a>Textures</a>
-            </Link>
-          </li>
-        </ul>
-        <ul>
-          <li className="small-font highlight-2 footer-label">Categories</li>
-          <li className="tiny-font">
-            <Link href="/categories">
-              <a>All categories</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/categories/wood">
-              <a>Wood</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/categories/rock">
-              <a>Rock</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/categories/metal">
-              <a>Metal</a>
-            </Link>
-          </li>
-        </ul>
-        <ul>
-          <li className="small-font highlight-2 footer-label">Methods</li>
-          <li className="tiny-font">
-            <Link href="/methods">
-              <a>All methods</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/methods/photogrammetry">
-              <a>Photogrammetry</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/methods/ai-to-material">
-              <a>Ai to Material</a>
-            </Link>
-          </li>
-          <li className="tiny-font">
-            <Link href="/methods/procedural">
-              <a>Procedural</a>
-            </Link>
-          </li>
-        </ul>
-        <ul>
-          <li className="small-font highlight-2 footer-label">Support</li>
-          <li className="tiny-font">
-            <a href="https://www.patreon.com/" target="_blank" rel="noopener">
-              Cahoot
+      <div>
+        <img
+          className="draw"
+          height="100"
+          width="100"
+          src="/myself-draw.jpg"
+          alt="A draw of myself"
+        />
+        <strong className="medium-font highlight-main2">Ivan Smiths</strong>
+        <strong className="small-font2">React Developer</strong>
+        <div className="ico-cnt">
+          <a href="https://github.com/IvanSmiths">
+            <img
+              height="24"
+              width="24"
+              loading="lazy"
+              src="/github-ico-white.svg"
+              alt="An icon of GitHub"
+            />
+          </a>
+          <a href="https://www.artstation.com/ivansmiths">
+            <img
+              height="24"
+              width="24"
+              loading="lazy"
+              src="/artstation-ico-white.svg"
+              alt="An icon of ArtStation"
+            />
+          </a>
+          <a href="https://www.instagram.com/ivan_smiths/">
+            <img
+              height="24"
+              width="24"
+              loading="lazy"
+              src="/instagram-ico-white.svg"
+              alt="An icon of Instagram"
+            />
+          </a>
+          <img
+            height="24"
+            width="24"
+            loading="lazy"
+            src="/linkedin-ico-white.svg"
+            alt="An icon of Linkedin"
+          />
+        </div>
+      </div>
+      <div>
+        <ul className="links-footer">
+          <Link href="/">
+            <a>
+              <li className="small-font2">{t('common:home')}</li>
             </a>
-          </li>
-          <li>
-            <Link href="/sponsor-home">
-              <a className="tiny-font">Sponsor on homepage</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/sponsor-texture">
-              <a className="tiny-font">Sponsor on texture page</a>
-            </Link>
-          </li>
-        </ul>
-        <ul>
-          <li className="small-font highlight-2 footer-label">Info</li>
-          <li>
-            <Link href="/contact">
-              <a className="tiny-font">About/Contact</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/terms">
-              <a className="tiny-font">Terms & Privacy</a>
-            </Link>
-          </li>
+          </Link>
+          <Link href="/skills">
+            <a>
+              <li className="small-font2">{t('common:skills')}</li>
+            </a>
+          </Link>
+          <Link href="/works">
+            <a>
+              <li className="small-font2">{t('common:works')}</li>
+            </a>
+          </Link>
+          <Link href="/projects">
+            <a>
+              <li className="small-font2">{t('common:projects')}</li>
+            </a>
+          </Link>
+          <Link href="/myself">
+            <a>
+              <li className="small-font2">{t('common:myself')}</li>
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a>
+              <li className="small-font2">{t('common:contact')}</li>
+            </a>
+          </Link>
         </ul>
       </div>
-      <div className="footer-ico">
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener">
-          <img
-            loading="lazy"
-            src="/ico_youtube.svg"
-            width="22"
-            height="22"
-            alt="An icon of YouTube"
-          />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener">
-          <img
-            loading="lazy"
-            src="/ico_instagram.svg"
-            width="22"
-            height="22"
-            alt="An icon of Instagram"
-          />
-        </a>
-        <a href="https://www.artstation.com/" target="_blank" rel="noopener">
-          <img
-            loading="lazy"
-            src="/ico_artstation.svg"
-            width="22"
-            height="22"
-            alt="An icon of ArtStation"
-          />
-        </a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener">
-          <img
-            loading="lazy"
-            src="/ico_pinterest.svg"
-            width="22"
-            height="22"
-            alt="An icon of Pinterest"
-          />
-        </a>
-        <a href="https://www.patreon.com/" target="_blank" rel="noopener">
-          <img
-            loading="lazy"
-            src="/ico_patreon.svg"
-            width="22"
-            height="22"
-            alt="An icon of Patreon"
-          />
-        </a>
+      <div className="footer-chat-cnt">
+        <strong className="big-font2">{t('common:chat')}</strong>
+        <p className="small-font-gray">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+          similique cupiditate provident omnis totam repudiandae perferendis quo
+          ea placeat, deleniti tempore, laborum doloremque quae deserunt alias
+          quasi doloribus velit culpa?
+        </p>
+        <span className="small-font-gray">
+          {t('common:mail')} <br />{' '}
+          <strong className="small-font2">info@ivansmiths.com</strong>
+        </span>
       </div>
-      <p className="tiny-font">Copyright &copy; 2021 Egida</p>
     </footer>
   );
 };

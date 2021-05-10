@@ -51,6 +51,12 @@ p {
   color: var(--mainInverseFontColor);
 }
 
+.small-font-gray {
+  font-size: var(--smallFont);
+  font-weight: 400;
+  color: var(--subFontColor);
+}
+
 .tiny-font {
   font-size: var(--smallFont);
   font-weight: 400;
@@ -156,6 +162,7 @@ li {
 @import './works.css';
 @import './myself.css';
 @import './contact.css';
+@import './query.css';
 
 .btn-cookie {
   cursor: pointer !important;

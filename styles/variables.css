@@ -2,12 +2,12 @@
   --mainBackground: #d8d8d8;
   --subBackground: #f8f8f8;
   --mainBackgroundNav: #f8f8f8;
-  --mainInverseBackground: #e9e9e9;
+  --mainInverseBackground: #1a1a1a;
   --mainColor: #372dbd;
   --secColor: #b6e92b;
   --mainFontColor: #161616;
   --mainInverseFontColor: #ebebeb;
-  --subFontColor: #a8a8a8;
+  --subFontColor: #acacac;
 
   --largeFont: clamp(3rem, 5vw, 16rem);
   --bigFont: clamp(2rem, 4vw, 5rem);

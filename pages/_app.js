@@ -5,6 +5,7 @@ import * as gtag from '../lib/gtag';
 import useTranslation from 'next-translate/useTranslation';
 import CookieConsent from 'react-cookie-consent';
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   let { t } = useTranslation();
@@ -34,6 +35,7 @@ function MyApp({ Component, pageProps }) {
       >
         {t('common:cookie')}
       </CookieConsent>
+      <Footer />
     </>
   );
 }

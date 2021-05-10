@@ -79,9 +79,13 @@
 
 .project-title-cnt {
   padding: 4rem 10rem;
-  background-color: rgb(26, 26, 26);
+  background-color: var(--mainInverseBackground);
   display: flex;
   flex-direction: row;
+}
+
+.project-title-cnt h2 {
+  margin-left: 0.2rem;
 }
 
 .project-title-cnt > *:nth-child(1) {
@@ -103,6 +107,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0rem 2rem;
   justify-content: space-evenly;
   margin-top: 3rem;
 }
@@ -138,7 +144,15 @@
 }
 
 .other-pro {
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-pro2 {
+  padding: 0rem 5rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
