@@ -98,3 +98,15 @@
 .cannolo {
   border-radius: var(--radius);
 }
+
+.pro-card-cnt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.pro-card {
+  width: 8rem;
+}

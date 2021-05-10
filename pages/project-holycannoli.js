@@ -20,6 +20,38 @@ const ProjectHolycannoli = () => {
             />
           </div>
         </section>
+        <section className="pro-card-cnt">
+          <div className="pro-card">
+            <h2 className="small-font highlight">Type of project</h2>
+            <h3 className="medium-font highlight-main">Real</h3>
+          </div>
+          <div className="pro-card">
+            <h2 className="small-font highlight">Stack</h2>
+            <h3 className="medium-font highlight-main">
+              Next.js, Blender, Zbrush
+            </h3>
+          </div>
+          <div className="pro-card">
+            <h2 className="small-font highlight">GitHub Repo</h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/IvanSmiths/holy-cannoli"
+            >
+              <h3 className="medium-font highlight-main underline">
+                Holy Cannoli Repo
+              </h3>
+            </a>
+          </div>
+          <div className="pro-card">
+            <h2 className="small-font highlight">Project</h2>
+            <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
+              <h3 className="medium-font highlight-main underline">
+                Holy Cannoli!
+              </h3>
+            </a>
+          </div>
+        </section>
       </main>
     </>
   );
