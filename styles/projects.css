@@ -78,7 +78,7 @@
 }
 
 .project-title-cnt {
-  padding: 4rem 6rem;
+  padding: 4rem 8rem;
   background-color: rgb(26, 26, 26);
   display: flex;
   flex-direction: row;
@@ -109,4 +109,30 @@
 
 .pro-card {
   width: 8rem;
+}
+
+.pro-desc-cnt {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 8rem;
+}
+
+.pro-desc-cnt h2 {
+  margin-bottom: 1rem;
+}
+
+.pro-desc-cnt > *:nth-child(1) {
+  flex: 1 1 50%;
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pro-desc-cnt > *:nth-child(2) {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

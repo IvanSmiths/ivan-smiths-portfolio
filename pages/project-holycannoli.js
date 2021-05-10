@@ -52,6 +52,26 @@ const ProjectHolycannoli = () => {
             </a>
           </div>
         </section>
+        <section className="pro-desc-cnt">
+          <div>
+            <h2 className="medium-font">The Quest</h2>
+            <p className="small-font">
+              Just a 3D cannolo, visible in your space if your phone support
+              augmented reality. Website done with Next.Js, 3D model sculpted
+              and textured in Zbrush, and exported with Blender as an optimized
+              format for the web. <br /> <br /> Maybe someone have found this
+              Qr-Code around some cities…
+            </p>
+          </div>
+          <div>
+            <img
+              height="300"
+              width="300"
+              src="/qr-code.svg"
+              alt="An image of a project"
+            />
+          </div>
+        </section>
       </main>
     </>
   );
