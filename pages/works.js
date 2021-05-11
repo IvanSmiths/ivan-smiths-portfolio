@@ -26,7 +26,7 @@ const Works = () => {
               <img
                 height="400"
                 width="500"
-                src="/id-ico.svg"
+                src="/id-icon.svg"
                 alt="An image of a project"
               />
             </a>
