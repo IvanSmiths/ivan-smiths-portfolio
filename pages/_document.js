@@ -24,8 +24,8 @@ class MyDocument extends Document {
             }}
           />
           <meta charSet="utf-8" />
-          <link rel="icon" href="/favicon.ico" />
-          <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+          <link rel="icon" href="/favicon.svg" />
+          <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
           <meta content="#372dbd" name="theme-color" />
           <meta
             name="apple-mobile-web-app-title"

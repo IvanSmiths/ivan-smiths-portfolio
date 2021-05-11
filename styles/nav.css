@@ -15,6 +15,15 @@
   border-radius: var(--radius);
 }
 
+.logo-cnt img {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.logo-cnt img:hover {
+  transform: scale(1.08);
+}
+
 .cnt-link ul {
   display: flex;
   flex-direction: row;

@@ -7,7 +7,7 @@ const Works = () => {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>React developer Portfolio | Works</title>
         <meta
           name="description"
           content="Web developer portfolio with knowledge of React, Blender, 3D Modeling, AR and other fancy stuff. Come check it out! "

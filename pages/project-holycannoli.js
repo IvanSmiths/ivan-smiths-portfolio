@@ -10,7 +10,7 @@ const ProjectHolycannoli = () => {
   return (
     <>
       <Head>
-        <title>{`${Headtitle} is one of the projects that i did`}</title>
+        <title>{`${Headtitle}, project of Ivan Smiths`}</title>
         <meta
           name="description"
           content={`${Headtitle} is one of the projects that i did`}

@@ -15,7 +15,7 @@ function Nav() {
     <nav className="nav">
       <div className="logo-cnt">
         <Link href="/">
-          <a className="small-font">{t('common:home')}</a>
+          <img src="/favicon.svg" height="32" width="32" alt="Logo" />
         </Link>
       </div>
       <div className="lang-cnt-2">

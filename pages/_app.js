@@ -6,6 +6,7 @@ import useTranslation from 'next-translate/useTranslation';
 import CookieConsent from 'react-cookie-consent';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   let { t } = useTranslation();
@@ -21,6 +22,15 @@ function MyApp({ Component, pageProps }) {
   }, [router.events]);
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:creator" content="Ivan Smiths" key="twhandle" />
+        <meta property="og:title" content="Ivan Smiths's Portfolio" />
+        <meta property="og:description" content="Ivan Smiths's Portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ivansmiths.com" />
+      </Head>
       <Nav />
       <Component {...pageProps} />
       <CookieConsent
