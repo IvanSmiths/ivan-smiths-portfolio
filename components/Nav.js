@@ -18,28 +18,28 @@ function Nav() {
           <a className="small-font">{t('common:home')}</a>
         </Link>
       </div>
+      <div className="lang-cnt-2">
+        <button className="btn-lang" onClick={() => setIsOpened(!isOpened)}>
+          {t('common:language')}
+        </button>
+        {isOpened && (
+          <div onMouseLeave={() => setIsOpened(false)}>
+            <ol className="lang-cnt">
+              {router.locales.map((locale) => (
+                <Link key={locale} locale={locale} href={router.asPath}>
+                  <a>
+                    <li className="language small-font" key={locale}>
+                      {locale}
+                    </li>
+                  </a>
+                </Link>
+              ))}
+            </ol>
+          </div>
+        )}
+      </div>
       <div className="cnt-link">
         <ul className={isToggled ? 'toggle' : ''}>
-          <div className="lang-cnt-2">
-            <button className="btn-lang" onClick={() => setIsOpened(!isOpened)}>
-              {t('common:language')}
-            </button>
-            {isOpened && (
-              <div onMouseLeave={() => setIsOpened(false)}>
-                <ol className="lang-cnt">
-                  {router.locales.map((locale) => (
-                    <Link key={locale} locale={locale} href={router.asPath}>
-                      <a>
-                        <li className="language small-font" key={locale}>
-                          {locale}
-                        </li>
-                      </a>
-                    </Link>
-                  ))}
-                </ol>
-              </div>
-            )}
-          </div>
           <li>
             <Link href="/skills">
               <a

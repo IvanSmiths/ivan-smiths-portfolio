@@ -29,7 +29,6 @@ const Hero = () => {
   };
 
   if (process.browser) {
-    // Client-side-only code
     window.addEventListener('scroll', changeLayout);
   }
 
@@ -108,17 +107,16 @@ const Hero = () => {
           width="256"
           viewBox="0 0 128 128"
           fill="none"
-          stroke-linejoin="round"
-          class="score_score__1yBKT"
+          strokeLinejoin="round"
         >
-          <g shape-rendering="geometricPrecision">
+          <g shapeRendering="geometricPrecision">
             <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
             <circle
               cx="64"
               cy="64"
               r="48"
               fill="none"
-              stroke-width="10"
+              strokeWidth="10"
               stroke="rgba(0,0,0,.1)"
             ></circle>
             <circle
@@ -126,21 +124,20 @@ const Hero = () => {
               cy="64"
               r="48"
               fill="none"
-              stroke-width="10"
+              strokeWidth="10"
               stroke="white"
-              stroke-dasharray="301.59289474462014,301.59289474462014"
-              stroke-dashoffset="18.095573684677206"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="score_progress__wg_vO"
+              strokeDasharray="301.59289474462014,301.59289474462014"
+              strokeDashoffset="18.095573684677206"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></circle>
             <text
               x="64"
               y="75"
               fill="white"
-              font-weight="800"
-              font-size="32"
-              text-anchor="middle"
+              fontWeight="800"
+              fontSize="32"
+              textAnchor="middle"
             >
               96
             </text>
