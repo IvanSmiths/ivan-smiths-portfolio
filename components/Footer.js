@@ -54,35 +54,35 @@ const Footer = () => {
       </div>
       <div>
         <ul className="links-footer">
-          <Link href="/">
-            <a>
-              <li className="small-font2">{t('common:home')}</li>
-            </a>
-          </Link>
-          <li className="small-font2">
+          <li>
+            <Link href="/">
+              <a className="small-font2">{t('common:home')}</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/skills">
-              <a>{t('common:skills')}</a>
+              <a className="small-font2">{t('common:skills')}</a>
             </Link>
           </li>
 
-          <li className="small-font2">
+          <li>
             <Link href="/works">
-              <a>{t('common:works')}</a>
+              <a className="small-font2">{t('common:works')}</a>
             </Link>
           </li>
-          <li className="small-font2">
+          <li>
             <Link href="/projects">
-              <a>{t('common:projects')}</a>
+              <a className="small-font2">{t('common:projects')}</a>
             </Link>
           </li>
-          <li className="small-font2">
+          <li>
             <Link href="/myself">
-              <a>{t('common:myself')}</a>
+              <a className="small-font2">{t('common:myself')}</a>
             </Link>
           </li>
-          <li className="small-font2">
+          <li>
             <Link href="/contact">
-              <a>{t('common:contact')}</a>
+              <a className="small-font2">{t('common:contact')}</a>
             </Link>
           </li>
         </ul>
