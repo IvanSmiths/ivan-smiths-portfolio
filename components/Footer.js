@@ -17,7 +17,11 @@ const Footer = () => {
         <strong className="medium-font highlight-main2">Ivan Smiths</strong>
         <strong className="small-font2">{t('common:react')}</strong>
         <div className="ico-cnt">
-          <a href="https://github.com/IvanSmiths">
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://github.com/IvanSmiths"
+          >
             <img
               height="24"
               width="24"
@@ -26,7 +30,11 @@ const Footer = () => {
               alt="An icon of GitHub"
             />
           </a>
-          <a href="https://www.artstation.com/ivansmiths">
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.artstation.com/ivansmiths"
+          >
             <img
               height="24"
               width="24"
@@ -35,7 +43,11 @@ const Footer = () => {
               alt="An icon of ArtStation"
             />
           </a>
-          <a href="https://www.instagram.com/ivan_smiths/">
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.instagram.com/ivan_smiths/"
+          >
             <img
               height="24"
               width="24"
@@ -44,13 +56,19 @@ const Footer = () => {
               alt="An icon of Instagram"
             />
           </a>
-          <img
-            height="24"
-            width="24"
-            loading="lazy"
-            src="/linkedin-ico-white.svg"
-            alt="An icon of Linkedin"
-          />
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://it.linkedin.com/in/ivan-fabbri-932aaa205?trk=people-guest_people_search-card"
+          >
+            <img
+              height="24"
+              width="24"
+              loading="lazy"
+              src="/linkedin-ico-white.svg"
+              alt="An icon of Linkedin"
+            />
+          </a>
         </div>
       </div>
       <div>
