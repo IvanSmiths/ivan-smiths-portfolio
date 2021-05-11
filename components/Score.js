@@ -73,9 +73,17 @@ const Score = () => {
           </text>
         </g>
       </svg>
-      <svg width="256" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
+
+      <svg
+        className="blur"
+        width="256"
+        viewBox="0 0 128 128"
+        fill="none"
+        strokeLinejoin="round"
+      >
         <g shapeRendering="geometricPrecision">
           <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
+
           <circle
             cx="64"
             cy="64"

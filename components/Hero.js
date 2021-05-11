@@ -173,13 +173,13 @@ const Hero = () => {
             <div className="why-card">
               <div className="ico-title-cnt">
                 <img
-                  src="layout-icon.svg"
+                  src="language-icon.svg"
                   loading="lazy"
                   height="48"
                   width="48"
-                  alt="Icon of layout"
+                  alt="Icon of language"
                 />
-                <h3 className="btn-font highlight">{t('home:card-title4')}</h3>
+                <h3 className="btn-font highlight">{t('home:card-title5')}</h3>
               </div>
               <p className="small-font">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -188,13 +188,13 @@ const Hero = () => {
             <div className="why-card">
               <div className="ico-title-cnt">
                 <img
-                  src="language-icon.svg"
+                  src="3d-icon.svg"
                   loading="lazy"
                   height="48"
                   width="48"
-                  alt="Icon of language"
+                  alt="Icon of 3d"
                 />
-                <h3 className="btn-font highlight">{t('home:card-title5')}</h3>
+                <h3 className="btn-font highlight">{t('home:card-title4')}</h3>
               </div>
               <p className="small-font">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
