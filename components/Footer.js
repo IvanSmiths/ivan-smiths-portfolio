@@ -59,32 +59,32 @@ const Footer = () => {
               <li className="small-font2">{t('common:home')}</li>
             </a>
           </Link>
-          <Link href="/skills">
-            <a>
-              <li className="small-font2">{t('common:skills')}</li>
-            </a>
-          </Link>
+          <li className="small-font2">
+            <Link href="/skills">
+              <a>{t('common:skills')}</a>
+            </Link>
+          </li>
 
-          <Link href="/works">
-            <a>
-              <li className="small-font2">{t('common:works')}</li>
-            </a>
-          </Link>
-          <Link href="/projects">
-            <a>
-              <li className="small-font2">{t('common:projects')}</li>
-            </a>
-          </Link>
-          <Link href="/myself">
-            <a>
-              <li className="small-font2">{t('common:myself')}</li>
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a>
-              <li className="small-font2">{t('common:contact')}</li>
-            </a>
-          </Link>
+          <li className="small-font2">
+            <Link href="/works">
+              <a>{t('common:works')}</a>
+            </Link>
+          </li>
+          <li className="small-font2">
+            <Link href="/projects">
+              <a>{t('common:projects')}</a>
+            </Link>
+          </li>
+          <li className="small-font2">
+            <Link href="/myself">
+              <a>{t('common:myself')}</a>
+            </Link>
+          </li>
+          <li className="small-font2">
+            <Link href="/contact">
+              <a>{t('common:contact')}</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="footer-chat-cnt">
