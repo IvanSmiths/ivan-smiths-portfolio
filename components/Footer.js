@@ -10,7 +10,7 @@ const Footer = () => {
           className="draw"
           height="100"
           width="100"
-          src="/myself-draw.jpg"
+          src="/myself-draw.png"
           alt="A draw of myself"
         />
         <strong className="medium-font highlight-main2">Ivan Smiths</strong>

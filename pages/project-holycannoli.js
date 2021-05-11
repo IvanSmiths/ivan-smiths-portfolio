@@ -30,7 +30,7 @@ const ProjectHolycannoli = () => {
               className="cannolo"
               height="300"
               width="300"
-              src="/cannolo.jpg"
+              src="/cannolo.png"
               alt="An image of a project"
             />
           </div>
