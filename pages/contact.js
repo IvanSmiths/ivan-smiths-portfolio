@@ -67,6 +67,7 @@ function Contact() {
               {t('contact:message')}
             </label>
             <textarea
+              id="message"
               name="message"
               minLength="10"
               cols="30"
