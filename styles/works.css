@@ -36,3 +36,28 @@
 .list-project li {
   margin-top: 0.6rem;
 }
+
+.direct-cnt h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.direct-card-cnt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.direct-card-cnt div {
+  min-height: 12.5rem;
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--mainBackgroundNav);
+  border-radius: var(--radius);
+}

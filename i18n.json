@@ -6,6 +6,7 @@
     "/": ["home"],
     "/skills": ["skills"],
     "/works": ["works"],
+    "/work-ideology": ["work-id"],
     "/projects": ["projects"],
     "/project-holycannoli": ["pro-holycannoli"],
     "/project-old-portfolio": ["pro-old-portfolio"],

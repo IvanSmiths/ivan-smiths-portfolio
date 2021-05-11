@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
+import Link from 'next/link';
 
 const Works = () => {
   let { t } = useTranslation();
@@ -20,12 +21,16 @@ const Works = () => {
           {t('works:title2')}{' '}
         </h1>
         <section className="works-cnt">
-          <img
-            height="400"
-            width="500"
-            src="/id-ico.svg"
-            alt="An image of a project"
-          />
+          <Link href="/work-ideology">
+            <a>
+              <img
+                height="400"
+                width="500"
+                src="/id-ico.svg"
+                alt="An image of a project"
+              />
+            </a>
+          </Link>
         </section>
       </main>
     </>
