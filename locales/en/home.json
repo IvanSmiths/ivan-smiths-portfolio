@@ -31,6 +31,6 @@
   "card-desc5-2": "Automatic language detection ",
   "card-desc5-3": "based on the user's brower language choice.",
   "card-title6": "Fear no more DDOS/XSS",
-  "card-desc6": "No server and no reachable database equals no DDOS attacks, or accidental exposure. ",
+  "card-desc6": "No server and no directly reachable database equals no DDOS attacks, or malicious threats. ",
   "card-desc6-2": "My site’s attack surface is NONEXISTENT."
 }

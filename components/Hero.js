@@ -3,6 +3,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import Score from './Score';
+import GetInTouch from './GetInTouch';
 
 const ModelMe = dynamic(
   () => {
@@ -232,6 +233,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      <GetInTouch />
     </header>
   );
 };
