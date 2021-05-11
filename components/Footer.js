@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div>
         <img
+          loading="lazy"
           className="draw"
           height="100"
           width="100"
