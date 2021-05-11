@@ -90,17 +90,35 @@
     position: relative;
   }
 
+  .hero-1-2 {
+    grid-column: 1 / 2;
+    margin-left: 6rem;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .hero-2 {
     padding: 0rem 3rem;
+  }
+
+  .score-title-cnt p {
+    padding: 0 10rem;
   }
 
   /*************************************************** HERO END */
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   /*************************************************** PROJCT START */
   .project-title-cnt {
     padding: 4rem 2rem;
   }
   /*************************************************** PROJCT END */
+  /*************************************************** HERO START */
+  .score-title-cnt p {
+    padding: 0 4rem;
+  }
+  /*************************************************** HERO END */
 }

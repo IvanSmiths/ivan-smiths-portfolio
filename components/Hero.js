@@ -2,6 +2,7 @@ import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
+import Score from './Score';
 
 const ModelMe = dynamic(
   () => {
@@ -103,46 +104,119 @@ const Hero = () => {
         </div>
       </section>
       <section>
-        <svg
-          width="256"
-          viewBox="0 0 128 128"
-          fill="none"
-          strokeLinejoin="round"
-        >
-          <g shapeRendering="geometricPrecision">
-            <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
-            <circle
-              cx="64"
-              cy="64"
-              r="48"
-              fill="none"
-              strokeWidth="10"
-              stroke="rgba(0,0,0,.1)"
-            ></circle>
-            <circle
-              cx="64"
-              cy="64"
-              r="48"
-              fill="none"
-              strokeWidth="10"
-              stroke="white"
-              strokeDasharray="301.59289474462014,301.59289474462014"
-              strokeDashoffset="18.095573684677206"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            ></circle>
-            <text
-              x="64"
-              y="75"
-              fill="white"
-              fontWeight="800"
-              fontSize="32"
-              textAnchor="middle"
-            >
-              96
-            </text>
-          </g>
-        </svg>
+        <div className="score-title-cnt">
+          <h2 className="big-font">
+            {t('home:score-title')} <br />
+            <strong className="highlight-main">{t('home:score-title2')}</strong>
+          </h2>
+          <p className="small-font highlight">
+            {t('home:score-desc')}{' '}
+            <strong className="highlight-main">{t('home:score-desc2')}</strong>
+          </p>
+        </div>
+        <Score />
+      </section>
+      <section className="why-me-cnt">
+        <h2 className="medium-font">
+          {t('home:why')}
+          <strong className="highlight-main">{t('home:why2')}</strong>
+        </h2>
+        <div className="why-me-card-cnt">
+          <div className="why-card-cnt">
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="speed-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of speed"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="code-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of code"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title2')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="hosting-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of hosting"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title3')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+          <div className="why-card-cnt">
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="layout-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of layout"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title4')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="language-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of language"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title5')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+            <div className="why-card">
+              <div className="ico-title-cnt">
+                <img
+                  src="security-icon.svg"
+                  loading="lazy"
+                  height="48"
+                  width="48"
+                  alt="Icon of security"
+                />
+                <h3 className="btn-font highlight">{t('home:card-title6')}</h3>
+              </div>
+              <p className="small-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </header>
   );

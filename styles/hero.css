@@ -55,3 +55,64 @@
   flex-direction: rows;
   gap: 2rem;
 }
+
+.score-cnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.score-title-cnt {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.score-title-cnt h2 {
+  margin-bottom: 1rem;
+}
+
+.score-title-cnt p {
+  padding: 0 23rem;
+}
+
+.why-me-card-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-me-cnt {
+  margin-top: 4rem;
+}
+
+.why-me-cnt h2 {
+  text-align: center;
+}
+
+.why-card-cnt {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.why-card {
+  width: 19rem;
+  padding: 1rem;
+  border-radius: var(--radius);
+  background: var(--mainBackgroundNav);
+}
+
+.ico-title-cnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
