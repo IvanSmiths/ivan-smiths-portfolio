@@ -135,7 +135,11 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc')}
+                <strong className="highlight-main">
+                  {t('home:card-desc1-2')}
+                </strong>
+                {t('home:card-desc1-3')}
               </p>
             </div>
             <div className="why-card">
@@ -150,7 +154,10 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title2')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc2')}
+                <strong className="highlight-main">
+                  {t('home:card-desc2-2')}
+                </strong>
               </p>
             </div>
             <div className="why-card">
@@ -165,7 +172,9 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title3')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc3')}
+                <span className="highlight-main">{t('home:card-desc3-2')}</span>
+                {t('home:card-desc3-3')}
               </p>
             </div>
           </div>
@@ -182,7 +191,9 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title5')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc5')}
+                <span className="highlight-main">{t('home:card-desc5-2')}</span>
+                {t('home:card-desc5-3')}
               </p>
             </div>
             <div className="why-card">
@@ -197,7 +208,9 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title4')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc4')}{' '}
+                <span className="highlight-main">{t('home:card-desc4-2')}</span>
+                {t('home:card-desc4-3')}
               </p>
             </div>
             <div className="why-card">
@@ -212,7 +225,8 @@ const Hero = () => {
                 <h3 className="btn-font highlight">{t('home:card-title6')}</h3>
               </div>
               <p className="small-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {t('home:card-desc6')}
+                <span className="highlight-main">{t('home:card-desc6-2')}</span>
               </p>
             </div>
           </div>
