@@ -59,31 +59,27 @@ const Footer = () => {
               <li className="small-font2">{t('common:home')}</li>
             </a>
           </Link>
-          <span className="small-font2">|</span>
           <Link href="/skills">
             <a>
               <li className="small-font2">{t('common:skills')}</li>
             </a>
           </Link>
-          <span className="small-font2">|</span>
+
           <Link href="/works">
             <a>
               <li className="small-font2">{t('common:works')}</li>
             </a>
           </Link>
-          <span className="small-font2">|</span>
           <Link href="/projects">
             <a>
               <li className="small-font2">{t('common:projects')}</li>
             </a>
           </Link>
-          <span className="small-font2">|</span>
           <Link href="/myself">
             <a>
               <li className="small-font2">{t('common:myself')}</li>
             </a>
           </Link>
-          <span className="small-font2">|</span>
           <Link href="/contact">
             <a>
               <li className="small-font2">{t('common:contact')}</li>
