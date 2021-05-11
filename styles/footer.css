@@ -32,8 +32,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1.5rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .footer-chat-cnt p {
   margin: 1rem 0rem;
+}
+
+.copy {
+  margin-top: 1rem;
+  text-align: left;
 }

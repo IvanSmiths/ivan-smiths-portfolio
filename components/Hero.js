@@ -1,6 +1,7 @@
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 const ModelMe = dynamic(
   () => {
@@ -17,12 +18,24 @@ const ModelRobot = dynamic(
 );
 
 const Hero = () => {
+  const [layout, setLayout] = useState(false);
+
+  const changeLayout = () => {
+    if (window.scrollY >= 900) {
+      setLayout(true);
+    } else {
+      setLayout(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeLayout);
+
   let { t } = useTranslation();
 
   return (
     <header>
       <section className="cnt-hero">
-        <div className="hero-1">
+        <div className={layout ? 'hero-1-2' : 'hero-1'}>
           <h1 className="big-font">
             {t('home:title')}{' '}
             <strong className="highlight-main">{t('home:title2')}</strong>

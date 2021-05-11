@@ -103,6 +103,11 @@ const Footer = () => {
           {t('common:mail')} <br />{' '}
           <strong className="small-font2">info@ivansmiths.com</strong>
         </span>
+        <ul className="copy">
+          <li className="small-font-gray">
+            &copy; 20201 Ivan Smiths. All rights reserved.
+          </li>
+        </ul>
       </div>
     </footer>
   );

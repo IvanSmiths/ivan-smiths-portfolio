@@ -14,12 +14,29 @@
   padding-right: 60%;
 }
 
+.hero-1-2 {
+  grid-column: 1 / 2;
+  margin-left: 6rem;
+  margin-top: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-1-2 p {
+  margin-bottom: 1.5rem;
+}
+
+.hero-1-2 h1 {
+  margin-bottom: 2rem;
+}
+
 .hero-2 {
   grid-column: 2 / 3;
 }
 
 .hero-1 h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero-1 p {
