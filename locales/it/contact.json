@@ -4,5 +4,6 @@
   "emailh2": "...O MANDA UNA EMAIL.",
   "name": "Nome",
   "object": "Oggetto",
-  "message": "Messaggio"
+  "message": "Messaggio",
+  "send": "Invia"
 }

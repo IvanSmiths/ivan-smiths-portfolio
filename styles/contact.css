@@ -8,6 +8,7 @@
 }
 
 .zelda-cnt {
+  margin-top: 4rem;
   display: flex;
   flex-direction: row;
   gap: 29vw;

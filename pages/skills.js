@@ -22,7 +22,10 @@ const Skills = () => {
         />
       </Head>
       <main className="main">
-        <h1 className="big-font highlight-main">{t('skills:skills-web')}</h1>
+        <h1 className="big-font">
+          {t('skills:skills-web')}{' '}
+          <span className="highlight-main">{t('skills:skills-web2')}</span>
+        </h1>
         <section className="card-cnt">
           <div className="card">
             <div className="card-content">
@@ -193,7 +196,12 @@ const Skills = () => {
             </div>
           </div>
         </section>
-        <h2 className="big-font">{t('skills:skills-3d')}</h2>
+        <h2 className="big-font">
+          {t('skills:skills-3d')}{' '}
+          <span className="big-font highlight-main">
+            {t('skills:skills-3d2')}
+          </span>
+        </h2>
         <section className="card-cnt">
           <div className="card">
             <div className="card-content">

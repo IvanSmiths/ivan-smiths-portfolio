@@ -8,14 +8,12 @@
 
 .main h1 {
   text-align: center;
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 5rem 0rem;
 }
 
 .main h2 {
   text-align: center;
   margin: 5rem 0rem;
-  color: var(--mainColor);
-  font-weight: 900;
 }
 
 .card-section {

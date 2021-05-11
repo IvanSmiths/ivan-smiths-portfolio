@@ -53,7 +53,7 @@ function Contact() {
               rows="10"
             ></textarea>
             <button className="btn" type="submit">
-              Send Email
+              {t('contact:send')}
             </button>
           </form>
         </div>

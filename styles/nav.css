@@ -30,11 +30,9 @@
 nav .menu,
 nav .close {
   cursor: pointer;
-  background-color: antiquewhite;
   color: black;
+  font-weight: 900;
   display: inline;
-  padding: 1rem 1.5rem;
-  border: 2px solid rgb(22, 22, 22);
   display: none;
 }
 
@@ -54,6 +52,7 @@ nav .close {
 }
 
 .lang-cnt-2 {
+  margin: 0rem 0.5rem;
   display: flex;
   flex-direction: row;
 }
@@ -67,7 +66,7 @@ nav .close {
   margin-left: 1rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   nav ul:last-of-type {
     position: fixed;
     top: 0;
@@ -110,11 +109,8 @@ nav .close {
   nav .menu,
   nav .close {
     cursor: pointer;
-    background-color: antiquewhite;
     color: black;
     display: inline;
-    padding: 1rem 1.5rem;
-    border: 2px solid rgb(22, 22, 22);
     display: block;
   }
 }

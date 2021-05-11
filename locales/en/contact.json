@@ -4,5 +4,6 @@
   "emailh2": "...OR JUST SEND AN EMAIL.",
   "name": "Name",
   "object": "Object",
-  "message": "Message"
+  "message": "Message",
+  "send": "Send"
 }
