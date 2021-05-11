@@ -28,7 +28,10 @@ const Hero = () => {
     }
   };
 
-  window.addEventListener('scroll', changeLayout);
+  if (process.browser) {
+    // Client-side-only code
+    window.addEventListener('scroll', changeLayout);
+  }
 
   let { t } = useTranslation();
 
@@ -99,6 +102,50 @@ const Hero = () => {
           <ModelMe />
           <ModelRobot />
         </div>
+      </section>
+      <section>
+        <svg
+          width="256"
+          viewBox="0 0 128 128"
+          fill="none"
+          stroke-linejoin="round"
+          class="score_score__1yBKT"
+        >
+          <g shape-rendering="geometricPrecision">
+            <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
+            <circle
+              cx="64"
+              cy="64"
+              r="48"
+              fill="none"
+              stroke-width="10"
+              stroke="rgba(0,0,0,.1)"
+            ></circle>
+            <circle
+              cx="64"
+              cy="64"
+              r="48"
+              fill="none"
+              stroke-width="10"
+              stroke="white"
+              stroke-dasharray="301.59289474462014,301.59289474462014"
+              stroke-dashoffset="18.095573684677206"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="score_progress__wg_vO"
+            ></circle>
+            <text
+              x="64"
+              y="75"
+              fill="white"
+              font-weight="800"
+              font-size="32"
+              text-anchor="middle"
+            >
+              96
+            </text>
+          </g>
+        </svg>
       </section>
     </header>
   );
