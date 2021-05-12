@@ -23,18 +23,6 @@ class MyDocument extends Document {
           `,
             }}
           />
-          <meta charSet="utf-8" />
-          <link rel="icon" href="/favicon.ico" />
-          <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-          <meta content="#372dbd" name="theme-color" />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Ivan Smiths's Portfolio"
-          />
-          <meta name="application-name" content="Ivan Smiths's Portfolio" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="msapplication-navbutton-color" content="#372dbd" />
-          <meta property="og:image:type" content="image/jpeg" />
         </Head>
         <body>
           <Main />

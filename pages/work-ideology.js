@@ -51,15 +51,9 @@ const WorkIdeology = () => {
             <h2 className="small-font highlight">
               {t('work-id:card-duration')}
             </h2>
-            <a
-              target="_blank"
-              rel="noopener"
-              href="https://github.com/IvanSmiths/holy-cannoli"
-            >
-              <h3 className="medium-font highlight-main underline">
-                {t('work-id:card-duration2')}
-              </h3>
-            </a>
+            <h3 className="medium-font highlight-main">
+              {t('work-id:card-duration2')}
+            </h3>
           </div>
           <div className="pro-card">
             <h2 className="small-font highlight">{t('work-id:card-web')}</h2>
