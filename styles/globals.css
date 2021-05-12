@@ -152,6 +152,24 @@ li {
   font-weight: 600;
 }
 
+.btn-line2 {
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.7rem 0.9rem;
+  background-color: transparent;
+  color: var(--mainFontColor);
+  border: 2px solid var(--mainColor);
+  border-radius: var(--radius);
+  font-size: var(--smallFont);
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+.btn-line2:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
 @import './nav.css';
 @import './footer.css';
 @import './model.css';
@@ -162,6 +180,7 @@ li {
 @import './works.css';
 @import './myself.css';
 @import './contact.css';
+@import './guides.css';
 @import './query.css';
 
 .btn-cookie {

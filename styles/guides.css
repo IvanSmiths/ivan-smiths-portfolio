@@ -1,0 +1,28 @@
+.guides-cnt {
+  padding: 5rem 10rem;
+}
+
+.img-guide {
+  width: 30vw;
+  height: auto;
+}
+
+.guide-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: var(--mainBackgroundNav);
+  padding: 1rem;
+  width: 65vw;
+  border-radius: var(--radius);
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.guide-card-text h3 {
+  margin-bottom: 1rem;
+}
+
+.guide-card-text h2 {
+  margin-bottom: 1.5rem;
+}
