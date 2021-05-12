@@ -41,16 +41,6 @@ function Nav() {
       <div className="cnt-link">
         <ul className={isToggled ? 'toggle' : ''}>
           <li>
-            <Link href="/guides">
-              <a
-                onClick={() => setIsToggled(!isToggled)}
-                className="small-font btn-line2"
-              >
-                Guides
-              </a>
-            </Link>
-          </li>
-          <li>
             <Link href="/skills">
               <a
                 onClick={() => setIsToggled(!isToggled)}
