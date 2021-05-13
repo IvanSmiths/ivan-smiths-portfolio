@@ -139,6 +139,20 @@
   }
 
   /*************************************************** GUIDES END */
+  /*************************************************** MYSELF START */
+  .myself-cnt {
+    padding: 0rem 2rem;
+  }
+
+  .myself-cnt img {
+    width: 40vw;
+    height: auto;
+  }
+
+  .myself-card-cnt {
+    justify-content: flex-start;
+  }
+  /*************************************************** MYSELF END */
 }
 
 @media only screen and (max-width: 450px) {
@@ -152,4 +166,19 @@
     padding: 0 4rem;
   }
   /*************************************************** HERO END */
+
+  /*************************************************** MYSELF START */
+  .myself-cnt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .myself-main h1 {
+    text-align: center;
+    padding: 0rem 4rem;
+    margin-bottom: 3rem;
+  }
+
+  /*************************************************** MYSELF END */
 }

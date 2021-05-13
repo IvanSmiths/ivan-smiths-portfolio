@@ -1,14 +1,13 @@
-.myself-main h1 {
-  text-align: center;
-}
-
 .myself-cnt {
   display: flex;
   flex-direction: row;
-  margin-left: 4rem;
+  margin-top: 5rem;
+  padding: 0rem 10rem;
 }
 
-.myself-cnt p {
+.myself-main h1 {
+  text-align: left;
+  padding-right: 14vw;
   margin-bottom: 3rem;
 }
 
@@ -20,10 +19,18 @@
   flex: 1 1 50%;
 }
 
-.list-cnt {
-  display: flex;
+.myself-cnt img {
+  width: 30vw;
+  height: auto;
 }
 
-.list-cnt li {
-  margin-bottom: 0.5rem;
+.myself-card-cnt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 5rem;
 }
