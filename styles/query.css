@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 780px) {
   /*************************************************** PROJCT START */
 
   .project-title-cnt {
@@ -20,7 +20,17 @@
     padding: 8rem 3rem;
   }
 
+  .pro-card-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
   .cannolo {
+    margin-top: 2rem;
     width: 45vw;
     height: auto;
   }
@@ -28,7 +38,6 @@
   .pro-desc-cnt > *:nth-child(1) {
     flex: 1 1 50%;
     padding-right: 0rem;
-    margin-bottom: 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -141,11 +150,21 @@
   /*************************************************** GUIDES END */
   /*************************************************** MYSELF START */
   .myself-cnt {
-    padding: 0rem 2rem;
+    padding: 0rem 3rem;
+  }
+
+  .myself-card-cnt {
+    padding: 0rem 3rem;
+  }
+
+  .myself-main h1 {
+    text-align: left;
+    padding-right: 9vw;
+    margin-bottom: 3rem;
   }
 
   .myself-cnt img {
-    width: 40vw;
+    width: 45vw;
     height: auto;
   }
 
@@ -155,7 +174,7 @@
   /*************************************************** MYSELF END */
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   /*************************************************** PROJCT START */
   .project-title-cnt {
     padding: 4rem 2rem;
@@ -182,10 +201,23 @@
     align-items: center;
     text-align: center;
   }
+
+  .myself-card-cnt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .myself-main h1 {
     text-align: center;
     padding: 0rem 4rem;
     margin-bottom: 3rem;
+  }
+
+  .myself-cnt img {
+    width: 80vw;
+    height: auto;
   }
 
   /*************************************************** MYSELF END */

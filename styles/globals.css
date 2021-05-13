@@ -23,6 +23,7 @@ p {
 }
 
 .large-font {
+  line-height: 120px;
   font-size: var(--largeFont);
 }
 

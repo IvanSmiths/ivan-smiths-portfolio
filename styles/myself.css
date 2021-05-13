@@ -7,7 +7,7 @@
 
 .myself-main h1 {
   text-align: left;
-  padding-right: 14vw;
+  padding-right: 19vw;
   margin-bottom: 3rem;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .myself-cnt img {
-  width: 30vw;
+  width: 40vw;
   height: auto;
 }
 
@@ -29,8 +29,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 0rem 2rem;
-  justify-content: space-evenly;
+  padding: 0rem 10rem;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: 5rem;
 }

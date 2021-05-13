@@ -16,7 +16,7 @@ const MySelf = () => {
       <main className="myself-main">
         <section className="myself-cnt">
           <div>
-            <h1 className="big-font">
+            <h1 className="large-font">
               {t('myself:title')}{' '}
               <strong className="highlight-main"> {t('myself:title2')}</strong>
             </h1>
