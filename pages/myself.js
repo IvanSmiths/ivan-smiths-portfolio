@@ -23,10 +23,10 @@ const MySelf = () => {
           </div>
           <div>
             <img
-              height="400"
-              width="400"
-              src="myself-real.png"
-              alt="A photo about me"
+              height="511"
+              width="439"
+              src="photo-of-me.jpg"
+              alt="Me in a fancy pose"
             />
           </div>
         </section>
