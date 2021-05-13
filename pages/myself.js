@@ -46,6 +46,12 @@ const MySelf = () => {
             </h3>
           </div>
           <div className="pro-card">
+            <h2 className="small-font highlight"> {t('myself:courses')}</h2>
+            <h3 className="medium-font highlight-main">
+              {t('myself:courses2')}
+            </h3>
+          </div>
+          <div className="pro-card">
             <h2 className="small-font highlight"> {t('myself:nationality')}</h2>
             <h3 className="medium-font highlight-main">
               {t('myself:nationality2')}

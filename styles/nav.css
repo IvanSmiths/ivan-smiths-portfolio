@@ -2,9 +2,9 @@
   z-index: 6;
   position: sticky;
   padding: 0.7rem 1rem;
-  left: 15%;
+  left: 10%;
   top: 1rem;
-  width: 70%;
+  width: 80%;
   min-height: fit-content;
   display: flex;
   flex-direction: row;
@@ -95,9 +95,14 @@ nav .close {
     flex-wrap: wrap;
     gap: 1rem;
     position: sticky;
-    left: 15%;
+    left: 5%;
     top: 1rem;
-    width: 70%;
+    width: 90%;
+  }
+
+  .lang-cnt-2 {
+    display: flex;
+    flex-direction: column;
   }
 
   .test {

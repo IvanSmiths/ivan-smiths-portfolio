@@ -125,6 +125,20 @@ li {
   transition: 0.2s ease-in-out;
   font-weight: 600;
   color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  width: fit-content;
+  padding: 1.1rem 1.4rem;
+  background-color: transparent;
+  color: var(--mainFontColor);
+  border: 2px solid var(--mainColor);
+  border-radius: var(--radius);
+  font-size: var(--smallFont);
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .btn-lang {
@@ -150,6 +164,19 @@ li {
   font-size: var(--smallFont);
   transition: 0.3s ease-in-out;
   font-weight: 600;
+}
+
+.btn-line:hover {
+  cursor: pointer;
+  padding: 1.1rem 1.4rem;
+  background-color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+  border-radius: var(--radius);
+  font-size: var(--smallFont);
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s ease-in-out;
 }
 
 .btn-line2 {
@@ -195,4 +222,10 @@ li {
 
 .del {
   text-decoration: line-through;
+}
+
+.model {
+  --poster-color: transparent;
+  --progress-bar-height: 1rem;
+  --progress-bar-color: #372dbd !important;
 }

@@ -44,7 +44,7 @@ const Hero = () => {
             {t('home:title')}{' '}
             <strong className="highlight-main">{t('home:title2')}</strong>
           </h1>
-          <p>
+          <p className="small-font">
             <strong className="highlight-main underline">
               {t('home:strong')}
             </strong>

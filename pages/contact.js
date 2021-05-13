@@ -73,7 +73,7 @@ function Contact() {
               cols="30"
               rows="10"
             ></textarea>
-            <button className="btn" type="submit">
+            <button className="btn-contact" type="submit">
               {t('contact:send')}
             </button>
           </form>

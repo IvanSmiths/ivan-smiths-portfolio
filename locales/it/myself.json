@@ -13,7 +13,9 @@
   "age2": "27",
   "living": "Città: ",
   "living2": "Ragusa, Italia",
-  "education": "Scuola: ",
-  "education2": "Istituto di Ragionera, indirizzo Finanza e Marketing. Corso di Web Design ENFAP",
+  "education": "Istruzione: ",
+  "education2": "Istituto di Ragionera, indirizzo Finanza e Marketing ",
+  "courses": "Corsi: ",
+  "courses2": "Corso di Web Design all' ENFAP",
   "email": "Email: info@ivansmiths.com"
 }

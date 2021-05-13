@@ -3,7 +3,7 @@ import React from 'react';
 const Score = () => {
   return (
     <div className="score-cnt">
-      <svg width="156" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
+      <svg width="126" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
         <g shapeRendering="geometricPrecision">
           <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
           <circle
@@ -38,7 +38,7 @@ const Score = () => {
           </text>
         </g>
       </svg>
-      <svg width="156" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
+      <svg width="126" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
         <g shapeRendering="geometricPrecision">
           <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
           <circle
@@ -116,7 +116,7 @@ const Score = () => {
           </text>
         </g>
       </svg>
-      <svg width="156" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
+      <svg width="126" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
         <g shapeRendering="geometricPrecision">
           <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
           <circle
@@ -151,7 +151,7 @@ const Score = () => {
           </text>
         </g>
       </svg>
-      <svg width="156" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
+      <svg width="126" viewBox="0 0 128 128" fill="none" strokeLinejoin="round">
         <g shapeRendering="geometricPrecision">
           <circle cx="64" cy="64" r="64" fill="#0CCE6B"></circle>
           <circle
