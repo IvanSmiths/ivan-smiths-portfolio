@@ -5,7 +5,7 @@
   "p-2": "Today, i want to write about my method to display a 3D model, and make it visibile in your space (if your phone supports augmented reality) in a Next.js website. ",
   "title-2": "Get a 3D model",
   "p-3": "First, we need a 3D model, if you want to follow along, ",
-  "p-3-2": "'check this complete repo' ",
+  "p-3-2": "check the complete repo ",
   "p-3-3": "of this guide and download the model from the public folder (is the only .glb file). Feel free to use whatever model you want, just make sure that extension is .glb.",
   "title-3": "<model-viewer>",
   "p-4": "In order to display the model, we will use <model-viewer>, an API from Google, that handles the display of the model, augmented reality, and other big stuff out of the box.",
@@ -19,5 +19,5 @@
   "p-10": "Open your terminal and create a Next.js boilerplate with the command 'npx create-next-app' (you need node and npm/yarn installed on your machine). Go into the folder, and istall <model-viewer> itself. Then, put both the 3d model and the poster image inside the 'public' folder.",
   "p-11": "Create a folder called 'components' in the root of the directory and inside of it, create a file called ModelTree.js. In here, import the package, create a function and put the snippet that we previosly saved from <model-viewer>.",
   "p-12": "Now, we're ready to display our model. Go to the index.js file, and import the component. Notice that we need to import it with the dynamic import, and not as a regular component. Get rid of the footer, the head tag, and everything inside the main tag, then display the component as it would be normally.",
-  "p-13": "Et voilà! The model shows perfectly and is fully responsive and ready to be seeing in your space."
+  "p-13": "Et voilà! The model shows perfectly, is fully responsive and ready to be seeing in your space. Now, it's just a 3d model in a blank page, soon i'm going to add it in a finctional landing page"
 }

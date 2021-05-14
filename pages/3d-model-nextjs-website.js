@@ -184,7 +184,12 @@ const Nextjs3dModelWebsite = () => {
           <SyntaxHighlighter className="script" language="javascript">
             {importCode}
           </SyntaxHighlighter>
-          <p className="small-font">{t('nextjs-3d-model:p-12')}</p>
+          <p className="small-font">
+            {t('nextjs-3d-model:p-12')}
+            <br />
+            <br />
+            {t('nextjs-3d-model:p-13')}
+          </p>
         </article>
       </main>
     </>
