@@ -172,6 +172,11 @@
     justify-content: flex-start;
   }
   /*************************************************** MYSELF END */
+
+  .guide-cnt {
+    text-align: center;
+    padding: 5rem 10rem 5rem 10rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {

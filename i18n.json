@@ -12,6 +12,8 @@
     "/project-old-portfolio": ["pro-old-portfolio"],
     "/myself": ["myself"],
     "/contact": ["contact"],
-    "/message": ["message"]
+    "/message": ["message"],
+    "/guides": ["guides"],
+    "/3d-model-nextjs-website": ["nextjs-3d-model"]
   }
 }

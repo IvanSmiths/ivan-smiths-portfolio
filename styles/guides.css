@@ -26,3 +26,27 @@
 .guide-card-text h2 {
   margin-bottom: 1.5rem;
 }
+
+.guide-cnt {
+  padding: 5rem 25rem 5rem 10rem;
+}
+
+.guide-cnt h1 {
+  margin-bottom: 4rem;
+}
+
+.guide-cnt h2 {
+  margin-bottom: 2rem;
+}
+
+.guide-cnt p {
+  margin-bottom: 2rem;
+}
+
+.guide-cnt img {
+  margin-bottom: 2rem;
+}
+
+.script {
+  margin-bottom: 2rem;
+}
