@@ -47,11 +47,33 @@ const Nextjs3dModelWebsite = () => {
 
   return (
     <>
-      <title>How to insert 3d model on Next.js</title>
-      <meta
-        name="description"
-        content="In this tutorial, we will see how to put a 3d model in a Next.js website. The 3d model will be visible in your space in augmented reality"
-      />
+      <Head>
+        <title>How to put 3d models on Next.js</title>
+        <meta
+          name="description"
+          content="In this tutorial, we will see how to put a 3d model in a Next.js website. The 3d model will be visible in your space in augmented reality"
+        />
+        <meta
+          property="og:title"
+          content="How to put 3d models on a Next.js website"
+        />
+        <meta
+          property="og:description"
+          content="In this tutorial, we will see how to put a 3d model, visible in augmented reality, in a Next.js website."
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:image:width" content="715" />
+        <meta property="og:image:height" content="379" />
+        <meta
+          property="og:url"
+          content="https://www.ivansmiths.com/it/3d-model-nextjs-website"
+        />
+        <meta
+          property="og:image:secure"
+          content="https://www.ivansmiths.com/it/nextjs-3d-model-2.jpg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+      </Head>
       <main className="guide-cnt">
         <article>
           <h1 className="big-font highlight-main">
