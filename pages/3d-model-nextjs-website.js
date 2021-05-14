@@ -62,15 +62,15 @@ const Nextjs3dModelWebsite = () => {
           content="In this tutorial, we will see how to put a 3d model, visible in augmented reality, in a Next.js website."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:image:width" content="715" />
-        <meta property="og:image:height" content="379" />
+        <meta property="og:image:width" content="446" />
+        <meta property="og:image:height" content="384" />
         <meta
           property="og:url"
           content="https://www.ivansmiths.com/it/3d-model-nextjs-website"
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/K62jdW3/Immagine-2021-05-14-212153.jpg"
+          content="https://i.ibb.co/yPY43j4/Immagine-2021-05-14-212905.jpg"
         />
         <meta property="og:image:type" content="image/jpeg" />
       </Head>
