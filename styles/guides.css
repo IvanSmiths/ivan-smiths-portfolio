@@ -47,6 +47,16 @@
   margin-bottom: 2rem;
 }
 
+.guide-img-big {
+  width: 50vw;
+  height: auto;
+}
+
+.guide-image-little {
+  width: 14vw;
+  height: auto;
+}
+
 .script {
   margin-bottom: 2rem;
 }

@@ -171,12 +171,20 @@
   .myself-card-cnt {
     justify-content: flex-start;
   }
+
   /*************************************************** MYSELF END */
+  /*************************************************** GUIDES START */
 
   .guide-cnt {
     text-align: center;
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 5rem;
   }
+
+  .script {
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  /*************************************************** GUIDES END */
 }
 
 @media only screen and (max-width: 480px) {
@@ -226,4 +234,21 @@
   }
 
   /*************************************************** MYSELF END */
+  /*************************************************** GUIDES START */
+
+  .guide-cnt {
+    text-align: center;
+    padding: 5rem 2rem 5rem 2rem;
+  }
+
+  .guide-img-big {
+    width: 75vw;
+    height: auto;
+  }
+
+  .guide-image-little {
+    width: 54vw;
+    height: auto;
+  }
+  /*************************************************** GUIDES END */
 }

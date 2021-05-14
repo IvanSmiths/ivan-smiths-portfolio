@@ -1,7 +1,6 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import useTranslation from 'next-translate/useTranslation';
 import Head from 'next/head';
-import Link from 'next/link';
 
 const Nextjs3dModelWebsite = () => {
   let { t } = useTranslation();
@@ -47,113 +46,126 @@ const Nextjs3dModelWebsite = () => {
     `;
 
   return (
-    <main className="guide-cnt">
-      <article>
-        <h1 className="big-font highlight-main">
-          {t('nextjs-3d-model:title')}
-        </h1>
-        <h2 className="medium-font">{t('nextjs-3d-model:intro')}</h2>
-        <p className="small-font">
-          {t('nextjs-3d-model:p-1')}
-          <br />
-          <br />
-          {t('nextjs-3d-model:p-2')}
-        </p>
-        <h2 className="medium-font">{t('nextjs-3d-model:title-2')}</h2>
-        <p className="small-font">
-          {t('nextjs-3d-model:p-3')}
-          <a
-            rel="noopener"
-            target="_blank"
-            href="https://github.com/IvanSmiths/tutorial-nextjs-3d-model"
-          >
-            <strong className="highlight-main underline">
-              {t('nextjs-3d-model:p-3-2')}
-            </strong>
-          </a>
-          {t('nextjs-3d-model:p-3-3')}
-        </p>
-        <h2 className="medium-font">{t('nextjs-3d-model:title-3')}</h2>
-        <p className="small-font">
-          {t('nextjs-3d-model:p-4')}
-          <br />
-          <br />
-          <a rel="noopener" target="_blank" href="https://modelviewer.dev/">
-            <strong className="highlight-main underline">
-              {t('nextjs-3d-model:p-5')}
-            </strong>
-          </a>
-          {t('nextjs-3d-model:p-5-2')}
-        </p>
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-1.jpg"
-          height="378"
-          width="711"
-          alt="preview of an api"
-        />
-        <p className="small-font">{t('nextjs-3d-model:p-6')}</p>
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-2.jpg"
-          height="379"
-          width="715"
-          alt="preview of an api with a model"
-        />
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-3.jpg"
-          height="378"
-          width="179"
-          alt="preview of a feature"
-        />
-        <p className="small-font">
-          {t('nextjs-3d-model:p-7')}
-          <br />
-          <br />
-          {t('nextjs-3d-model:p-8')}
-        </p>
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-4.jpg"
-          height="378"
-          width="168"
-          alt="preview of another feature"
-        />
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-5.jpg"
-          height="378"
-          width="175"
-          alt="feature for a 3d model"
-        />
-        <p className="small-font">{t('nextjs-3d-model:p-9')}</p>
-        <h2 className="medium-font">{t('nextjs-3d-model:title-4')}</h2>
-        <p className="small-font">{t('nextjs-3d-model:p-10')}</p>
-        <SyntaxHighlighter className="script" language="javascript">
-          {npx}
-        </SyntaxHighlighter>
-        <SyntaxHighlighter className="script" language="javascript">
-          {modelViewer}
-        </SyntaxHighlighter>
-        <p className="small-font">{t('nextjs-3d-model:p-11')}</p>
-        <img
-          loading="lazy"
-          src="nextjs-3d-model-6.jpg"
-          height="428"
-          width="177"
-          alt="project root"
-        />
-        <SyntaxHighlighter className="script" language="javascript">
-          {modelViewerCode}
-        </SyntaxHighlighter>
-        <p className="small-font">{t('nextjs-3d-model:p-11')}</p>
-        <SyntaxHighlighter className="script" language="javascript">
-          {importCode}
-        </SyntaxHighlighter>
-        <p className="small-font">{t('nextjs-3d-model:p-12')}</p>
-      </article>
-    </main>
+    <>
+      <title>How to insert 3d model on Next.js</title>
+      <meta
+        name="description"
+        content="In this tutorial, we will see how to put a 3d model in a Next.js website. The 3d model will be visible in your space in augmented reality"
+      />
+      <main className="guide-cnt">
+        <article>
+          <h1 className="big-font highlight-main">
+            {t('nextjs-3d-model:title')}
+          </h1>
+          <h2 className="medium-font">{t('nextjs-3d-model:intro')}</h2>
+          <p className="small-font">
+            {t('nextjs-3d-model:p-1')}
+            <br />
+            <br />
+            {t('nextjs-3d-model:p-2')}
+          </p>
+          <h2 className="medium-font">{t('nextjs-3d-model:title-2')}</h2>
+          <p className="small-font">
+            {t('nextjs-3d-model:p-3')}
+            <a
+              rel="noopener"
+              target="_blank"
+              href="https://github.com/IvanSmiths/tutorial-nextjs-3d-model"
+            >
+              <strong className="highlight-main underline">
+                {t('nextjs-3d-model:p-3-2')}
+              </strong>
+            </a>
+            {t('nextjs-3d-model:p-3-3')}
+          </p>
+          <h2 className="medium-font">{t('nextjs-3d-model:title-3')}</h2>
+          <p className="small-font">
+            {t('nextjs-3d-model:p-4')}
+            <br />
+            <br />
+            <a rel="noopener" target="_blank" href="https://modelviewer.dev/">
+              <strong className="highlight-main underline">
+                {t('nextjs-3d-model:p-5')}
+              </strong>
+            </a>
+            {t('nextjs-3d-model:p-5-2')}
+          </p>
+          <img
+            className="guide-img-big"
+            loading="lazy"
+            src="nextjs-3d-model-1.jpg"
+            height="378"
+            width="711"
+            alt="preview of an api"
+          />
+          <p className="small-font">{t('nextjs-3d-model:p-6')}</p>
+          <img
+            className="guide-img-big"
+            loading="lazy"
+            src="nextjs-3d-model-2.jpg"
+            height="379"
+            width="715"
+            alt="preview of an api with a model"
+          />
+          <img
+            className="guide-image-little"
+            loading="lazy"
+            src="nextjs-3d-model-3.jpg"
+            height="378"
+            width="179"
+            alt="preview of a feature"
+          />
+          <p className="small-font">
+            {t('nextjs-3d-model:p-7')}
+            <br />
+            <br />
+            {t('nextjs-3d-model:p-8')}
+          </p>
+          <img
+            className="guide-image-little"
+            loading="lazy"
+            src="nextjs-3d-model-4.jpg"
+            height="378"
+            width="168"
+            alt="preview of another feature"
+          />
+          <img
+            className="guide-image-little"
+            loading="lazy"
+            src="nextjs-3d-model-5.jpg"
+            height="378"
+            width="175"
+            alt="feature for a 3d model"
+          />
+          <p className="small-font">{t('nextjs-3d-model:p-9')}</p>
+          <h2 className="medium-font">{t('nextjs-3d-model:title-4')}</h2>
+          <p className="small-font">{t('nextjs-3d-model:p-10')}</p>
+          <SyntaxHighlighter className="script" language="javascript">
+            {npx}
+          </SyntaxHighlighter>
+          <SyntaxHighlighter className="script" language="javascript">
+            {modelViewer}
+          </SyntaxHighlighter>
+          <p className="small-font">{t('nextjs-3d-model:p-11')}</p>
+          <img
+            className="guide-image-little"
+            loading="lazy"
+            src="nextjs-3d-model-6.jpg"
+            height="428"
+            width="177"
+            alt="project root"
+          />
+          <SyntaxHighlighter className="script" language="javascript">
+            {modelViewerCode}
+          </SyntaxHighlighter>
+          <p className="small-font">{t('nextjs-3d-model:p-11')}</p>
+          <SyntaxHighlighter className="script" language="javascript">
+            {importCode}
+          </SyntaxHighlighter>
+          <p className="small-font">{t('nextjs-3d-model:p-12')}</p>
+        </article>
+      </main>
+    </>
   );
 };
 

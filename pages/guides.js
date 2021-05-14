@@ -11,7 +11,7 @@ const Guides = () => {
 
         <meta
           name="description"
-          content="Guides page. Most of tem are about coding, but you can also find some 3D tutorials and other stuff."
+          content="Guides page. Most of them are about coding, but you can also find some 3D tutorials and other stuff."
         />
       </Head>
       <main className="guides-cnt">

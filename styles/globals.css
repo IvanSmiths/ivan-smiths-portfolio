@@ -144,13 +144,14 @@ li {
 
 .btn-lang {
   cursor: pointer;
-  padding: 0.7rem 0.9rem;
+  padding: 0.4rem 0.7rem;
   background-color: var(--mainColor);
   border: none;
   border-radius: var(--radius);
   font-size: var(--smallFont);
   transition: 0.2s ease-in-out;
   font-weight: 600;
+  border: 2px solid var(--mainColor);
   color: white;
 }
 
@@ -183,7 +184,7 @@ li {
 .btn-line2 {
   cursor: pointer;
   width: fit-content;
-  padding: 0.7rem 0.9rem;
+  padding: 0.4rem 0.7rem;
   background-color: transparent;
   color: var(--mainFontColor);
   border: 2px solid var(--mainColor);
