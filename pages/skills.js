@@ -92,7 +92,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <div className="card-content">
               <div className="card-front">
                 <img
@@ -110,7 +110,7 @@ const Skills = () => {
                 {t('skills:graphql3')}
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="card">
             <div className="card-content">
               <div className="card-front">
@@ -176,7 +176,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <div className="card-content">
               <div className="card-front">
                 <img
@@ -194,7 +194,7 @@ const Skills = () => {
                 {t('skills:shopify3')}
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         <h2 className="big-font">
           {t('skills:skills-3d')}{' '}

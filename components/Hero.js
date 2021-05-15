@@ -22,6 +22,7 @@ const ModelRobot = dynamic(
 
 const Hero = () => {
   const [layout, setLayout] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   const changeLayout = () => {
     if (window.scrollY >= 900) {
@@ -33,6 +34,18 @@ const Hero = () => {
 
   if (process.browser) {
     window.addEventListener('scroll', changeLayout);
+  }
+
+  const changeVisible = () => {
+    if (window.scrollY >= 80) {
+      setVisible(true);
+    } else {
+      setVisible(false);
+    }
+  };
+
+  if (process.browser) {
+    window.addEventListener('scroll', changeVisible);
   }
 
   let { t } = useTranslation();
@@ -121,6 +134,7 @@ const Hero = () => {
           <ModelRobot />
         </div>
       </section>
+      <div className={visible ? 'test2' : 'test'}></div>
       <section>
         <div className="score-title-cnt">
           <h2 className="big-font">

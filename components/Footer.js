@@ -108,11 +108,7 @@ const Footer = () => {
       </div>
       <div className="footer-chat-cnt">
         <strong className="big-font2">{t('common:chat')}</strong>
-        <p className="small-font-gray">
-          Have a project in mind? Looking for an estimate? Not sure about what
-          you need? Simply submit an inquiry and fill out your requirements, and
-          I will get back to you with solutions.
-        </p>
+        <p className="small-font-gray">{t('common:chat-desc')}</p>
         <span className="small-font-gray">
           {t('common:mail')} <br />{' '}
           <strong className="small-font2">info@ivansmiths.com</strong>

@@ -56,8 +56,8 @@ const Score = () => {
             fill="none"
             strokeWidth="10"
             stroke="white"
-            strokeDasharray="225,20.59289474462014"
-            strokeDashoffset="18.095573684677206"
+            strokeDasharray="229,11.59289474462014"
+            strokeDashoffset="15.095573684677206"
             strokeLinecap="round"
             strokeLinejoin="round"
           ></circle>
@@ -69,7 +69,7 @@ const Score = () => {
             fontSize="32"
             textAnchor="middle"
           >
-            96
+            99
           </text>
         </g>
       </svg>
@@ -134,8 +134,8 @@ const Score = () => {
             fill="none"
             strokeWidth="10"
             stroke="white"
-            strokeDasharray="213,28.59289474462014"
-            strokeDashoffset="18.095573684677206"
+            strokeDasharray="213,18.59289474462014"
+            strokeDashoffset="3.095573684677206"
             strokeLinecap="round"
             strokeLinejoin="round"
           ></circle>
@@ -147,7 +147,7 @@ const Score = () => {
             fontSize="32"
             textAnchor="middle"
           >
-            93
+            95
           </text>
         </g>
       </svg>

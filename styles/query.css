@@ -212,6 +212,16 @@
     margin-bottom: 2rem;
     text-align: left;
   }
+
+  .question-cnt p {
+    padding: 0 1rem;
+    margin: 1rem 0rem;
+    text-align: center;
+  }
+
+  .react-code-cnt p {
+    text-align: center;
+  }
   /*************************************************** GUIDES END */
 }
 
