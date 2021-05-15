@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import Score from './Score';
 import GetInTouch from './GetInTouch';
+import ReactCode from './ReactCode';
 
 const ModelMe = dynamic(
   () => {
@@ -45,9 +46,7 @@ const Hero = () => {
             <strong className="highlight-main">{t('home:title2')}</strong>
           </h1>
           <p className="small-font">
-            <strong className="highlight-main underline">
-              {t('home:strong')}
-            </strong>
+            <strong className="highlight-main">{t('home:strong')}</strong>
             {t('home:hero')}
           </p>
           <div className="hero-btn">
@@ -251,6 +250,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      <ReactCode />
       <GetInTouch />
     </header>
   );

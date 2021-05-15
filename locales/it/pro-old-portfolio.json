@@ -10,5 +10,6 @@
   "card-web": "Sito",
   "card-web2": "Vecchio portfolio",
   "quest": "La missione",
-  "desc": "Il mio primo sito, nonchè il mio vecchio portfolio "
+  "desc": "Il mio primo sito, nonchè il mio vecchio portfolio. Sito web a pagona singola, realizzato esclusivamente in Html, Css e JavaScript. Contiene un modello 3d realizzato in Blender, ",
+  "desc-2": "ed una modalità notturna, realizzata nativamente con JavaScript."
 }

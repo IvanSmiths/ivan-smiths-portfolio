@@ -79,6 +79,9 @@
   .form-cnt textarea {
     width: 80vw;
   }
+  .questionary {
+    width: 90vw;
+  }
   /*************************************************** CONTACT END */
   /*************************************************** HERO START */
   .cnt-hero {
@@ -117,6 +120,22 @@
     padding: 0 10rem;
   }
 
+  .react-code-cnt {
+    padding: 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .react-code-cnt h2 {
+    margin-bottom: 2rem;
+    padding-right: 0;
+  }
+
+  .question-cnt h2 {
+    text-align: center;
+  }
+
   /*************************************************** HERO END */
   /*************************************************** GUIDES START */
 
@@ -141,7 +160,7 @@
     justify-content: center;
     background-color: var(--mainBackgroundNav);
     padding: 1rem;
-    width: 65vw;
+    width: 85vw;
     border-radius: var(--radius);
     margin-top: 5rem;
     gap: 1rem;
@@ -205,6 +224,13 @@
   .why-card {
     width: 90vw;
   }
+
+  .react-code-cnt {
+    padding: 8rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
   /*************************************************** HERO END */
 
   /*************************************************** MYSELF START */
@@ -251,4 +277,8 @@
     height: auto;
   }
   /*************************************************** GUIDES END */
+
+  .questionary {
+    width: 95vw;
+  }
 }

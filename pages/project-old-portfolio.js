@@ -86,7 +86,12 @@ const ProjectOldPortfolio = () => {
         <section className="pro-desc-cnt">
           <div>
             <h2 className="medium-font">{t('pro-old-portfolio:quest')}</h2>
-            <p className="small-font">{t('pro-old-portfolio:desc')}</p>
+            <p className="small-font">
+              {t('pro-old-portfolio:desc')}
+              <strong className="highlight-main">
+                {t('pro-old-portfolio:desc-2')}
+              </strong>
+            </p>
           </div>
           <div>
             <img

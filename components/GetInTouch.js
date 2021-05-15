@@ -1,17 +1,18 @@
+import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 
 const GetInTouch = () => {
+  let { t } = useTranslation();
   return (
-    <section className="get-in-touch-cnt">
-      <h2 className="medium-font">Get in touch.</h2>
-      <p className="small-font">
-        Have a project in mind? Looking for an estimate? Not sure about what you
-        need? Simply submit an inquiry and fill out your requirements, and I
-        will get back to you with solutions.
-      </p>
-      <Link href="/contact">
+    <section className="question-cnt">
+      <h2 className="medium-font">
+        {t('home:question')}
+        <strong className="highlight-main">{t('home:question-2')}</strong>
+      </h2>
+      <p className="small-font">{t('home:question-desc')}</p>
+      <Link href="/questionary">
         <a>
-          <h3 className="btn">Contact me</h3>
+          <h3 className="btn">{t('home:question-btn')}</h3>
         </a>
       </Link>
     </section>

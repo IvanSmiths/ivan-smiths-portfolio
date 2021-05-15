@@ -32,5 +32,14 @@
   "card-desc5-3": "in base alla scelta della lingua del browser dell'utente.",
   "card-title6": "Mai più paura del DDOS/XSS",
   "card-desc6": "Assenza di server e nessun database direttamente raggiungibile, significa 0 attacchi DDOS, o qualsiasi altra minaccia. ",
-  "card-desc6-2": "La superficie d'attacco nei miei siti è INESISTENTE."
+  "card-desc6-2": "La superficie d'attacco nei miei siti è INESISTENTE.",
+  "react-code": "Codice React come se fosse ",
+  "react-code-2": "nel futuro",
+  "react-code-desc": "Le tecnologie che uso quotidianamente sono React e Next.js, ed ho completato una varietà di progetti usandole. Perchè proprio queste tecnologie? Velocità estrema, Server side rendering, ottimizzazione delle immagini, hosting gratuito, ed altre features, vengono gestite autonomamente da questi fantastici tools.",
+  "react-code-desc-2": "Negli scorsi 2 anni, ho scoperto una varietà di metodi per migliorare il mio codice, ed in generale di alzare sempre di più l'asticella degli standard, inserendo modelli 3d, ",
+  "react-code-desc-2-2": "e cercando sempre di utilizzare nuovi standard tecnologici per permettermi di costruire siti web sempre migliori.",
+  "question": "Hai 2 minuti ",
+  "question-2": "del tuo tempo?",
+  "question-desc": "Se vuoi, puoi complilare questo questionario totalmente anonimo, che aiuterebbe a migliorare la qualità del mio sito, grazie alla tua opinione.",
+  "question-btn": "Vai al questionario"
 }

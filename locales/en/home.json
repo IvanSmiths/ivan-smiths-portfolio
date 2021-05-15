@@ -7,7 +7,7 @@
   "btn-c": "Contact me",
   "score-title": "Stop losing users",
   "score-title2": "CAUSE OF THE SLOW WEBSITE.",
-  "score-desc": "Is this just a slogan?! I dare you to speedtest my websites!.",
+  "score-desc": "Is this just a slogan?! I dare you to speedtest my websites! ",
   "score-desc2": "Proudly having all green in Google Lighthouse.",
   "why": "Why choosing ",
   "why2": "ME?",
@@ -32,5 +32,14 @@
   "card-desc5-3": "based on the user's brower language choice.",
   "card-title6": "Fear no more DDOS/XSS",
   "card-desc6": "No server and no directly reachable database equals no DDOS attacks, or malicious threats. ",
-  "card-desc6-2": "My site’s attack surface is NONEXISTENT."
+  "card-desc6-2": "My site’s attack surface is NONEXISTENT.",
+  "react-code": "React code like it's ",
+  "react-code-2": "in the future",
+  "react-code-desc": "My go-to technologies are React and Next.js, and I have completed a wide range of projects using them. Why this stack? Extreme speed, Server side rendering, image optimization, free hosting, , and many other features, comes out of the box.",
+  "react-code-desc-2": "In the last 2 years, i've discovered a various range of possibilities to improve my code, and to do always better, puting 3d models in websites, ",
+  "react-code-desc-2-2": "and always trying to be on track with new technologies and better ways to build websites",
+  "question": "Do you have 2 minutes ",
+  "question-2": "of your time?",
+  "question-desc": "If you want, you can check this totally anonymous qestionary, that will help me increasing the quality of this website, thanks to your opinion.",
+  "question-btn": "Go to the questionary"
 }
