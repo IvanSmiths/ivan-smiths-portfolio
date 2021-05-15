@@ -166,6 +166,15 @@
     gap: 1rem;
   }
 
+  .social-share-cnt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
   /*************************************************** GUIDES END */
   /*************************************************** MYSELF START */
   .myself-cnt {

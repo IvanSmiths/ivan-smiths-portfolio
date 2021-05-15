@@ -60,3 +60,9 @@
 .script {
   margin-bottom: 2rem;
 }
+
+.social-share-cnt {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

@@ -1,5 +1,21 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import useTranslation from 'next-translate/useTranslation';
+import {
+  FacebookIcon,
+  PinterestIcon,
+  RedditIcon,
+  TelegramIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from 'react-share';
+import {
+  FacebookShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  PinterestShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from 'react-share';
 import Head from 'next/head';
 
 const Nextjs3dModelWebsite = () => {
@@ -191,6 +207,29 @@ const Nextjs3dModelWebsite = () => {
             {t('nextjs-3d-model:p-13')}
           </p>
         </article>
+        <div className="social-share-cnt">
+          <FacebookShareButton url={`ivansmiths.com/3d-model-nextjs-website`}>
+            <FacebookIcon size={42} round="true" />
+          </FacebookShareButton>
+          <TwitterShareButton url={`ivansmiths.com/3d-model-nextjs-website`}>
+            <TwitterIcon size={42} round="true" />
+          </TwitterShareButton>
+          <PinterestShareButton
+            media="https://www.ivansmiths.com/it/3d-model-nextjs-website"
+            url={`ivansmiths.com/3d-model-nextjs-website`}
+          >
+            <PinterestIcon size={42} round="true" />
+          </PinterestShareButton>
+          <WhatsappShareButton url={`ivansmiths.com/3d-model-nextjs-website`}>
+            <WhatsappIcon size={42} round="true" />
+          </WhatsappShareButton>
+          <TelegramShareButton url={`ivansmiths.com/3d-model-nextjs-website`}>
+            <TelegramIcon size={42} round="true" />
+          </TelegramShareButton>
+          <RedditShareButton url={`ivansmiths.com/3d-model-nextjs-website`}>
+            <RedditIcon size={42} round="true" />
+          </RedditShareButton>
+        </div>
       </main>
     </>
   );
