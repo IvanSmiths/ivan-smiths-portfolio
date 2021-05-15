@@ -21,9 +21,9 @@ const Guides = () => {
             <div className="guide-card">
               <img
                 className="img-guide"
-                src="/project-old.jpg"
-                height="220"
-                width="550"
+                src="/preview-nextjs-tutorial.jpg"
+                height="333"
+                width="768"
                 alt="3D model embed guide"
               />
               <div className="guide-card-text">
