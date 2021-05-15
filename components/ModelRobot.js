@@ -8,15 +8,13 @@ const Model = () => {
         id="reveal"
         class="model"
         loading="lazy"
-        src="/robot.glb"
-        autoplay
-        animation-name="Running"
-        shadow-intensity="1"
+        src="/trees.glb"
+        poster="/trees.png"
         ar
         camera-controls
         auto-rotate
         auto-rotate-delay="500"
-        alt="3D model of a running robot"
+        alt="3D model of some trees"
       ></model-viewer>
     </div>
   );
