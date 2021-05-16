@@ -111,11 +111,6 @@ const ProjectOldPortfolio = () => {
               </h2>
             </a>
           </Link>
-          <Link href="/project-old-portfolio">
-            <a>
-              <h2 className="btn underline highlight-main">Red Mood -{'>'}</h2>
-            </a>
-          </Link>
         </div>
       </main>
     </>
