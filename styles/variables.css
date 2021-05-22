@@ -9,7 +9,7 @@
   --mainInverseFontColor: #ebebeb;
   --subFontColor: #acacac;
 
-  --largeFont: clamp(2.5rem, 4vw, 5rem);
+  --largeFont: clamp(3.5rem, 8vw, 6rem);
   --bigFont: clamp(2.5rem, 4vw, 5rem);
   --mediumFont: clamp(1.8rem, 2.2vw, 3rem);
   --btnFont: clamp(1rem, 1.4vw, 2.2rem);

@@ -231,3 +231,18 @@ li {
   --progress-bar-height: 1rem;
   --progress-bar-color: #372dbd !important;
 }
+
+.block {
+  z-index: 4;
+  position: absolute;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--mainInverseBackground);
+  height: 100%;
+  width: 100%;
+  color: #333;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
