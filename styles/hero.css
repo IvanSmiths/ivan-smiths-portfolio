@@ -178,3 +178,8 @@
 .question-cnt h3 {
   display: inline-block;
 }
+
+.scroll-down-cnt {
+  margin-top: 3rem;
+  display: flex;
+}

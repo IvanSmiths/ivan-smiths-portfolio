@@ -128,6 +128,15 @@ const Hero = () => {
               />
             </a>
           </div>
+          <div className="scroll-down-cnt">
+            <img
+              className="scroll-down"
+              src="/scroll-down.svg"
+              height="24"
+              width="24"
+              alt="scroll down"
+            />
+          </div>
         </div>
         <div className="hero-2">
           <ModelMe />
