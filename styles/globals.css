@@ -134,7 +134,7 @@ li {
   width: fit-content;
   padding: 1.1rem 1.4rem;
   background-color: transparent;
-  color: var(--mainFontColor);
+  color: black;
   border: 2px solid var(--mainColor);
   border-radius: var(--radius);
   font-size: var(--smallFont);

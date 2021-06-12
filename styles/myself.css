@@ -1,18 +1,17 @@
 .myself-cnt {
   display: flex;
   flex-direction: row;
-  margin-top: 5rem;
-  padding: 0rem 10rem;
 }
 
 .myself-main h1 {
   text-align: left;
-  padding-right: 19vw;
   margin-bottom: 3rem;
 }
 
 .myself-cnt > *:nth-child(1) {
   flex: 1 1 50%;
+  margin-top: 5rem;
+  padding-left: 6rem;
 }
 
 .myself-cnt > *:nth-child(2) {

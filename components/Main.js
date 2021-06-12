@@ -23,7 +23,7 @@ function Main() {
         <Score />
       </section>
       <section className="why-me-cnt">
-        <h2 className="medium-font">
+        <h2 className="big-font">
           {t('home:why')}
           <strong className="highlight-main">{t('home:why2')}</strong>
         </h2>
