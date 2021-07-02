@@ -127,3 +127,51 @@ nav .close {
     display: block;
   }
 }
+
+.footer {
+  z-index: 3;
+  margin-top: 3rem;
+  padding: 3rem 3rem;
+  background-color: var(--mainInverseBackground);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer > *:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer > *:nth-child(2) {
+  margin: 2rem 0rem;
+}
+
+.footer > *:nth-child(3) {
+  width: 29rem;
+}
+
+.draw {
+  margin-bottom: 1rem;
+  border-radius: 40rem;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-chat-cnt p {
+  margin: 1rem 0rem;
+}
+
+.copy {
+  margin-top: 1rem;
+  text-align: left;
+}

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Hero from '../components/Hero';
+import Hero from '../components/HomePageHero';
 import Main from '../components/Main';
 
 export default function Home() {

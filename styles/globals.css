@@ -6,9 +6,35 @@
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--mainBackground);
+}
+
+:root {
+  --mainBackground: #f5f5f5;
+  --subBackground: #dbdbdb;
+  --mainBackgroundNav: #ececec;
+  --mainInverseBackground: #1a1a1a;
+  --mainColor: #463aec;
+  --secColor: #ceed24;
+  --mainFontColor: #363636;
+  --mainInverseFontColor: #ebebeb;
+  --subFontColor: #acacac;
+
+  --largeFont: clamp(3.5rem, 8vw, 6rem);
+  --bigFont: clamp(2.5rem, 5.9vw, 5.3rem);
+  --mediumFont: clamp(1.8rem, 2.2vw, 3rem);
+  --btnFont: clamp(1rem, 1.4vw, 2.2rem);
+  --smallFont: clamp(1rem, 1.2vw, 2rem);
+  --tinyFont: clamp(0.7rem, 0.8vw, 2rem);
+
+  --radius: 9px;
+  --marginLayout: 10rem;
+  --marginSection: 13rem;
+
+  --level-two: translateZ(9rem);
+  --level-three: translateZ(9rem);
 }
 
 h1,
@@ -200,13 +226,10 @@ li {
 }
 
 @import './nav.css';
-@import './footer.css';
-@import './model.css';
-@import './hero.css';
 @import './skills.css';
-@import './variables.css';
 @import './projects.css';
 @import './works.css';
+@import './home.css';
 @import './myself.css';
 @import './contact.css';
 @import './guides.css';

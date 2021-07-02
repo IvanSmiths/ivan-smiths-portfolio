@@ -3,7 +3,7 @@ import '@google/model-viewer';
 const ModelCube = () => {
   return (
     <model-viewer
-      className="cube-3d"
+      class="cube-3d"
       loading="lazy"
       src="/3d-cube.glb"
       camera-orbit="52.88deg 57.51deg 4.752m"

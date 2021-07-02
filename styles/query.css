@@ -90,26 +90,19 @@
     justify-content: center;
   }
 
+  .hero-1 p {
+    margin: 1.5rem 0;
+    padding-right: 0rem;
+  }
+
   .hero-1 {
-    padding-right: 0;
-    margin-left: 0;
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    padding: 0rem 1.5rem;
-  }
-
-  .hero-1-2 {
-    grid-column: 1 / 2;
-    margin-left: 0rem;
-    margin-top: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-left: 0;
+    padding: 0rem 5rem;
   }
 
   .hero-2 {
@@ -236,8 +229,21 @@
     padding: 0 2rem;
   }
 
+  .ico-cnt-absolute {
+    display: none;
+  }
+
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hero-1 {
     padding: 0rem 1rem;
+  }
+
+  .hero-1 p {
+    margin: 3rem 0;
   }
 
   .why-card {
