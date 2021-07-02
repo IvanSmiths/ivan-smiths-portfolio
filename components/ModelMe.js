@@ -16,9 +16,6 @@ const Model = () => {
           shadow-intensity="7.4"
           auto-rotate
         >
-          <div class="progress-bar" slot="progress-bar">
-            <div class="update-bar"></div>
-          </div>
           <button slot="ar-button" id="ar-button">
             View in your space
           </button>
