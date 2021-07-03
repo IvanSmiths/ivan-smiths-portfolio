@@ -111,7 +111,9 @@ const Footer = () => {
         <p className="small-font-gray">{t('common:chat-desc')}</p>
         <span className="small-font-gray">
           {t('common:mail')} <br />{' '}
-          <strong className="small-font2">info@ivansmiths.com</strong>
+          <a className="small-font2" href="mailto:info@ivansmiths.com">
+            info@ivansmiths.com
+          </a>
         </span>
         <ul className="copy">
           <li className="small-font-gray">

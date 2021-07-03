@@ -105,14 +105,35 @@
 /*//////////////////////////// DESC BEGIN */
 
 .desc-cnt {
+  position: relative;
   background-color: var(--mainColor);
-  padding: 8rem 0;
+  padding: 10rem 0;
   margin-bottom: var(--marginSection);
 }
 
 .desc-cnt p {
   color: var(--subBackground);
   margin: 0 var(--marginLayout);
+}
+
+.draw-first {
+  top: 190px;
+  position: absolute;
+  transform: translateX(-10rem);
+}
+
+.draw-second {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transform: translate(-14rem, -3rem);
+}
+
+.draw-third {
+  top: 10px;
+  right: 0;
+  position: absolute;
+  transform: translateX(15rem);
 }
 
 .desc-paragraph::before {
@@ -167,20 +188,36 @@
   top: 22%;
 }
 
-.services-center img {
+.services-website-img {
   position: absolute;
   object-fit: cover;
   top: 3%;
   width: 10rem;
   height: 25rem;
   transform: rotateZ(30deg);
-  transition: 0.8s ease-in-out;
 }
 
-.services-center img:hover {
-  width: 17rem;
-  height: 35rem;
-  transform: rotateZ(0deg);
+.service-active {
+  position: absolute;
+  object-fit: cover;
+  top: 3%;
+  width: 10rem;
+  height: 25rem;
+  transform: rotateZ(30deg);
+  animation: services 1s infinite;
+}
+
+@keyframes services {
+  0% {
+    transform: rotateZ(10deg);
+  }
+  50% {
+    width: 17rem;
+    height: 35rem;
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
 }
 
 .services-right {

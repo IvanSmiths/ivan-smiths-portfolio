@@ -8,7 +8,13 @@ const HomePageWeb = () => {
       </div>
       <div className="services-center">
         <h2 className="large-font">WEBSITES</h2>
-        <img src="./website.png" alt="" />
+        <img
+          height="200px"
+          width="200px"
+          className="services-website-img"
+          src="./website.png"
+          alt="website example"
+        />
       </div>
       <div className="services-right">
         <div>

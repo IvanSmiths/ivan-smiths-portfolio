@@ -9,19 +9,6 @@ function Main() {
   let { t } = useTranslation();
   return (
     <main>
-      <section>
-        <div className="score-title-cnt">
-          <h2 className="big-font">
-            {t('home:score-title')} <br />
-            <strong className="highlight-main">{t('home:score-title2')}</strong>
-          </h2>
-          <p className="small-font highlight">
-            {t('home:score-desc')}{' '}
-            <strong className="highlight-main">{t('home:score-desc2')}</strong>
-          </p>
-        </div>
-        <Score />
-      </section>
       <section className="why-me-cnt">
         <h2 className="big-font">
           {t('home:why')}
@@ -137,6 +124,19 @@ function Main() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <div className="score-title-cnt">
+          <h2 className="big-font">
+            {t('home:score-title')} <br />
+            <strong className="highlight-main">{t('home:score-title2')}</strong>
+          </h2>
+          <p className="small-font highlight">
+            {t('home:score-desc')}{' '}
+            <strong className="highlight-main">{t('home:score-desc2')}</strong>
+          </p>
+        </div>
+        <Score />
       </section>
       <ReactCode />
       <GetInTouch />
