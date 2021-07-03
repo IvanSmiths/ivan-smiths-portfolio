@@ -139,7 +139,6 @@ function Main() {
         </div>
       </section>
       <ReactCode />
-      <SeeWorks />
       <GetInTouch />
     </main>
   );

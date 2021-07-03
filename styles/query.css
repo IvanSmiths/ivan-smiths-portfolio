@@ -367,6 +367,12 @@
     width: 90vw;
   }
 
+  .footer-chat-cnt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .react-code-cnt {
     padding: 8rem 1.5rem;
     display: flex;

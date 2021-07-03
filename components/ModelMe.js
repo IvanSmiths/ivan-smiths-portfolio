@@ -9,7 +9,8 @@ const Model = () => {
           poster="/poster.png"
           class="model"
           loading="lazy"
-          src="3d-model.glb"
+          src="/3d-model.glb"
+          ios-src="/3d-model.usdz"
           alt="3D model of myself"
           camera-controls
           ar

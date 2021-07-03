@@ -20,10 +20,8 @@ const Hero = () => {
           <strong className="highlight-main">{t('home:title2')}</strong>
         </h1>
         <p className="small-font">
-          <strong className="highlight test">{t('home:hero-1')}</strong>
+          <strong className="highlight">{t('home:hero-1')}</strong>
           {t('home:hero-1-2')}
-          <strong className="highlight ">{t('home:hero-1-3')}</strong>
-          {t('home:hero-1-4')}
         </p>
         <div className="hero-btn">
           <Link href="/contact">

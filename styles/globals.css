@@ -22,7 +22,7 @@ body {
   --mainInverseFontColor: #ebebeb;
   --subFontColor: #acacac;
 
-  --largeFont: clamp(3.5rem, 17vw, 14rem);
+  --largeFont: clamp(2.5rem, 17vw, 14rem);
   --bigFont: clamp(2.5rem, 5.9vw, 5.3rem);
   --mediumFont: clamp(1.8rem, 2.7vw, 3rem);
   --btnFont: clamp(1rem, 1.4vw, 2.2rem);
@@ -81,12 +81,14 @@ p {
 
 .medium-font {
   font-size: var(--mediumFont);
+  line-height: 3.6rem;
 }
 
 .small-font {
   font-size: var(--smallFont);
   font-weight: 400;
   color: var(--mainFontColor);
+  line-height: 1.6rem;
 }
 
 .small-font2 {
