@@ -1,5 +1,5 @@
 @media only screen and (max-width: 780px) {
-  /*************************************************** PROJCT START */
+  /********************************* PROJCT START */
 
   .project-title-cnt {
     padding: 4rem 5rem;
@@ -70,8 +70,8 @@
     box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
     transition: 0.7s ease-in-out;
   }
-  /*************************************************** PROJCT END */
-  /*************************************************** CONTACT START */
+  /******************************** PROJCT END */
+  /******************************** CONTACT START */
   .form-cnt input {
     width: 80vw;
   }
@@ -82,8 +82,8 @@
   .questionary {
     width: 90vw;
   }
-  /*************************************************** CONTACT END */
-  /*************************************************** HERO START */
+  /******************************** CONTACT END */
+  /******************************** HERO START */
   .cnt-hero {
     display: flex;
     flex-direction: column;
@@ -93,6 +93,11 @@
   .hero-1 p {
     margin: 1.5rem 0;
     padding-right: 0rem;
+  }
+
+  .title::before {
+    text-align: left;
+    margin-left: 0rem;
   }
 
   .hero-1 {
@@ -107,6 +112,75 @@
 
   .hero-2 {
     padding: 0rem 3rem;
+  }
+
+  .desc-cnt {
+    text-align: center;
+  }
+
+  .desc-paragraph::before {
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  .desc-cnt p {
+    color: var(--subBackground);
+    margin: 0 2rem;
+  }
+
+  /******************************** SERVICES START */
+
+  .services-cnt {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: fit-content;
+    margin-bottom: var(--marginSection);
+  }
+
+  .services-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .services-left h2 {
+    margin-left: 6rem;
+  }
+
+  .services-center h2 {
+    color: var(--subBackground);
+    position: absolute;
+    top: -52%;
+  }
+
+  .services-center img {
+    position: absolute;
+    object-fit: cover;
+    top: -93%;
+    width: 8rem;
+    height: 15rem;
+    transform: rotateZ(30deg);
+    transition: 0.5s ease-in-out;
+  }
+
+  .services-center img:hover {
+    width: 80vw;
+    top: -103%;
+    height: 25rem;
+    transform: rotateZ(0deg);
+  }
+
+  .services-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 33%;
+  }
+
+  .services-right p {
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
   }
 
   .score-title-cnt p {
@@ -129,8 +203,8 @@
     text-align: center;
   }
 
-  /*************************************************** HERO END */
-  /*************************************************** GUIDES START */
+  /****************************** HERO END */
+  /****************************** GUIDES START */
 
   .guides-cnt {
     display: flex;
@@ -168,8 +242,23 @@
     gap: 1rem;
   }
 
-  /*************************************************** GUIDES END */
-  /*************************************************** MYSELF START */
+  .CookieConsent div {
+    padding: 0rem 1rem !important;
+    text-align: center;
+  }
+
+  .btn-cookie {
+    cursor: pointer !important;
+    padding: 0.6rem 0.9rem !important;
+    background-color: var(--mainColor) !important;
+    border-radius: var(--radius) !important;
+    font-size: var(--smallFont) !important;
+    font-weight: 600 !important;
+    color: rgb(236, 236, 236) !important;
+  }
+
+  /******************************** GUIDES END */
+  /******************************** MYSELF START */
   .myself-cnt {
     padding: 0rem 3rem;
   }
@@ -193,8 +282,8 @@
     justify-content: flex-start;
   }
 
-  /*************************************************** MYSELF END */
-  /*************************************************** GUIDES START */
+  /*********************************** MYSELF END */
+  /*********************************** GUIDES START */
 
   .guide-cnt {
     text-align: center;
@@ -215,22 +304,50 @@
   .react-code-cnt p {
     text-align: center;
   }
-  /*************************************************** GUIDES END */
+  /******************************** GUIDES END */
 }
 
-@media only screen and (max-width: 480px) {
-  /*************************************************** PROJCT START */
+@media only screen and (max-width: 500px) {
+  /******************************** PROJCT START */
   .project-title-cnt {
     padding: 4rem 2rem;
   }
-  /*************************************************** PROJCT END */
-  /*************************************************** HERO START */
+  /******************************** PROJCT END */
+  /******************************** HERO START */
   .score-title-cnt p {
     padding: 0 2rem;
   }
 
   .ico-cnt-absolute {
     display: none;
+  }
+
+  .desc-paragraph::before {
+    margin-left: 1rem;
+  }
+
+  .services-left h2 {
+    margin-left: 1rem;
+  }
+
+  .services-center h2 {
+    position: absolute;
+    top: -22%;
+  }
+
+  .services-center img {
+    top: -53%;
+    width: 6rem;
+    height: 12rem;
+    transform: rotateZ(30deg);
+    transition: 0.8s ease-in-out;
+  }
+
+  .services-center img:hover {
+    width: 90vw;
+    top: -63%;
+    height: 18rem;
+    transform: rotateZ(0deg);
   }
 
   .hero-btn {
