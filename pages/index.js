@@ -1,6 +1,8 @@
 import Head from 'next/head';
+import Desc from '../components/HomePageDesc';
 import Hero from '../components/HomePageHero';
 import Main from '../components/Main';
+import ServiceWeb from '../components/HomePageWeb';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         />
       </Head>
       <Hero />
+      <Desc />
+      <ServiceWeb />
       <Main />
     </>
   );

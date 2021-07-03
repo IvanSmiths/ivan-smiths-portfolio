@@ -22,19 +22,35 @@ body {
   --mainInverseFontColor: #ebebeb;
   --subFontColor: #acacac;
 
-  --largeFont: clamp(3.5rem, 8vw, 6rem);
+  --largeFont: clamp(3.5rem, 17vw, 14rem);
   --bigFont: clamp(2.5rem, 5.9vw, 5.3rem);
-  --mediumFont: clamp(1.8rem, 2.2vw, 3rem);
+  --mediumFont: clamp(1.8rem, 2.7vw, 3rem);
   --btnFont: clamp(1rem, 1.4vw, 2.2rem);
-  --smallFont: clamp(1rem, 1.2vw, 2rem);
+  --smallFont: clamp(1rem, 1.4vw, 2rem);
   --tinyFont: clamp(0.7rem, 0.8vw, 2rem);
 
   --radius: 9px;
-  --marginLayout: 10rem;
-  --marginSection: 13rem;
+  --marginLayout: 8rem;
+  --marginSection: 9rem;
 
   --level-two: translateZ(9rem);
   --level-three: translateZ(9rem);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mainBackground);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--subBackground);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mainColor);
 }
 
 h1,
@@ -49,6 +65,7 @@ p {
 }
 
 .large-font {
+  font-weight: 400;
   line-height: 120px;
   font-size: var(--largeFont);
 }

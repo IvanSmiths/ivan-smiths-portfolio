@@ -16,7 +16,7 @@ const Hero = () => {
     <header className="cnt-hero">
       <div className="hero-1">
         <h1 className="big-font title">
-          {t('home:title')}{' '}
+          {t('home:title')} <br />
           <strong className="highlight-main">{t('home:title2')}</strong>
         </h1>
         <p className="small-font">
@@ -27,14 +27,10 @@ const Hero = () => {
         </p>
         <div className="hero-btn">
           <Link href="/contact">
-            <a>
-              <h2 className="btn-line">{t('home:btn-c')}</h2>
-            </a>
+            <a className="btn-line">{t('home:btn-c')}</a>
           </Link>
           <Link href="/works">
-            <a>
-              <h2 className="btn">{t('home:btn')}</h2>
-            </a>
+            <a className="btn">{t('home:btn')}</a>
           </Link>
         </div>
         <div className="ico-cnt-absolute">
@@ -98,7 +94,7 @@ const Hero = () => {
           className="square"
           height="620px"
           width="600px"
-          alt="square svg"
+          alt="squares"
         />
         <ModelMe />
       </div>
