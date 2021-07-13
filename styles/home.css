@@ -152,17 +152,11 @@
 /*//////////////////////////// WEBSITES BEGIN */
 
 .services-cnt {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  min-height: fit-content;
   margin-bottom: var(--marginSection);
 }
 
 .services-left {
-  display: flex;
-  justify-content: center;
-  flex: 1 1 33%;
+  margin-left: 5rem;
   color: var(--mainColor);
 }
 
@@ -175,60 +169,59 @@
 }
 
 .services-center {
-  flex: 1 1 33%;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
+  margin-top: 11rem;
+  text-align: center;
 }
 
 .services-center h2 {
-  color: var(--subBackground);
-  position: absolute;
-  top: 22%;
+  color: var(--mainColor);
 }
 
-.services-website-img {
-  position: absolute;
-  object-fit: cover;
-  top: 3%;
-  width: 10rem;
-  height: 25rem;
-  transform: rotateZ(30deg);
+.services-desc {
+  margin-top: 11rem;
+  display: flex;
+  flex-direction: row;
 }
 
-.service-active {
-  position: absolute;
-  object-fit: cover;
-  top: 3%;
-  width: 10rem;
-  height: 25rem;
-  transform: rotateZ(30deg);
-  animation: services 1s infinite;
+.services-desc-1 {
+  flex: 1 1 35%;
+  margin-left: var(--marginLayout);
 }
 
-@keyframes services {
-  0% {
-    transform: rotateZ(10deg);
-  }
-  50% {
-    width: 17rem;
-    height: 35rem;
-  }
-  100% {
-    transform: rotateZ(0deg);
-  }
-}
-
-.services-right {
-  align-self: flex-end;
-  justify-self: flex-end;
-  flex: 1 1 33%;
-}
-
-.services-right p {
+.services-desc-2 {
+  flex: 1 1 65%;
+  display: flex;
+  justify-content: flex-end;
   margin-right: var(--marginLayout);
+}
+
+.services-image-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.services-image {
+  width: 80vw;
+  height: auto;
+}
+
+.services-image-cnt p {
+  margin-top: 6rem;
+  padding-right: 25vw;
+  margin-left: var(--marginLayout);
+}
+
+.services-desc-2 li {
   margin-bottom: 2rem;
+}
+
+.services-btn {
+  align-self: flex-start;
+  margin-top: 3rem;
+  margin-left: var(--marginLayout);
 }
 
 /*//////////////////////////// SCORE BEGIN */
@@ -261,6 +254,10 @@
   margin-bottom: 1rem;
 }
 
+/*//////////////////////////// WHY ME BEGIN */
+/*//////////////////////////// WHY ME BEGIN */
+/*//////////////////////////// WHY ME BEGIN */
+
 .why-me-card-cnt {
   display: flex;
   flex-direction: column;
@@ -273,7 +270,11 @@
 }
 
 .why-me-cnt h2 {
-  text-align: center;
+  margin-left: 5rem;
+  font-weight: 600;
+  color: var(--mainColor);
+  font-size: var(--tinyFont);
+  letter-spacing: 0.6rem;
 }
 
 .why-card-cnt {

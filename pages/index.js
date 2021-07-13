@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>React developer Portfolio</title>
+        <title>
+          Ivan Smiths | Web developer and social media manager at Ragusa
+        </title>
 
         <meta
           name="description"

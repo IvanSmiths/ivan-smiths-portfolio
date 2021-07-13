@@ -23,12 +23,11 @@ const HomePageDesc = () => {
         alt="draw of a circle"
       />
       <p className="medium-font desc-paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        numquam ipsam eaque. Reprehenderit, minima eos eaque illum iure
-        repellat. Repudiandae sequi temporibus ut eveniet. Error a
-        exercitationem cupiditate iure unde laborum nam vitae eaque sapiente
-        corporis ipsam eligendi, odit neque dolores. Corporis optio neque illo
-        dolor commodi ex odio eos?
+        One of the few developers of Ragusa, i use 100% written code for
+        building extremely fast and remuneratives websites. Google AdSense, and
+        the Facebook Pixel, are just some of the technologies that i use for
+        helping you reaching THOUSANDS of more clients with targetted ads,
+        keyword study, and viral marketing.
       </p>
     </section>
   );
