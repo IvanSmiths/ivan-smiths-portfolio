@@ -129,58 +129,50 @@
   }
 
   /******************************** SERVICES START */
+  /******************************** SERVICES START */
+  /******************************** SERVICES START */
 
   .services-cnt {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    min-height: fit-content;
     margin-bottom: var(--marginSection);
   }
 
-  .services-left {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .services-left h2 {
-    margin-left: 6rem;
-  }
-
-  .services-center h2 {
-    color: var(--subBackground);
-    position: absolute;
-    top: -52%;
-  }
-
-  .services-center img {
-    position: absolute;
-    object-fit: cover;
-    top: -93%;
-    width: 8rem;
-    height: 15rem;
-    transform: rotateZ(30deg);
-    transition: 0.5s ease-in-out;
-  }
-
-  .services-center img:hover {
-    width: 80vw;
-    top: -103%;
-    height: 25rem;
-    transform: rotateZ(0deg);
-  }
-
-  .services-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .services-center {
+    margin-top: 5rem;
     text-align: center;
-    flex: 1 1 33%;
   }
 
-  .services-right p {
-    margin: 0rem 2rem;
-    margin-bottom: 2rem;
+  .services-desc {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-desc-1 {
+    margin-left: 0;
+    padding: 0 10vw;
+  }
+
+  .services-desc-2 {
+    padding: 0 10vw;
+    margin-top: 5rem;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .services-btn {
+    align-self: center;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+
+  .services-image-cnt p {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 0 10vw;
+    margin-left: 0;
   }
 
   .score-title-cnt p {
@@ -324,30 +316,6 @@
 
   .desc-paragraph::before {
     margin-left: 1rem;
-  }
-
-  .services-left h2 {
-    margin-left: 1rem;
-  }
-
-  .services-center h2 {
-    position: absolute;
-    top: -22%;
-  }
-
-  .services-center img {
-    top: -53%;
-    width: 6rem;
-    height: 12rem;
-    transform: rotateZ(30deg);
-    transition: 0.8s ease-in-out;
-  }
-
-  .services-center img:hover {
-    width: 90vw;
-    top: -63%;
-    height: 18rem;
-    transform: rotateZ(0deg);
   }
 
   .hero-btn {

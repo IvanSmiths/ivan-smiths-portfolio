@@ -133,11 +133,6 @@
   margin-bottom: var(--marginSection);
 }
 
-.services-left {
-  margin-left: 5rem;
-  color: var(--mainColor);
-}
-
 .services-center {
   margin-top: 11rem;
   text-align: center;
@@ -154,12 +149,12 @@
 }
 
 .services-desc-1 {
-  flex: 1 1 35%;
+  flex: 1 1 45%;
   margin-left: var(--marginLayout);
 }
 
 .services-desc-2 {
-  flex: 1 1 65%;
+  flex: 1 1 55%;
   display: flex;
   justify-content: flex-end;
   margin-right: var(--marginLayout);

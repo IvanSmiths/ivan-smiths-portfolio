@@ -53,22 +53,10 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="application-name" content="Ivan Smiths's Portfolio" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link
-          rel="apple-touch-icon-precomposed"
-          sizes="144x144"
-          href="/icon-144.png"
-        />
-        <link
-          rel="apple-touch-icon-precomposed"
-          sizes="114x114"
-          href="/icon-114.png"
-        />
-        <link
-          rel="apple-touch-icon-precomposed"
-          sizes="72x72"
-          href="/icon-72.png"
-        />
-        <link rel="apple-touch-icon-precomposed" href="/icon-57.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/icon-144.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/icon-114.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/icon-72.png" />
+        <link rel="apple-touch-icon" href="/icon-57.png" />
         <link rel="shortcut icon" href="/icon-32.png" />
       </Head>
       <Nav />

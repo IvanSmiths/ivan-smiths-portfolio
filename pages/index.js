@@ -3,19 +3,15 @@ import Desc from '../components/HomePageDesc';
 import Hero from '../components/HomePageHero';
 import Main from '../components/Main';
 import ServiceWeb from '../components/HomePageWeb';
+import useTranslation from 'next-translate/useTranslation';
 
 export default function Home() {
+  let { t } = useTranslation();
   return (
     <>
       <Head>
-        <title>
-          Ivan Smiths | Web developer and social media manager at Ragusa
-        </title>
-
-        <meta
-          name="description"
-          content="Web developer portfolio with knowledge of React, Blender, 3D Modeling, AR and other fancy stuff. Come check it out! "
-        />
+        <title>{t('home:head-title')}</title>
+        <meta name="description" content={t('home:head-desc')} />
       </Head>
       <Hero />
       <Desc />
