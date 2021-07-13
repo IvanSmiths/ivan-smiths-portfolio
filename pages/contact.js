@@ -23,7 +23,9 @@ function Contact() {
           <span className="big-font">🔥</span>
         </div>
         <div className="email-cnt">
-          <h2 className="btn">info@ivansmiths.com</h2>
+          <a href="mailto:info@ivansmiths.com">
+            <h2 className="btn">info@ivansmiths.com</h2>
+          </a>
           <span className="big-font">🙌</span>
         </div>
         <h2 className="medium-font highlight-main">{t('contact:emailh2')}</h2>

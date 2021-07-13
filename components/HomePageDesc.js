@@ -1,4 +1,7 @@
+import useTranslation from 'next-translate/useTranslation';
+
 const HomePageDesc = () => {
+  let { t } = useTranslation();
   return (
     <section className="desc-cnt">
       <img
@@ -22,12 +25,13 @@ const HomePageDesc = () => {
         width="350px"
         alt="draw of a circle"
       />
+      <span className="sub-title sub-title2"> {t('home:sub-desc')}</span>
       <p className="medium-font desc-paragraph">
-        One of the few developers of Ragusa, i use 100% written code for
-        building extremely fast and remuneratives websites. Google AdSense, and
-        the Facebook Pixel, are just some of the technologies that i use for
-        helping you reaching THOUSANDS of more clients with targetted ads,
-        keyword study, and viral marketing.
+        {t('home:desc')}
+        <strong className="highlight-main2">{t('home:desc-2')}</strong>
+        {t('home:desc-3')}
+        <strong className="highlight-main2">{t('home:desc-4')}</strong>
+        {t('home:desc-5')}
       </p>
     </section>
   );

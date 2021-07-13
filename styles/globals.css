@@ -18,7 +18,11 @@ body {
   --mainBackgroundNav: #ececec;
   --mainInverseBackground: #1a1a1a;
   --mainColor: #463aec;
+  --mainColor-2: #318df7;
+  --mainColor-3: #403c6e;
+  --mainColor-4: #8b84f0;
   --secColor: #ceed24;
+
   --mainFontColor: #363636;
   --mainInverseFontColor: #ebebeb;
   --subFontColor: #acacac;
@@ -157,9 +161,33 @@ li {
   font-weight: 700;
 }
 
+.highlight-main-sec {
+  color: var(--mainColor-2);
+  font-weight: 700;
+}
+
 .highlight-main2 {
   color: var(--secColor);
   font-weight: 700;
+}
+
+.sub-title {
+  display: block;
+  margin-left: -4rem;
+  margin-bottom: 2rem;
+  font-size: var(--tinyFont);
+  color: var(--mainColor);
+  font-weight: 600;
+  letter-spacing: 0.6rem;
+}
+
+.sub-title2 {
+  color: var(--mainInverseFontColor);
+  margin-left: 4rem;
+}
+
+.sub-title3 {
+  margin-left: 0rem;
 }
 
 .btn {

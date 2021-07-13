@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 
 const HomePageWeb = () => {
+  let { t } = useTranslation();
   return (
     <section className="services-cnt">
       <div className="services-left">
-        <h2 className="tiny-font">WHAT I DO</h2>
+        <h2 className="tiny-font sub-title sub-title3">WHAT I DO</h2>
       </div>
       <div className="services-center">
         <h2 className="large-font">WEBSITES</h2>
@@ -42,6 +44,7 @@ const HomePageWeb = () => {
       </div>
       <div className="services-image-cnt">
         <img
+          loading="lazy"
           src="website.png"
           width="500px"
           height="500px"

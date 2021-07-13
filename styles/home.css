@@ -30,17 +30,6 @@
   width: 100%;
 }
 
-.title::before {
-  content: 'I AM IVAN SMITHS';
-  display: block;
-  margin-left: -4rem;
-  margin-bottom: 2rem;
-  font-size: var(--tinyFont);
-  color: var(--mainColor);
-  font-weight: 600;
-  letter-spacing: 0.6rem;
-}
-
 .cnt-model {
   display: flex;
   justify-content: center;
@@ -136,17 +125,6 @@
   transform: translateX(15rem);
 }
 
-.desc-paragraph::before {
-  content: 'LOREM IPSUM';
-  display: block;
-  margin-left: -4rem;
-  margin-bottom: 2rem;
-  font-size: var(--tinyFont);
-  color: var(--subBackground);
-  font-weight: 600;
-  letter-spacing: 0.6rem;
-}
-
 /*//////////////////////////// WEBSITES BEGIN */
 /*//////////////////////////// WEBSITES BEGIN */
 /*//////////////////////////// WEBSITES BEGIN */
@@ -158,14 +136,6 @@
 .services-left {
   margin-left: 5rem;
   color: var(--mainColor);
-}
-
-.services-left h2 {
-  margin-right: 9rem;
-  font-weight: 600;
-  color: var(--mainColor);
-  font-size: var(--tinyFont);
-  letter-spacing: 0.6rem;
 }
 
 .services-center {
