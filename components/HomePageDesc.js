@@ -6,7 +6,7 @@ const HomePageDesc = () => {
     <section className="desc-cnt">
       <img
         className="draw-first"
-        src="triangle.svg"
+        src="draw-triangle.svg"
         height="300px"
         width="300px"
         alt="draw of a triangle"

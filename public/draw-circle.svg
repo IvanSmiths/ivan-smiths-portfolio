@@ -1,3 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="425" height="425" viewBox="0 0 425 425">
-  <circle id="Ellisse_1" data-name="Ellisse 1" cx="212.5" cy="212.5" r="212.5" fill="#403c6e"/>
+  <g id="Ellisse_1" data-name="Ellisse 1" fill="none" stroke="#403c6e" stroke-width="3">
+    <circle cx="212.5" cy="212.5" r="212.5" stroke="none"/>
+    <circle cx="212.5" cy="212.5" r="211" fill="none"/>
+  </g>
 </svg>

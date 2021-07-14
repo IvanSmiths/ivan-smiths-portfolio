@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="139.621" height="139.621" viewBox="0 0 139.621 139.621">
-  <g id="Rettangolo_12" data-name="Rettangolo 12" transform="matrix(0.966, -0.259, 0.259, 0.966, 0, 29.505)" fill="#8b84f0" stroke="#8b84f0" stroke-width="1">
+  <g id="Rettangolo_12" data-name="Rettangolo 12" transform="matrix(0.966, -0.259, 0.259, 0.966, 0, 29.505)" fill="none" stroke="#8b84f0" stroke-width="3">
     <rect width="114" height="114" rx="8" stroke="none"/>
-    <rect x="0.5" y="0.5" width="113" height="113" rx="7.5" fill="none"/>
+    <rect x="1.5" y="1.5" width="111" height="111" rx="6.5" fill="none"/>
   </g>
 </svg>

@@ -11,37 +11,29 @@ const HomePageWeb = () => {
         </h2>
       </div>
       <div className="services-center">
-        <h2 className="large-font">WEBSITES</h2>
+        <h2 className="large-font">SOCIAL MEDIA MANAGING</h2>
       </div>
       <div className="services-desc">
         <div className="services-desc-1">
           <p className="small-font">
-            {t('home:web')}
-            <strong className="highlight">{t('home:web-2')}</strong>
+            {t('home:social')}
+            <strong className="highlight">{t('home:social-2')}</strong>
+            {t('home:social-3')}
+            <strong className="highlight">{t('home:social-4')}</strong>
             <br />
             <br />
-            {t('home:web-3')}
-            <strong className="highlight">{t('home:web-4')}</strong>
-            {t('home:web-5')}
+            {t('home:social-5')}
+            <strong className="highlight">{t('home:social-6')}</strong>
+            {t('home:social-7')}
           </p>
         </div>
         <div className="services-desc-2">
           <ul>
             <li className="small-font">
-              {t('home:web-stack')}{' '}
+              {t('home:social-stack')}
               <strong className="highlight-main">
-                React.js, Next.js, PostgresSql
+                Instagram, Facebook, Pinterest, TikTok
               </strong>
-            </li>
-            <li className="small-font">
-              {t('home:web-stack-2')}{' '}
-              <strong className="highlight-main">
-                Google Analitycs, Hotjar
-              </strong>
-            </li>
-            <li className="small-font">
-              {t('home:web-stack-3')}{' '}
-              <strong className="highlight-main">Google AdSense, Carbon</strong>
             </li>
           </ul>
         </div>
@@ -55,7 +47,7 @@ const HomePageWeb = () => {
           className="services-image"
           alt="website example"
         />
-        <p className="medium-font highlight">{t('home:web-desc')}</p>
+        <p className="medium-font highlight">{t('home:social-desc')}</p>
         <Link href="/contact">
           <a className="btn services-btn">{t('home:services-btn')}</a>
         </Link>

@@ -160,6 +160,10 @@
   margin-right: var(--marginLayout);
 }
 
+.services-desc-2 li {
+  margin-bottom: 2rem;
+}
+
 .services-image-cnt {
   display: flex;
   flex-direction: column;
@@ -179,13 +183,20 @@
   margin-left: var(--marginLayout);
 }
 
-.services-desc-2 li {
-  margin-bottom: 2rem;
-}
-
 .services-btn {
   align-self: flex-start;
   margin-top: 3rem;
+  margin-left: var(--marginLayout);
+}
+
+.service-model-cnt {
+  margin-top: 6rem;
+}
+
+.service-model-cnt p {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  padding-right: 25vw;
   margin-left: var(--marginLayout);
 }
 
