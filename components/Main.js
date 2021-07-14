@@ -11,19 +11,14 @@ function Main() {
     <main>
       <HomeWhyMe />
       <section>
+        <h2 className="sub-title sub-title3">{t('home:score-title')}</h2>
         <div className="score-title-cnt">
-          <h2 className="big-font">
-            {t('home:score-title')} <br />
-            <strong className="highlight-main">{t('home:score-title2')}</strong>
-          </h2>
-          <p className="small-font highlight">
-            {t('home:score-desc')}{' '}
-            <strong className="highlight-main">{t('home:score-desc2')}</strong>
-          </p>
+          <h3 className="medium-font highlight-main">
+            {t('home:score-desc2')}
+          </h3>
         </div>
         <Score />
       </section>
-      <ReactCode />
       <GetInTouch />
     </main>
   );

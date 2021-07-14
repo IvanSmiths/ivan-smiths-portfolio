@@ -2,9 +2,9 @@
   z-index: 6;
   position: sticky;
   padding: 0.7rem 1rem;
-  left: 10%;
+  left: 7%;
   top: 1rem;
-  width: 80%;
+  width: 85%;
   min-height: fit-content;
   display: flex;
   flex-direction: row;
@@ -47,8 +47,8 @@ nav .close {
 
 nav .close {
   position: absolute;
-  top: 10px;
-  right: 0;
+  top: 30px;
+  right: 30px;
 }
 
 .lang-cnt {

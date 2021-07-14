@@ -18,13 +18,6 @@ const HomePageDesc = () => {
         width="100px"
         alt="draw of a square"
       />
-      <img
-        className="draw-third"
-        src="draw-circle.svg"
-        height="350px"
-        width="350px"
-        alt="draw of a circle"
-      />
       <span className="sub-title sub-title2"> {t('home:sub-desc')}</span>
       <p className="medium-font desc-paragraph">
         {t('home:desc')}
