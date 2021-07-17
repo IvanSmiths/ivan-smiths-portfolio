@@ -47,16 +47,18 @@ const HomePageWeb = () => {
       </div>
       <div className="service-model-cnt">
         <ModelMe2 />
-        <p className="medium-font highlight">
-          {t('home:3d-desc')}
-          <a target="_blank" rel="noopener" href="https://www.cgprospect.com">
-            <strong className="underline black">{t('home:3d-desc-2')}</strong>
-          </a>
-          {t('home:3d-desc-3')}
-        </p>
-        <Link href="/contact">
-          <a className="btn services-btn">{t('home:services-btn')}</a>
-        </Link>
+        <div className="service-model-cnt-desc">
+          <p className="medium-font highlight">
+            {t('home:3d-desc')}
+            <a target="_blank" rel="noopener" href="https://www.cgprospect.com">
+              <strong className="underline black">{t('home:3d-desc-2')}</strong>
+            </a>
+            {t('home:3d-desc-3')}
+          </p>
+          <Link href="/contact">
+            <a className="btn services-btn">{t('home:services-btn')}</a>
+          </Link>
+        </div>
       </div>
     </section>
   );

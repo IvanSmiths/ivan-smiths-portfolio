@@ -162,6 +162,18 @@
     margin-right: 0;
   }
 
+  .draw-first {
+    top: 190px;
+    left: -16px;
+    position: absolute;
+    transform: translateX(-10rem);
+  }
+
+  .draw-second {
+    position: absolute;
+    transform: translate(-9rem, -3rem);
+  }
+
   .services-btn {
     align-self: center;
     margin-top: 3rem;
@@ -171,8 +183,27 @@
   .services-image-cnt p {
     margin-top: 5rem;
     text-align: center;
-    padding: 0 10vw;
+    padding: 0 0.3rem;
     margin-left: 0;
+  }
+
+  .service-model-cnt p {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    padding: 0 0.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .services-center h2 {
+    padding: 0 1.6rem;
+  }
+
+  .service-model-cnt-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .score-title-cnt p {

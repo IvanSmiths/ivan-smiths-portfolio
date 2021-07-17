@@ -26,8 +26,8 @@ body {
   --mainInverseFontColor: #ebebeb;
   --subFontColor: #acacac;
 
-  --largeFont: clamp(2.5rem, 17vw, 14rem);
-  --bigFont: clamp(2.5rem, 5.9vw, 5.3rem);
+  --largeFont: clamp(2rem, 15vw, 14rem);
+  --bigFont: clamp(2rem, 5.9vw, 5.3rem);
   --mediumFont: clamp(1.8rem, 2.7vw, 3rem);
   --btnFont: clamp(1rem, 1.4vw, 2.2rem);
   --smallFont: clamp(1rem, 1.4vw, 2rem);
