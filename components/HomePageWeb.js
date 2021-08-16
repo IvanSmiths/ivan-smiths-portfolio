@@ -29,15 +29,11 @@ const HomePageWeb = () => {
           <ul>
             <li className="small-font">
               {t('home:web-stack')}{' '}
-              <strong className="highlight-main">
-                React.js, Next.js, PostgresSql
-              </strong>
+              <b className="highlight-main">React.js, Next.js, PostgresSql</b>
             </li>
             <li className="small-font">
               {t('home:web-stack-2')}{' '}
-              <strong className="highlight-main">
-                Google Analitycs, Hotjar
-              </strong>
+              <b className="highlight-main">Google Analitycs, Hotjar</b>
             </li>
             <li className="small-font">
               {t('home:web-stack-3')}{' '}
@@ -49,7 +45,7 @@ const HomePageWeb = () => {
       <div className="services-image-cnt">
         <img
           loading="lazy"
-          src="website.png"
+          src="website.jpg"
           width="500px"
           height="500px"
           className="services-image"

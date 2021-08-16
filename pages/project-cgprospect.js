@@ -2,7 +2,7 @@ import useTranslation from 'next-translate/useTranslation';
 import Head from 'next/head';
 import Link from 'next/link';
 
-const ProjectHolycannoli = () => {
+const ProjectCgprospect = () => {
   let { t } = useTranslation();
 
   const Headtitle = 'Holy Cannoli!';
@@ -20,17 +20,17 @@ const ProjectHolycannoli = () => {
         <section className="project-title-cnt">
           <div>
             <h1 className="big-font2">
-              {t('pro-holycannoli:title')} <br />{' '}
-              <strong className="highlight-main2">HOLY CANNOLI!</strong>{' '}
+              {t('pro-cgprospect:title')} <br />{' '}
+              <strong className="highlight-main2">CG Prospect</strong>{' '}
             </h1>
-            <h2 className="small-font2">{t('pro-holycannoli:subtitle')}</h2>
+            <h2 className="small-font2">{t('pro-cgprospect:subtitle')}</h2>
           </div>
           <div>
             <img
               className="cannolo"
               height="300"
               width="300"
-              src="/cannolo.png"
+              src="/cgprospect-desc.jpg"
               alt="An image of a project"
             />
           </div>
@@ -38,57 +38,49 @@ const ProjectHolycannoli = () => {
         <section className="pro-card-cnt">
           <ul className="pro-card">
             <li className="small-font highlight">
-              {t('pro-holycannoli:card-stack')}
+              {t('pro-cgprospect:card-stack')}
             </li>
-            <li className="medium-font highlight-main">
-              Next.js, Blender, Zbrush
-            </li>
-          </ul>
-          <ul className="pro-card">
-            <li className="small-font highlight">GitHub Repo</li>
-            <a
-              target="_blank"
-              rel="noopener"
-              href="https://github.com/IvanSmiths/holy-cannoli"
-            >
-              <li className="medium-font highlight-main underline">
-                Holy Cannoli Repo
-              </li>
-            </a>
+            <li className="medium-font highlight-main">Next.js, PostgreSql</li>
           </ul>
           <ul className="pro-card">
             <li className="small-font highlight">
-              {t('pro-holycannoli:card-web')}
+              {t('pro-cgprospect:card-web')}
             </li>
-            <a target="_blank" rel="noopener" href="https://holycannoli.xyz/">
+            <a target="_blank" rel="noopener" href="https://cgprospect.com/">
               <li className="medium-font highlight-main underline">
-                Holy Cannoli!
+                CG Prospect
               </li>
             </a>
           </ul>
         </section>
         <section className="pro-desc-cnt">
           <div>
-            <h2 className="medium-font">{t('pro-holycannoli:quest')}</h2>
+            <h2 className="medium-font">{t('pro-cgprospect:quest')}</h2>
             <p className="small-font">
-              {t('pro-holycannoli:desc')}{' '}
+              {t('pro-cgprospect:desc')}{' '}
               <strong className="highlight-main">
-                {t('pro-holycannoli:desc2')}
+                {t('pro-cgprospect:desc2')}
               </strong>
-              {t('pro-holycannoli:desc3')} <br /> <br />{' '}
-              {t('pro-holycannoli:desc4')}
+              {t('pro-cgprospect:desc3')} <br /> <br />{' '}
+              {t('pro-cgprospect:desc4')}
               <strong className="highlight-main">
-                {t('pro-holycannoli:desc5')}
+                {t('pro-cgprospect:desc5')}
               </strong>
-              {t('pro-holycannoli:desc6')}
+              {t('pro-cgprospect:desc6')}
             </p>
+            <a
+              href="https://cgprospect.com/"
+              className="btn underline highlight-main"
+            >
+              Visit it
+            </a>
           </div>
           <div>
             <img
               className="cannolo"
               height="300"
               width="300"
-              src="/qr-code.svg"
+              src="/3d-merch.jpg"
               alt="An image of a project"
             />
           </div>
@@ -103,4 +95,4 @@ const ProjectHolycannoli = () => {
   );
 };
 
-export default ProjectHolycannoli;
+export default ProjectCgprospect;

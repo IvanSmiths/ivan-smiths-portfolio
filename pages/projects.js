@@ -9,6 +9,7 @@ const Projects = () => {
 
   const [isMounted, setIsMounted] = useState(false);
   const [isMounted2, setIsMounted2] = useState(false);
+  const [isMounted3, setIsMounted3] = useState(false);
 
   const defaultState = {
     opacity: 0,
@@ -26,6 +27,40 @@ const Projects = () => {
           <strong className="highlight-main">{t('projects:title')}</strong>
           {t('projects:title2')}
         </h1>
+        <Link href="/project-cgprospect">
+          <a>
+            <div
+              className="project-card"
+              onMouseEnter={() => setIsMounted3(!isMounted3)}
+              onMouseLeave={() => setIsMounted3(!isMounted3)}
+            >
+              <AnimatePresence>
+                {isMounted3 && (
+                  <motion.div
+                    className="block"
+                    initial={defaultState}
+                    exit={defaultState}
+                    animate={{
+                      opacity: 1,
+                      boxShadow: '1px 1px 10px rgba(0, 0, 0, 0.3)',
+                      scale: 1,
+                    }}
+                  >
+                    <h2 className="large-font highlight-main2">
+                      {t('projects:see')}
+                    </h2>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+              <img
+                className="project-img"
+                height="400"
+                src="/website.jpg"
+                alt="The project CG Prospect"
+              />
+            </div>
+          </a>
+        </Link>
         <Link href="/project-holycannoli">
           <a>
             <div

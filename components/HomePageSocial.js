@@ -11,7 +11,9 @@ const HomePageWeb = () => {
         </h2>
       </div>
       <div className="services-center">
-        <h2 className="large-font">SOCIAL MEDIA MANAGING</h2>
+        <h2 className="large-font">
+          SOCIAL <br /> MEDIA <br /> MANAGING
+        </h2>
       </div>
       <div className="services-desc">
         <div className="services-desc-1">
@@ -41,7 +43,7 @@ const HomePageWeb = () => {
       <div className="services-image-cnt">
         <img
           loading="lazy"
-          src="website.png"
+          src="social-media.jpg"
           width="500px"
           height="500px"
           className="services-image"

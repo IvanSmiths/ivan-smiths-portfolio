@@ -9,6 +9,7 @@
     "/work-ideology": ["work-id"],
     "/projects": ["projects"],
     "/project-holycannoli": ["pro-holycannoli"],
+    "/project-cgprospect": ["pro-cgprospect"],
     "/project-old-portfolio": ["pro-old-portfolio"],
     "/myself": ["myself"],
     "/contact": ["contact"],

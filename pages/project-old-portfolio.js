@@ -37,62 +37,51 @@ const ProjectOldPortfolio = () => {
           </div>
         </section>
         <section className="pro-card-cnt">
-          <div className="pro-card">
-            <h2 className="small-font highlight">
-              {t('pro-old-portfolio:card-type')}
-            </h2>
-            <h3 className="medium-font highlight-main">
-              {t('pro-old-portfolio:card-type2')}
-              <span className="del">
-                {t('pro-old-portfolio:card-type3')}
-              </span>{' '}
-            </h3>
-          </div>
-          <div className="pro-card">
-            <h2 className="small-font highlight">
+          <ul className="pro-card">
+            <li className="small-font highlight">
               {t('pro-old-portfolio:card-stack')}
-            </h2>
-            <h3 className="medium-font highlight-main">
+            </li>
+            <li className="medium-font highlight-main">
               Html, Css, JavaScript, Blender
-            </h3>
-          </div>
-          <div className="pro-card">
-            <h2 className="small-font highlight">GitHub Repo</h2>
+            </li>
+          </ul>
+          <ul className="pro-card">
+            <li className="small-font highlight">GitHub Repo</li>
             <a
               target="_blank"
               rel="noopener"
               href="https://github.com/IvanSmiths/ivansmiths"
             >
-              <h3 className="medium-font highlight-main underline">
+              <li className="medium-font highlight-main underline">
                 {t('pro-old-portfolio:card-repo')}
-              </h3>
+              </li>
             </a>
-          </div>
-          <div className="pro-card">
-            <h2 className="small-font highlight">
+          </ul>
+          <ul className="pro-card">
+            <li className="small-font highlight">
               {t('pro-old-portfolio:card-web')}
-            </h2>
+            </li>
             <a
               target="_blank"
               rel="noopener"
               href="https://ivansmiths.netlify.app/"
             >
-              <h3 className="medium-font highlight-main underline">
+              <li className="medium-font highlight-main underline">
                 {t('pro-old-portfolio:card-web2')}
-              </h3>
+              </li>
             </a>
-          </div>
+          </ul>
         </section>
         <section className="pro-desc-cnt">
-          <div>
-            <h2 className="medium-font">{t('pro-old-portfolio:quest')}</h2>
+          <ul>
+            <li className="medium-font">{t('pro-old-portfolio:quest')}</li>
             <p className="small-font">
               {t('pro-old-portfolio:desc')}
               <strong className="highlight-main">
                 {t('pro-old-portfolio:desc-2')}
               </strong>
             </p>
-          </div>
+          </ul>
           <div>
             <img
               className="cannolo"
