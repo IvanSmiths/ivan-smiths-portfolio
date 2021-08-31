@@ -44,7 +44,7 @@
   padding: 0rem 0.5rem;
   width: 60vw;
   font-weight: 600;
-  border: none;
+  border: 2px solid var(--mainColor);
   border-radius: 0.5rem;
   height: 2.5rem;
   margin-bottom: 1rem;
@@ -59,7 +59,7 @@
   width: 60vw;
   font-weight: 400;
   font-size: 1.2rem;
-  border: none;
+  border: 2px solid var(--mainColor);
   border-radius: 0.5rem;
   resize: vertical;
 }

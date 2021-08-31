@@ -34,7 +34,7 @@ const HomePageWeb = () => {
             <li className="small-font">
               {t('home:social-stack')}
               <strong className="highlight-main">
-                Instagram, Facebook, Pinterest, TikTok
+                Instagram, Facebook, Pinterest, LinkedIn
               </strong>
             </li>
           </ul>

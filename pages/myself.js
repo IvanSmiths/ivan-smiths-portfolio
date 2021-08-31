@@ -16,16 +16,16 @@ const MySelf = () => {
       <main className="myself-main">
         <section className="myself-cnt">
           <div>
-            <h1 className="large-font">
+            <h1 className="big-font3">
               {t('myself:title')}{' '}
               <strong className="highlight-main"> {t('myself:title2')}</strong>
             </h1>
           </div>
           <div>
             <img
-              height="511"
-              width="439"
-              src="photo-of-me.jpg"
+              height="111"
+              width="339"
+              src="myself.png"
               alt="Me in a fancy pose"
             />
           </div>

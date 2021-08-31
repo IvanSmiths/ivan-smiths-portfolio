@@ -60,15 +60,16 @@
 }
 
 .ico-cnt-absolute {
-  display: flex;
+  z-index: 9;
   position: fixed;
+  display: flex;
+  flex-direction: column;
   background-color: var(--subBackground);
   padding: 0.8rem;
-  border-radius: var(--radius);
+  border-radius: 0 var(--radius) var(--radius) 0;
   left: 0;
   bottom: 0;
   transform: translateY(-5rem);
-  flex-direction: column;
   gap: 0.8rem;
 }
 

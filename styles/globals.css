@@ -77,6 +77,10 @@ p {
 .big-font {
   font-size: var(--bigFont);
 }
+.big-font3 {
+  line-height: 9rem;
+  font-size: var(--bigFont);
+}
 
 .big-font2 {
   color: var(--mainInverseFontColor);

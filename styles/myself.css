@@ -16,11 +16,13 @@
 
 .myself-cnt > *:nth-child(2) {
   flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .myself-cnt img {
-  width: 40vw;
   height: auto;
+  width: 25vw;
 }
 
 .myself-card-cnt {

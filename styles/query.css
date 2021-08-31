@@ -354,6 +354,12 @@
     flex-direction: column;
   }
 
+  .myself-cnt > *:nth-child(1) {
+    flex: 1 1 50%;
+    margin-top: 5rem;
+    padding-left: 0rem;
+  }
+
   .hero-1 {
     padding: 0rem 1rem;
   }
