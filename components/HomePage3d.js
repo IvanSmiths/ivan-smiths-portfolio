@@ -19,18 +19,18 @@ const HomePageWeb = () => {
         </h2>
       </div>
       <div className="services-center">
-        <h2 className="large-font">3D Modeling</h2>
+        <h3 className="large-font">3D Modeling</h3>
       </div>
       <div className="services-desc">
         <div className="services-desc-1">
           <p className="small-font">
             {t('home:3d')}
-            <strong className="highlight">{t('home:3d-2')}</strong>
+            <b className="highlight">{t('home:3d-2')}</b>
             {t('home:3d-3')}
             <br />
             <br />
             {t('home:3d-4')}
-            <strong className="highlight">{t('home:3d-5')}</strong>
+            <b className="highlight">{t('home:3d-5')}</b>
             {t('home:3d-6')}
           </p>
         </div>
@@ -38,9 +38,7 @@ const HomePageWeb = () => {
           <ul>
             <li className="small-font">
               {t('home:3d-stack')}
-              <strong className="highlight-main">
-                Blender, Zbrush, Substance 3D
-              </strong>
+              <b className="highlight-main">Blender, Zbrush, Substance 3D</b>
             </li>
           </ul>
         </div>

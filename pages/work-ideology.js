@@ -83,12 +83,155 @@ const WorkIdeology = () => {
             />
           </div>
         </section>
+        <div className="grid-wrapper">
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-2.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="tall">
+            <img
+              className="masonry-element"
+              src="/website-example-id-3.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="wide">
+            <img
+              className="masonry-element"
+              src="/website-example-id-4.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-5.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="tall">
+            <img
+              className="masonry-element"
+              src="/website-example-id-6.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="big">
+            <img
+              className="masonry-element"
+              src="/website-example-id-7.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-8.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="wide">
+            <img
+              className="masonry-element"
+              src="/website-example-id-9.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="big">
+            <img
+              className="masonry-element"
+              src="/website-example-id-10.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="tall">
+            <img
+              className="masonry-element"
+              src="/website-example-id-11.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-12.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-13.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-14.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-15.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="wide">
+            <img
+              className="masonry-element"
+              src="/website-example-id-16.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-17.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-18.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div className="wide">
+            <img
+              className="masonry-element"
+              src="/website-example-id-19.jpg"
+              alt="masonry-image"
+            />
+          </div>
+          <div>
+            <img
+              className="masonry-element"
+              src="/website-example-id-20.jpg"
+              alt="masonry-image"
+            />
+          </div>
+        </div>
         <section className="direct-cnt">
           <h2 className="medium-font">
             {t('work-id:workweb')}{' '}
             <strong className="highlight-main">{t('work-id:workweb2')}</strong>
             {t('work-id:workweb3')}
           </h2>
+
           <div className="direct-card-cnt">
             <a
               href="https://www.mabuprofumerie.it/"
@@ -100,7 +243,7 @@ const WorkIdeology = () => {
                   src="/mabu-icon.svg"
                   height="200"
                   width="200"
-                  alt="Icon of the website mabù"
+                  alt="Icon of the website Mabù"
                 />
               </div>
             </a>
@@ -118,13 +261,68 @@ const WorkIdeology = () => {
                 />
               </div>
             </a>
-            <a href="http://chiccaconfetti.com/" target="_blank" rel="noopener">
+            <a href="https://www.areasystem.it/" target="_blank" rel="noopener">
               <div>
                 <img
-                  src="/chiccaconfetti-icon.svg"
+                  src="/area-system.svg"
                   height="200"
                   width="200"
-                  alt="Icon of the website Chicca Confetti"
+                  alt="Icon of the website Area system"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.otticafranco.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div>
+                <img
+                  src="/ottica-franco.png"
+                  width="200"
+                  alt="Icon of the website Ottica franco"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.bottonecannoli.it/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div>
+                <img
+                  src="/bottone.svg"
+                  height="200"
+                  width="200"
+                  alt="Icon of the website Bottone cannoli"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.bionatursrl.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div>
+                <img
+                  src="/bionatur.svg"
+                  height="200"
+                  width="200"
+                  alt="Icon of the website Bionature"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.ildomanibleo.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div>
+                <img
+                  src="/ibleo.svg"
+                  height="200"
+                  width="200"
+                  alt="Icon of the website Il domani ibleo"
                 />
               </div>
             </a>

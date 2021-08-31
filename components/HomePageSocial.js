@@ -11,21 +11,20 @@ const HomePageWeb = () => {
         </h2>
       </div>
       <div className="services-center">
-        <h2 className="large-font">
+        <h3 className="large-font">
           SOCIAL <br /> MEDIA <br /> MANAGING
-        </h2>
+        </h3>
       </div>
       <div className="services-desc">
         <div className="services-desc-1">
           <p className="small-font">
             {t('home:social')}
-            <strong className="highlight">{t('home:social-2')}</strong>
+            <b className="highlight">{t('home:social-2')}</b>
             {t('home:social-3')}
-            <strong className="highlight">{t('home:social-4')}</strong>
             <br />
             <br />
             {t('home:social-5')}
-            <strong className="highlight">{t('home:social-6')}</strong>
+            <b className="highlight">{t('home:social-6')}</b>
             {t('home:social-7')}
           </p>
         </div>
@@ -33,9 +32,9 @@ const HomePageWeb = () => {
           <ul>
             <li className="small-font">
               {t('home:social-stack')}
-              <strong className="highlight-main">
+              <b className="highlight-main">
                 Instagram, Facebook, Pinterest, LinkedIn
-              </strong>
+              </b>
             </li>
           </ul>
         </div>
@@ -49,7 +48,12 @@ const HomePageWeb = () => {
           className="services-image"
           alt="website example"
         />
-        <p className="medium-font highlight">{t('home:social-desc')}</p>
+        <p className="medium-font highlight">
+          {t('home:social-desc-1')}
+          <strong className="highlight-main">{t('home:social-desc-2')}</strong>
+          {t('home:social-desc-3')}
+          <strong className="highlight-main"> {t('home:social-desc-4')}</strong>
+        </p>
         <Link href="/contact">
           <a className="btn services-btn">{t('home:services-btn')}</a>
         </Link>

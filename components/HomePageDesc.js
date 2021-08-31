@@ -23,7 +23,7 @@ const HomePageDesc = () => {
         {t('home:desc')}
         <strong className="highlight-main2">{t('home:desc-2')}</strong>
         {t('home:desc-3')}
-        <strong className="highlight-main2">{t('home:desc-4')}</strong>
+        <b className="highlight-main2">{t('home:desc-4')}</b>
         {t('home:desc-5')}
       </p>
     </section>

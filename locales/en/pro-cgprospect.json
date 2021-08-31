@@ -5,9 +5,6 @@
   "card-web": "Website",
   "quest": "The Quest",
   "desc": "CG Prospect was born for providing",
-  "desc2": "free textures and 3d models ",
-  "desc3": "if your phone support augmented reality. Website done with Next.Js, 3D model sculpted and textured in Zbrush, and exported with Blender as an optimized format for the web.",
-  "desc4": "Maybe someone have found this ",
-  "desc5": "Qr-Code ",
-  "desc6": "pointing to this website…"
+  "desc2": "free textures and 3d models. ",
+  "desc3": "I've developed it using Next.js and PostgresSql, and i create all the assets of the site such as textures and 3D models."
 }

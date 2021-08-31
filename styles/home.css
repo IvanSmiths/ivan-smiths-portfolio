@@ -140,8 +140,31 @@
   text-align: center;
 }
 
-.services-center h2 {
+.ser-web {
+  position: relative;
+}
+
+.services-center h3 {
+  position: relative;
+  z-index: 3;
   color: var(--mainColor);
+}
+
+.service-image-parallax {
+  z-index: 1;
+  position: absolute;
+  width: 30vw;
+  opacity: 0.5;
+  height: auto;
+}
+
+.par {
+  top: -180px;
+}
+
+.par-2 {
+  top: -240px;
+  left: 55px;
 }
 
 .services-desc {

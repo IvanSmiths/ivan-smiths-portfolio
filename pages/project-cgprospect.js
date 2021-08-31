@@ -62,17 +62,17 @@ const ProjectCgprospect = () => {
                 {t('pro-cgprospect:desc2')}
               </strong>
               {t('pro-cgprospect:desc3')} <br /> <br />{' '}
-              {t('pro-cgprospect:desc4')}
+              {/* {t('pro-cgprospect:desc4')}
               <strong className="highlight-main">
                 {t('pro-cgprospect:desc5')}
               </strong>
-              {t('pro-cgprospect:desc6')}
+              {t('pro-cgprospect:desc6')} */}
             </p>
             <a
               href="https://cgprospect.com/"
               className="btn underline highlight-main"
             >
-              Visit it
+              Visitalo!
             </a>
           </div>
           <div>
