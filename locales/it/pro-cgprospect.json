@@ -1,10 +1,14 @@
 {
-  "title": "PROJECT",
-  "subtitle": "My business.",
-  "card-stack": "Stack used",
-  "card-web": "Website",
-  "quest": "The Quest",
-  "desc": "CG Prospect è nato per permettere di scaricare",
+  "title": "PROGETTO",
+  "subtitle": "Il mio business.",
+  "card-stack": "Tecnologie usate",
+  "card-web": "Sito",
+  "quest": "La Missione",
+  "desc": "CG Prospect è nato per permettere di scaricare senza alcun limite, ne di qualità, ne di quantità ",
   "desc2": "textures e modelli 3d gratuiti. ",
-  "desc3": "L'ho sviluppato utilizzando Next.js e PostgresSql, e creo tutti gli assets del sito come le texture ed i modelli 3D."
+  "desc3": "L'ho sviluppato utilizzando Next.js lato frontend e PostgresSql come database, utilizzando Prisma come un ORM. Ho utilizzato Stripe per ",
+  "desc4": "accettare donazioni, aggiungendo una funzione allo slider, permettendo agli utenti di ",
+  "desc5": "decidere l'importo da donare ",
+  "desc6": "in modo più craetivo.",
+  "cta": "Visitalo!"
 }

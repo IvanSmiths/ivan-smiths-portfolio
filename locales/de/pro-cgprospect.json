@@ -4,10 +4,9 @@
   "card-stack": "Stack used",
   "card-web": "Website",
   "quest": "The Quest",
-  "desc": "CG Prospect was born for providing",
-  "desc2": "free textures and 3d models ",
-  "desc3": "if your phone support augmented reality. Website done with Next.Js, 3D model sculpted and textured in Zbrush, and exported with Blender as an optimized format for the web.",
-  "desc4": "Maybe someone have found this ",
-  "desc5": "Qr-Code ",
-  "desc6": "pointing to this website…"
+  "desc": "CG Prospect è nato per permettere di scaricare senza alcun limite, ne di qualità, ne di quantità",
+  "desc2": "textures e modelli 3d gratuiti. ",
+  "desc3": "L'ho sviluppato utilizzando Next.js lato frontend e PostgresSql come database, utilizzando Prisma come un ORM. Ho utilizzato Stripe per ",
+  "desc4": "accettare donazioni, ",
+  "desc5": "aggiungendo una funzione allo slider, permettendo agli utenti di decidere l'importo da donare in modo più craetivo."
 }

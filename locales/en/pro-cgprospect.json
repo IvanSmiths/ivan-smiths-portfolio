@@ -4,7 +4,11 @@
   "card-stack": "Stack used",
   "card-web": "Website",
   "quest": "The Quest",
-  "desc": "CG Prospect was born for providing",
-  "desc2": "free textures and 3d models. ",
-  "desc3": "I've developed it using Next.js and PostgresSql, and i create all the assets of the site such as textures and 3D models."
+  "desc": "CG Prospect was created to allow you to download without any limit, neither in quality nor in quantity ",
+  "desc2": "free 3d textures and models.",
+  "desc3": "I developed it using Next.js on the frontend and PostgresSql as the database, using Prisma as an ORM. I used Stripe for ",
+  "desc4": "accept donations by adding a function to the slider, allowing users to ",
+  "desc5": "decide the amount to donate ",
+  "desc6": "more creatively.",
+  "cta": "Visit it!"
 }

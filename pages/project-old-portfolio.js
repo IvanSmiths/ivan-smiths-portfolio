@@ -92,15 +92,6 @@ const ProjectOldPortfolio = () => {
             />
           </div>
         </section>
-        <div className="other-pro">
-          <Link href="/project-holycannoli">
-            <a>
-              <h2 className="btn underline highlight-main">
-                {'<'}- Holy Cannoli!
-              </h2>
-            </a>
-          </Link>
-        </div>
       </main>
     </>
   );

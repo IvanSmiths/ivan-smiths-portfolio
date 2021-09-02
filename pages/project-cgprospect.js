@@ -30,7 +30,7 @@ const ProjectCgprospect = () => {
               className="cannolo"
               height="300"
               width="300"
-              src="/cgprospect-desc.jpg"
+              src="/logo-icon-white.svg"
               alt="An image of a project"
             />
           </div>
@@ -57,22 +57,24 @@ const ProjectCgprospect = () => {
           <div>
             <h2 className="medium-font">{t('pro-cgprospect:quest')}</h2>
             <p className="small-font">
-              {t('pro-cgprospect:desc')}{' '}
+              {t('pro-cgprospect:desc')}
               <strong className="highlight-main">
                 {t('pro-cgprospect:desc2')}
-              </strong>
-              {t('pro-cgprospect:desc3')} <br /> <br />{' '}
-              {/* {t('pro-cgprospect:desc4')}
+              </strong>{' '}
+              <br /> <br />
+              {t('pro-cgprospect:desc3')} {t('pro-cgprospect:desc4')}
               <strong className="highlight-main">
                 {t('pro-cgprospect:desc5')}
               </strong>
-              {t('pro-cgprospect:desc6')} */}
+              {t('pro-cgprospect:desc6')}
             </p>
             <a
+              target="_blank"
+              rel="noopener"
               href="https://cgprospect.com/"
               className="btn underline highlight-main"
             >
-              Visitalo!
+              {t('pro-cgprospect:cta')}
             </a>
           </div>
           <div>
@@ -80,16 +82,11 @@ const ProjectCgprospect = () => {
               className="cannolo"
               height="300"
               width="300"
-              src="/3d-merch.jpg"
+              src="/texture.jpg"
               alt="An image of a project"
             />
           </div>
         </section>
-        <div className="other-pro2">
-          <Link href="/project-old-portfolio">
-            <a className="btn underline highlight-main">Old Portfolio</a>
-          </Link>
-        </div>
       </main>
     </>
   );

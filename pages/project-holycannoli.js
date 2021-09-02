@@ -1,6 +1,5 @@
 import useTranslation from 'next-translate/useTranslation';
 import Head from 'next/head';
-import Link from 'next/link';
 
 const ProjectHolycannoli = () => {
   let { t } = useTranslation();
@@ -82,6 +81,14 @@ const ProjectHolycannoli = () => {
               </strong>
               {t('pro-holycannoli:desc6')}
             </p>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://holycannoly.xyz/"
+              className="btn underline highlight-main"
+            >
+              {t('pro-holycannoli:cta')}
+            </a>
           </div>
           <div>
             <img
@@ -93,11 +100,6 @@ const ProjectHolycannoli = () => {
             />
           </div>
         </section>
-        <div className="other-pro2">
-          <Link href="/project-old-portfolio">
-            <a className="btn underline highlight-main">Old Portfolio</a>
-          </Link>
-        </div>
       </main>
     </>
   );

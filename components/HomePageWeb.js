@@ -12,7 +12,6 @@ const HomePageWeb = () => {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   return (
     <section className="services-cnt">
       <div className="services-left">

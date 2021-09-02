@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="hero-1">
         <span className="sub-title">{t('home:sub-title')}</span>
         <h1 className="big-font title">
-          {t('home:title')} <br />
+          {t('home:title')}
           <strong className="highlight-main">{t('home:title2')}</strong>
         </h1>
         <p className="small-font">
