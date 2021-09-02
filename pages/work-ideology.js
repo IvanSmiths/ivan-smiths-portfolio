@@ -91,13 +91,6 @@ const WorkIdeology = () => {
               alt="masonry-image"
             />
           </div>
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-2.jpg"
-              alt="masonry-image"
-            />
-          </div>
           <div className="tall">
             <img
               className="masonry-element"
@@ -105,13 +98,15 @@ const WorkIdeology = () => {
               alt="masonry-image"
             />
           </div>
-          <div className="wide">
-            <img
-              className="masonry-element"
-              src="/website-example-id-4.jpg"
-              alt="masonry-image"
-            />
-          </div>
+        </div>
+        <div className="full">
+          <img
+            className="full-image"
+            src="/website-example-id-4.jpg"
+            alt="masonry-image"
+          />
+        </div>
+        <div className="grid-wrapper">
           <div>
             <img
               className="masonry-element"
@@ -140,20 +135,15 @@ const WorkIdeology = () => {
               alt="masonry-image"
             />
           </div>
-          <div className="wide">
-            <img
-              className="masonry-element"
-              src="/website-example-id-9.jpg"
-              alt="masonry-image"
-            />
-          </div>
-          <div className="big">
-            <img
-              className="masonry-element"
-              src="/website-example-id-10.jpg"
-              alt="masonry-image"
-            />
-          </div>
+        </div>
+        <div className="full">
+          <img
+            className="full-image"
+            src="/website-example-id-10.jpg"
+            alt="masonry-image"
+          />
+        </div>
+        <div className="grid-wrapper">
           <div className="tall">
             <img
               className="masonry-element"
@@ -168,13 +158,15 @@ const WorkIdeology = () => {
               alt="masonry-image"
             />
           </div>
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-13.jpg"
-              alt="masonry-image"
-            />
-          </div>
+        </div>
+        <div className="full">
+          <img
+            className="full-image"
+            src="/website-example-id-9.jpg"
+            alt="masonry-image"
+          />
+        </div>
+        <div className="grid-wrapper">
           <div>
             <img
               className="masonry-element"

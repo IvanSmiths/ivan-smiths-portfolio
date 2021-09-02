@@ -167,6 +167,20 @@
   left: 55px;
 }
 
+.par-3 {
+  top: -550px;
+}
+
+.par-4 {
+  top: -390px;
+  left: 55px;
+}
+
+.par-5 {
+  left: 40vw;
+  top: -300px;
+}
+
 .services-desc {
   margin-top: 11rem;
   margin-bottom: 11rem;

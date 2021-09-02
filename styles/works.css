@@ -124,3 +124,14 @@
   grid-column: span 2;
   grid-row: span 2;
 }
+
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.full-image {
+  width: 80vw;
+}

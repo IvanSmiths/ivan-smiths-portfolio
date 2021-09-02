@@ -4,6 +4,7 @@ import useTranslation from 'next-translate/useTranslation';
 
 const HomePageWeb = () => {
   let { t } = useTranslation();
+
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
 
@@ -12,6 +13,7 @@ const HomePageWeb = () => {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   return (
     <section className="services-cnt">
       <div className="services-left">
