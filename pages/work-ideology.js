@@ -158,29 +158,7 @@ const WorkIdeology = () => {
               alt="masonry-image"
             />
           </div>
-        </div>
-        <div className="full">
-          <img
-            className="full-image"
-            src="/website-example-id-9.jpg"
-            alt="masonry-image"
-          />
-        </div>
-        <div className="grid-wrapper">
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-14.jpg"
-              alt="masonry-image"
-            />
-          </div>
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-15.jpg"
-              alt="masonry-image"
-            />
-          </div>
+
           <div className="wide">
             <img
               className="masonry-element"
@@ -192,27 +170,6 @@ const WorkIdeology = () => {
             <img
               className="masonry-element"
               src="/website-example-id-17.jpg"
-              alt="masonry-image"
-            />
-          </div>
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-18.jpg"
-              alt="masonry-image"
-            />
-          </div>
-          <div className="wide">
-            <img
-              className="masonry-element"
-              src="/website-example-id-19.jpg"
-              alt="masonry-image"
-            />
-          </div>
-          <div>
-            <img
-              className="masonry-element"
-              src="/website-example-id-20.jpg"
               alt="masonry-image"
             />
           </div>
